@@ -14,9 +14,7 @@
   <a href="mailto:christopher.lallemant@inrie.fr?subject=Mail from our Website">Contactez moi</a>
   
   
-![Static Badge](https://img.shields.io/badge/Stylus-red?style=for-the-badge&color=%23043139) ![Static Badge](https://img.shields.io/badge/CSS-red?style=for-the-badge&color=%231b2d42) ![Static Badge](https://img.shields.io/badge/OPEN%20SOURCE-Green?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/Version-v1.0-purple?style=for-the-badge&color=%23371f72)
-
-
+![Static Badge](https://img.shields.io/badge/Stylus-red?style=for-the-badge&color=%23043139) ![Static Badge](https://img.shields.io/badge/CSS-red?style=for-the-badge&color=%231b2d42) ![Static Badge](https://img.shields.io/badge/OPEN%20SOURCE-Green?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/Version-v1.0.0-purple?style=for-the-badge&color=%23371f72)
 
   
 ## Portail Compatible
