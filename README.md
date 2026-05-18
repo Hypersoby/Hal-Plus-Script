@@ -3,7 +3,7 @@ Une expérience utilisateur améliorée sur les portails HAL
 
 <p align="center">
   
-  <img alt="ColorFull Logo" src="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/ressources/Logo.png">
+  <img alt="ColorFull Logo" src="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/ressources/Logo 2.png">
   <br>
   
 <p align="center">
