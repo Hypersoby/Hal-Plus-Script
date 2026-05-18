@@ -17,7 +17,7 @@ Une expérience utilisateur améliorée sur les portails HAL
   <a href="mailto:christopher.lallemant@inrie.fr?subject=Mail from our Website">Contactez moi</a>
   
   
-[![Stylus]()](https://img.shields.io/badge/Stylus-red?style=for-the-badge&color=%23043139) [![Generic badge](https://img.shields.io/badge/Version-1.0-<COLOR>.svg)](https://shields.io/) [![CSS](https://img.shields.io/badge/Language-CSS-red.svg)](https://shields.io/)
+![Static Badge](https://img.shields.io/badge/Stylus-red?style=flat&color=%23043139) [![Generic badge](https://img.shields.io/badge/Version-1.0-<COLOR>.svg)](https://shields.io/) [![CSS](https://img.shields.io/badge/Language-CSS-red.svg)](https://shields.io/)
   
 ## Portail Compatible
 
