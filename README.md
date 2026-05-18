@@ -7,7 +7,8 @@ Une expérience utilisateur améliorée sur les portails HAL
   <br>
   
 <p align="center">
-  Visuel, sobre et ergonomique : Une expérience utilisateur améliorée sur les portails HAL.
+  HAL+ est un script CSS conçu pour améliorer l'apparence et l'expérience utilisateur sur le portail HAL ainsi que plusieurs portails partenaires.
+  Il apporte un design plus moderne, plus lisible entièrement personnalisable selon vos préférences.
    <br>
    Attention /!\ Le script n'est pas "vraiment" compatibles avec les collection des portail, vous devrez alors les désactiver lors de la navigation.
    <br>
