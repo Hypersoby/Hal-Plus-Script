@@ -1,5 +1,3 @@
-# Hal-Plus-Script
-
 <p align="center">
   
   <img alt="ColorFull Logo" src="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/ressources/Logo 2.png">
