@@ -38,6 +38,74 @@
 
 # Comment faire ?
 
+<h2>⚡ Liens rapides</h2>
+
+<table>
+<tr>
+
+<td align="center" width="20%">
+<a href="#installation">
+
+📥
+
+<br><b>Téléchargement</b>
+
+<br>
+Installer HAL+
+</a>
+</td>
+
+<td align="center" width="20%">
+<a href="#documentation">
+
+📖
+
+<br><b>Documentation</b>
+
+<br>
+Guide complet
+</a>
+</td>
+
+<td align="center" width="20%">
+<a href="./CHANGELOG.md">
+
+📝
+
+<br><b>Changelog</b>
+
+<br>
+Historique des mises à jour
+</a>
+</td>
+
+<td align="center" width="20%">
+<a href="../../issues">
+
+🐞
+
+<br><b>Signaler un bug</b>
+
+<br>
+Remonter un problème
+</a>
+</td>
+
+<td align="center" width="20%">
+<a href="#contact">
+
+💬
+
+<br><b>Contact</b>
+
+<br>
+Questions & suggestions
+</a>
+</td>
+
+</tr>
+</table>
+
 ## Installation 
 Installer [Stylus pour Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/).
   
