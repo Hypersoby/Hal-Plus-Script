@@ -45,7 +45,7 @@
 
 <td align="center" width="20%">
 
-<img src="./assets/icons/download.svg" width="35"><br>
+<img src="https://cdn.simpleicons.org/github/white" width="35"><br>
 
 <b>Téléchargement</b>
 ![Installer HAL+](https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css)
