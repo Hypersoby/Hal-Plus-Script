@@ -44,15 +44,11 @@
 <tr>
 
 <td align="center" width="20%">
-<a href="#installation">
 
 📥
 
 <br><b>Téléchargement</b>
-
-<br>
-Installer HAL+
-</a>
+![Installer HAL+](https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css)
 </td>
 
 <td align="center" width="20%">
