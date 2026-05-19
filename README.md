@@ -45,9 +45,9 @@
 
 <td align="center" width="20%">
 
-📥
+<img src="./assets/icons/download.svg" width="35"><br>
 
-<br><b>Téléchargement</b>
+<b>Téléchargement</b>
 ![Installer HAL+](https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css)
 </td>
 
