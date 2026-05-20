@@ -30,23 +30,23 @@
 
 
 <a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css">
-  <img src="https://i.imgur.com/ABawY9N.png" alt="Téléchargement" width="165">
+  <img src="https://i.imgur.com/ABawY9N.png" alt="Téléchargement" width="160">
 </a>
 
 <a href="#comment-faire">
-  <img src="https://i.imgur.com/gp6nNQ4.png" alt="Documentation" width="165">
+  <img src="https://i.imgur.com/gp6nNQ4.png" alt="Documentation" width="160">
 </a>
 
 <a href="./CHANGELOG.md">
-  <img src="https://i.imgur.com/nJMV0o3.png" alt="Historique" width="165">
+  <img src="https://i.imgur.com/nJMV0o3.png" alt="Historique" width="160">
 </a>
 
 <a href="../../issues/new">
-  <img src="https://i.imgur.com/j644u0e.png" alt="Bug" width="165">
+  <img src="https://i.imgur.com/j644u0e.png" alt="Bug" width="160">
 </a>
 
 <a href="mailto:hyperlightsupersoby@gmail.com?subject=HAL%2B">
-  <img src="https://i.imgur.com/ccwvPoN.png" alt="Contact" width="165">
+  <img src="https://i.imgur.com/ccwvPoN.png" alt="Contact" width="160">
 </a>
 
 
