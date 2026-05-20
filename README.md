@@ -55,7 +55,6 @@
 
 <td align="center" width="20%">
 
-
 <img src="./assets/icons/book-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/book-dark.svg#gh-light-mode-only" width="32">
 
