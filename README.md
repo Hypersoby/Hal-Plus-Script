@@ -99,14 +99,18 @@ Chrome ✅ • Firefox ✅ • Opera ✅ • Edge ⚠️ • Safari ⚠️
 <a id="liste-des-portails"></a>
 ## 🌐 Liste des Portails
 
-✅ HAL  
-✅ HAL Inria  
-✅ HAL INRAE  
-✅ HAL SHS  
-✅ HAL CNRS  
-✅ HAL Thèses  
-✅ Université Paris-Saclay  
-✅ Sorbonne Université  
+HAL+ est compatible avec plusieurs portails et instances HAL. Le script adapte automatiquement son apparence afin d’offrir une expérience plus homogène sur les différentes plateformes prises en charge.
+
+| Portail | Description |
+|---|---|
+| ✅ [HAL](https://hal.science/) | Portail HAL principal regroupant l’ensemble des publications scientifiques. |
+| ✅ [HAL Inria](https://inria.hal.science/) | Portail dédié aux travaux et publications de l'Inria. |
+| ✅ [HAL INRAE](https://hal.inrae.fr/) | Portail des publications de l’Institut national de recherche pour l’agriculture, l’alimentation et l’environnement. |
+| ✅ [HAL SHS](https://shs.hal.science/) | Portail dédié aux sciences humaines et sociales. |
+| ✅ [HAL CNRS](https://cnrs.hal.science/) | Portail regroupant les publications liées au CNRS. |
+| ✅ [HAL Thèses](https://theses.hal.science/) | Accès aux thèses et travaux académiques déposés sur HAL. |
+| ✅ [Université Paris-Saclay](https://universite-paris-saclay.hal.science/) | Portail institutionnel des publications de l’Université Paris-Saclay. |
+| ✅ [Sorbonne Université](https://hal.sorbonne-universite.fr/) | Portail des publications et travaux de Sorbonne Université. |
 
 ## Installation 
 
@@ -122,12 +126,6 @@ Une fois HAL+ installé, rendez-vous sur **HAL** ou sur l’une des **instances 
 
 Le thème est activé automatiquement après l’installation. Vous pouvez à tout moment l’activer ou le désactiver en cochant ou décochant la case correspondant à **HAL+** dans le menu de Stylus.
 
-1. Télécharger l'extension gestionnaire de styles utilisateur via l'icône qui correspond à votre navigateur ci dessus.
-2. Ensuite cliquez sur Téléchargement ci dessus. Une fenêtre s'ouvre et cliquez sur installer le script via le bouton`ajouter/installer`.
-3. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation ou dans le volet des extensions.
- 
-Une fois l'installation complète, rendez-vous sur le site `Hal` ou `les autres instances prise en charge` puis cliquez sur l'icône `S` de l'extension Stylus.
-Par defaut le style après installation sera actif. Pour le desactiver ou le réactiver, cliquez sur la `case ☐` correspondant au(x) script(s). 
 
 ## 🎨 Thèmes disponibles
 
