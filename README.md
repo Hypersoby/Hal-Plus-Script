@@ -40,15 +40,15 @@
 </a>
 
 <a href="./CHANGELOG.md">
-  <img src="./assets/buttons/changelog.png" alt="Historique" width="170">
+  <img src="https://i.imgur.com/ABawY9N.png" alt="Historique" width="170">
 </a>
 
 <a href="../../issues/new">
-  <img src="./assets/buttons/bug.png" alt="Bug" width="170">
+  <img src="https://i.imgur.com/ABawY9N.png" alt="Bug" width="170">
 </a>
 
 <a href="mailto:hyperlightsupersoby@gmail.com?subject=HAL%2B">
-  <img src="./assets/buttons/contact.png" alt="Contact" width="170">
+  <img src="https://i.imgur.com/ABawY9N.png" alt="Contact" width="170">
 </a>
 
 </p>
