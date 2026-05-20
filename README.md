@@ -42,7 +42,7 @@ Si vous utilisez Safari, des alternatives à Stylus comme Cascadea peuvent être
   <img src="./assets/buttons/Portail Autres.png" width="160">
 </a>
   
-## 🌐 Prise en charge du navigateur ( ↗ Cliquez sur l'icône qui correspond à votre navigateur )
+## 🌐 Prise en charge du navigateur (↗ Sélectionnez votre navigateur)
 
 <p align="center">
 <a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=fr">
