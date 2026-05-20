@@ -49,6 +49,7 @@
 <img src="./assets/icons/download-dark.svg#gh-light-mode-only" width="32">
 
 <b>Téléchargement</b>
+<br>
 ![Installer HAL+](https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css)
 </td>
 
