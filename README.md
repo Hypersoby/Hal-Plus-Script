@@ -29,10 +29,10 @@
 # ⚡Liens rapides
 
 
-<table width="100%" style="border-top: unset;width: 100% !important;display: table;">
+<table width="100%">
   
 <tr>
-<td align="center" style="border-bottom: 1px solid transparent;border-top: 1px solid transparent;border-left: 1px solid transparent;width: 20%;">
+<td align="center">
   
 <img src="./assets/icons/download-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/download-dark.svg#gh-light-mode-only" width="32">
@@ -91,6 +91,7 @@
 </tr> 
 
 </table>
+
 
 
 ## Installation 
