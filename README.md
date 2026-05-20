@@ -156,7 +156,7 @@ La sélection et la configuration des thèmes s’effectuent directement depuis 
 </a>
 
   
-## 🔄 Problèmes 
+## 🚨 Problèmes 
 
 Il peut arriver occasionnellement qu’un problème empêche HAL+ de s'afficher correctement ou que certains éléments visuels présentent un comportement inattendu.
 Dans la majorité des cas, la solution est simple : supprimez le script depuis Stylus puis réinstallez-le. Cela permet généralement de corriger les problèmes liés à une mise à jour incomplète ou à un cache obsolète.
