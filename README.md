@@ -173,13 +173,6 @@ Repérez ensuite le script **HAL+** puis cliquez sur **Rechercher une mise à jo
 
 # Aperçu 
 
-<p align="center">
-<br>
-  
-![Aperçu](https://i.imgur.com/SmreF2H.png)
-![Aperçu2](https://i.imgur.com/kK0yqEH.png)
-![Aperçu3](https://i.imgur.com/L1IBj2D.png)
-![Aperçu4](https://i.imgur.com/B957cS9.png)
 
 
 # Contribution et Développement
