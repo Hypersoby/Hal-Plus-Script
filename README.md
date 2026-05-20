@@ -152,7 +152,7 @@ La sélection et la configuration des thèmes s’effectuent directement depuis 
 | 🎨 **Perso** | Créez votre propre palette de couleurs et personnalisez intégralement l'apparence de HAL+. |
 
 <p align="center">
-  <img src="./assets/screenshot/palette.png" width="650">
+  <img src="./assets/screenshots/palette.png" width="650">
 </a>
 
   
