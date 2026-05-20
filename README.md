@@ -73,21 +73,19 @@
 <br>
 <a href="./CHANGELOG.md">
 <b>Historique</b>
-
-
-
 </a>
 </td>
 
 <td align="center" width="20%">
 <a href="../../issues">
 
-🐞
+<img src="./assets/icons/bug-light.svg#gh-dark-mode-only" width="32">
+<img src="./assets/icons/bug-dark.svg#gh-light-mode-only" width="32">
 
 <br><b>Signaler un bug</b>
-
 <br>
 Remonter un problème
+
 </a>
 </td>
 
