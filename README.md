@@ -151,7 +151,10 @@ La sélection et la configuration des thèmes s’effectuent directement depuis 
 | 🏭 **Sarif Industries** | Inspiré de Deus Ex: Human Revolution. Associe des teintes sombres et métalliques à des accents dorés pour une interface moderne et sophistiquée. |
 | 🎨 **Perso** | Créez votre propre palette de couleurs et personnalisez intégralement l'apparence de HAL+. |
 
-![Panneau](https://i.imgur.com/LtyaVDn.png)
+<p align="center">
+  <img src="./assets/screenshot/palette.png" width="650">
+</a>
+
   
 ## 🔄 Problèmes 
 
