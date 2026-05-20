@@ -46,6 +46,7 @@
 <td align="center" width="20%">
 <img src="./assets/icons/download-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/download-dark.svg#gh-light-mode-only" width="32">
+  
 <b>Téléchargement</b>
 <br>
 ![Installer HAL+](https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css)
@@ -54,6 +55,7 @@
 <td align="center" width="20%">
 <img src="./assets/icons/book-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/book-dark.svg#gh-light-mode-only" width="32">
+  
 <br><b>Documentation</b>
 <br>
 [Comment faire](#Comment-faire-?)
