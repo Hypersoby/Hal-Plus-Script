@@ -32,7 +32,7 @@
 <p align="center">
   
 <a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css">
-  <img src="https://i.imgur.com/Bqwq8nV.png" alt="Téléchargement">
+  <img src="https://i.imgur.com/ABawY9N.png" alt="Téléchargement">
 
 •
 <a href="">📖 Documentation</a>
