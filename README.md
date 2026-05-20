@@ -28,7 +28,7 @@
 
 # ⚡Liens rapides
 
-
+<p align="center">
 <a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css">
   <img src="https://i.imgur.com/ABawY9N.png" alt="Téléchargement" width="160">
 </a>
@@ -49,6 +49,7 @@
   <img src="https://i.imgur.com/ccwvPoN.png" alt="Contact" width="160">
 </a>
 
+</p>
 
 
 ## Installation 
