@@ -109,13 +109,8 @@ Chrome ✅ • Firefox ✅ • Opera ✅ • Edge ⚠️ • Safari ⚠️
 ✅ Sorbonne Université  
 
 ## Installation 
-Installer [Stylus pour Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/).
-  
-Si vous êtes sur le Navigateur Edge veuillez vous référer à la [Documentation de Microsoft](https://support.microsoft.com/fr-fr/microsoft-edge/ajouter-d%C3%A9sactiver-ou-supprimer-des-extensions-dans-microsoft-edge-9c0ec68c-2fbc-2f2c-9ff0-bdc76f46b026) pour pouvoir activer les extensions Chrome sur ce navigateur.
 
-Cependant aucun support n'est disponible pour le navigateur Internet Explorer dû à l'ancienneté du navigateur.
-
-1. Cliquez sur le lien qui correspond à votre navigateur puis installer le script en cliquant sur le bouton`ajouter/installer`.
+1. Cliquez sur le lien qui correspond à votre navigateur ci dessus puis installer le script en cliquant sur le bouton`ajouter/installer`.
 
 2. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation. 
 ![Firefox](https://i.imgur.com/28AipgL.png)
