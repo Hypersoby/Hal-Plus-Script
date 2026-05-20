@@ -3,6 +3,7 @@
   <img alt="ColorFull Logo" src="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/ressources/Logo 2.png">
   <br>
 </p>  
+<p align="left">
 HAL+ est un script CSS conçu pour améliorer l'apparence et l'expérience utilisateur du portail HAL ainsi que de plusieurs portails partenaires.
 Il propose une interface plus moderne, plus lisible et entièrement personnalisable selon vos préférences.
 <br>
@@ -15,9 +16,9 @@ Si vous utilisez Safari, des alternatives à Stylus comme Cascadea peuvent être
 <br>
 ⚠️ Si vous utilisez Edge, pensez à autoriser les extensions compatibles Chrome avant l’installation. Consultez la <a href="https://support.microsoft.com/fr-fr/microsoft-edge/ajouter-d%C3%A9sactiver-ou-supprimer-des-extensions-dans-microsoft-edge-9c0ec68c-2fbc-2f2c-9ff0-bdc76f46b026">documentation Microsoft</a> si nécessaire.
 <br>
-<p align="center">
+
 ![Static Badge](https://img.shields.io/badge/Stylus-red?style=for-the-badge&color=%23043139) ![Static Badge](https://img.shields.io/badge/CSS-red?style=for-the-badge&color=%231b2d42) ![Static Badge](https://img.shields.io/badge/OPEN%20SOURCE-Green?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/Version-v1.0.0-purple?style=for-the-badge&color=%23371f72)
-</p>
+
   
 ## Portail Compatible
 
