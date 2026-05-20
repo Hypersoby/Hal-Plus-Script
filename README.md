@@ -29,69 +29,48 @@
 # ⚡Liens rapides
 
 
-
-<table width="100%">
-  
-<tr>
-<td align="center">
-  
-<img src="./assets/icons/download-light.svg#gh-dark-mode-only" width="32">
-<img src="./assets/icons/download-dark.svg#gh-light-mode-only" width="32">
-
-<b>Téléchargement</b>
+<table width="100%" style="border-top: unset;width: 100% !important;display: table;">
+<tbody style="border-top: unset;"><tr>
+<td align="center" style="border-bottom: 1px solid transparent;border-top: 1px solid transparent;border-left: 1px solid transparent;width: 20%;">
+<a target="_blank" rel="noopener noreferrer" href="/Hypersoby/Hal-Plus-Script/blob/main/assets/icons/download-light.svg#gh-dark-mode-only"><img src="/Hypersoby/Hal-Plus-Script/raw/main/assets/icons/download-light.svg#gh-dark-mode-only" width="32" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="/Hypersoby/Hal-Plus-Script/blob/main/assets/icons/download-dark.svg#gh-light-mode-only"><img src="/Hypersoby/Hal-Plus-Script/raw/main/assets/icons/download-dark.svg#gh-light-mode-only" width="32" style="max-width: 100%;"></a>
+<p dir="auto"><b>Téléchargement</b>
 <br>
-![Installer HAL+](https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css)
-
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css"><img src="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css" alt="Installer HAL+" style="max-width: 100%;"></a></p>
 </td>
-<td align="center">
-  
-<img src="./assets/icons/book-light.svg#gh-dark-mode-only" width="32">
-<img src="./assets/icons/book-dark.svg#gh-light-mode-only" width="32">
-
-<b>Documentation</b> 
-<br> 
+<td align="center" style="border-bottom: unset;border-top: unset;border-bottom: 1px solid transparent;border-top: 1px solid transparent;width: 20%;">
+<a target="_blank" rel="noopener noreferrer" href="/Hypersoby/Hal-Plus-Script/blob/main/assets/icons/book-light.svg#gh-dark-mode-only"><img src="/Hypersoby/Hal-Plus-Script/raw/main/assets/icons/book-light.svg#gh-dark-mode-only" width="32" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="/Hypersoby/Hal-Plus-Script/blob/main/assets/icons/book-dark.svg#gh-light-mode-only"><img src="/Hypersoby/Hal-Plus-Script/raw/main/assets/icons/book-dark.svg#gh-light-mode-only" width="32" style="max-width: 100%;"></a>
+<p dir="auto"><b>Documentation</b>
+<br>
 <a href="#Installation">
-<b>Comment faire ?</b></a>
-
+<b>Comment faire ?</b></a></p>
 </td>
-<td align="center">
-  
-<img src="./assets/icons/update-light.svg#gh-dark-mode-only" width="32">
-<img src="./assets/icons/update-dark.svg#gh-light-mode-only" width="32">
-
-<b>Mises à jour</b> <br> <a href="./CHANGELOG.md">
-<b>Historique</b></a>
-
+<td align="center" style="border-bottom: unset;border-top: unset;border-bottom: 1px solid transparent;border-top: 1px solid transparent;width: 20%;">
+<a target="_blank" rel="noopener noreferrer" href="/Hypersoby/Hal-Plus-Script/blob/main/assets/icons/update-light.svg#gh-dark-mode-only"><img src="/Hypersoby/Hal-Plus-Script/raw/main/assets/icons/update-light.svg#gh-dark-mode-only" width="32" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="/Hypersoby/Hal-Plus-Script/blob/main/assets/icons/update-dark.svg#gh-light-mode-only"><img src="/Hypersoby/Hal-Plus-Script/raw/main/assets/icons/update-dark.svg#gh-light-mode-only" width="32" style="max-width: 100%;"></a>
+<p dir="auto"><b>Mises à jour</b> <br> <a href="/Hypersoby/Hal-Plus-Script/blob/main/CHANGELOG.md">
+<b>Historique</b></a></p>
 </td>
-
-<td align="center">
-  
-<img src="./assets/icons/bug-light.svg#gh-dark-mode-only" width="32">
-<img src="./assets/icons/bug-dark.svg#gh-light-mode-only" width="32">
-  
-<b>Ça Bug ?</b>
+<td align="center" style="border-bottom: unset;border-top: unset;border-bottom: 1px solid transparent;border-top: 1px solid transparent;width: 20%;">
+<a target="_blank" rel="noopener noreferrer" href="/Hypersoby/Hal-Plus-Script/blob/main/assets/icons/bug-light.svg#gh-dark-mode-only"><img src="/Hypersoby/Hal-Plus-Script/raw/main/assets/icons/bug-light.svg#gh-dark-mode-only" width="32" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="/Hypersoby/Hal-Plus-Script/blob/main/assets/icons/bug-dark.svg#gh-light-mode-only"><img src="/Hypersoby/Hal-Plus-Script/raw/main/assets/icons/bug-dark.svg#gh-light-mode-only" width="32" style="max-width: 100%;"></a>
+<p dir="auto"><b>Ça Bug ?</b>
 <br>
-<a href="../../issues">
-<b>Le signaler</b></a>
-
+<a href="/Hypersoby/Hal-Plus-Script/issues">
+<b>Le signaler</b></a></p>
 </td>
-
-<td align="center">
-  
-<img src="./assets/icons/mail-light.svg#gh-dark-mode-only" width="32"> 
-<img src="./assets/icons/mail-dark.svg#gh-light-mode-only" width="32">
-  
-<b>Contact</b>
-<br> 
-<a href="mailto:hyperlightsupersoby@gmail.com"> 
-<b>Mon Mail</b> 
-</a> 
-
+<td align="center" style="border-bottom: unset;border-top: unset;border-bottom: 1px solid transparent;border-top: 1px solid transparent;border-right: 1px solid transparent;width: 20%;">
+<a target="_blank" rel="noopener noreferrer" href="/Hypersoby/Hal-Plus-Script/blob/main/assets/icons/mail-light.svg#gh-dark-mode-only"><img src="/Hypersoby/Hal-Plus-Script/raw/main/assets/icons/mail-light.svg#gh-dark-mode-only" width="32" style="max-width: 100%;"></a> 
+<a target="_blank" rel="noopener noreferrer" href="/Hypersoby/Hal-Plus-Script/blob/main/assets/icons/mail-dark.svg#gh-light-mode-only"><img src="/Hypersoby/Hal-Plus-Script/raw/main/assets/icons/mail-dark.svg#gh-light-mode-only" width="32" style="max-width: 100%;"></a>
+<p dir="auto"><b>Contact</b>
+<br>
+<a href="mailto:hyperlightsupersoby@gmail.com">
+<b>Mon Mail</b>
+</a></p>
 </td> 
-
 </tr> 
-
-</table>
+</tbody></table>
 
 ## Installation 
 Installer [Stylus pour Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/).
