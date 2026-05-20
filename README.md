@@ -153,28 +153,20 @@ La sélection et la configuration des thèmes s’effectuent directement depuis 
 
 ![Panneau](https://i.imgur.com/LtyaVDn.png)
   
-## Note de patch
+## 🔄 Problèmes 
 
-Des notes sur les mises à jour seront ajoutées à chaque correctif. Voir ci-dessus.
+Il peut arriver occasionnellement qu’un problème empêche HAL+ de s'afficher correctement ou que certains éléments visuels présentent un comportement inattendu.
+Dans la majorité des cas, la solution est simple : supprimez le script depuis Stylus puis réinstallez-le. Cela permet généralement de corriger les problèmes liés à une mise à jour incomplète ou à un cache obsolète.
 
-## Dépannage
+## 🚧 Évolutions futures
 
-Parfois les scripts peuvent rencontrer un problème et vous disent qu'ils ne peuvent pas se `mettre à jour`.
-Ou bien qu'après mises à jour vous rencontrez des bugs visuels.
-La solution est toute bête, il vous suffit de supprimer le script et de le réinstaller à nouveau.
+De nouvelles mises à jour pourront être déployées en fonction des retours utilisateurs, des bugs remontés ou des suggestions de nouvelles fonctionnalités.
 
-## Mise à jour
+## 🔄 Vérifier les mises à jour
 
-Des `mises à jour` pourront être disponibles dans le futur en faisant `remonter les bugs` ou suite à `une demande de fonctionnalité`.
+Pour vérifier si une nouvelle version de HAL+ est disponible, ouvrez Stylus puis rendez-vous dans le **Gestionnaire**.
 
-1. Pour voir si un script est à jour, rendez-vous dans l'extension Stylus en cliquant sur `S` puis sur `Gestion`
-
-![S](https://i.imgur.com/lmYa50c.png)
-![Gestion](https://i.imgur.com/TKGpDNo.png)
-
-2. Sur le panneau de droite qui contient les scripts, rendez-vous sur la ligne du script puis cliquez sur l'icône `⟲` pour vérifier si une mise à jour est possible. 
-
-![Update](https://i.imgur.com/RQi90O6.jpg)
+Repérez ensuite le script **HAL+** puis cliquez sur **Rechercher une mise à jour**. Si une nouvelle version est disponible, elle sera téléchargée et installée automatiquement.
 
 # Aperçu 
 
