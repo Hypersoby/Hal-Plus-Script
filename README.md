@@ -67,9 +67,11 @@
 <img src="./assets/icons/update-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/update-dark.svg#gh-light-mode-only" width="32">
 
+<a href="./CHANGELOG.md">
+
 <b>Historique des mises à jour</b>
 <br>
-<a href="./CHANGELOG.md">
+
 
 
 </a>
