@@ -113,7 +113,7 @@ Chrome ✅ • Firefox ✅ • Opera ✅ • Edge ⚠️ • Safari ⚠️
 1. Cliquez sur le lien qui correspond à votre navigateur ci dessus puis installer le script en cliquant sur le bouton`ajouter/installer`.
 
 2. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation. 
-![Firefox](https://i.imgur.com/28AipgL.png)
+  <img src="./assets/screenshots/screen firefox.png" width="160">
 
 3. *Si vous utilisez `Chrome` cliquez sur l'icône en forme de `puzzle` et épinglez ensuite `Stylus` dans votre barre de navigation.*
 ![Chrome](https://i.imgur.com/a6PzHSY.png)
