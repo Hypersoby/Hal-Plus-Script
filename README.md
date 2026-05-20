@@ -48,7 +48,7 @@
 </a>
 
 <a href="mailto:hyperlightsupersoby@gmail.com?subject=HAL%2B">
-  <img src="https://i.imgur.com/ABawY9N.png" alt="Contact" width="170">
+  <img src="https://i.imgur.com/ccwvPoN.png" alt="Contact" width="170">
 </a>
 
 </p>
