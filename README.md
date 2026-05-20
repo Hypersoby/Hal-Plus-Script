@@ -31,43 +31,15 @@
 
 <p align="center">
 
-<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css">
-<img src="./assets/icons/download-light.svg#gh-dark-mode-only" width="16">
-<img src="./assets/icons/download-dark.svg#gh-light-mode-only" width="16">
- Téléchargement
-</a>
-
+<a href="">📥 Téléchargement</a>
 •
-
-<a href="#comment-faire">
-<img src="./assets/icons/book-light.svg#gh-dark-mode-only" width="16">
-<img src="./assets/icons/book-dark.svg#gh-light-mode-only" width="16">
- Documentation
-</a>
-
+<a href="">📖 Documentation</a>
 •
-
-<a href="./CHANGELOG.md">
-<img src="./assets/icons/update-light.svg#gh-dark-mode-only" width="16">
-<img src="./assets/icons/update-dark.svg#gh-light-mode-only" width="16">
- Historique
-</a>
-
+<a href="">📝 Historique</a>
 •
-
-<a href="../../issues/new">
-<img src="./assets/icons/bug-light.svg#gh-dark-mode-only" width="16">
-<img src="./assets/icons/bug-dark.svg#gh-light-mode-only" width="16">
- Signaler un bug
-</a>
-
+<a href="">🐞 Bug</a>
 •
-
-<a href="mailto:hyperlightsupersoby@gmail.com?subject=HAL%2B">
-<img src="./assets/icons/mail-light.svg#gh-dark-mode-only" width="16">
-<img src="./assets/icons/mail-dark.svg#gh-light-mode-only" width="16">
- Contact
-</a>
+<a href="">✉ Contact</a>
 
 </p>
 
