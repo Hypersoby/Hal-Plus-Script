@@ -35,7 +35,8 @@
   <img src="https://i.imgur.com/ABawY9N.png" alt="Téléchargement">
 
 •
-<a href="">📖 Documentation</a>
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css">
+  <img src="https://i.imgur.com/ABawY9N.png" alt="Téléchargement">
 •
 <a href="">📝 Historique</a>
 •
