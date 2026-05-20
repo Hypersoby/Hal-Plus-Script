@@ -54,15 +54,14 @@
 </td>
 
 <td align="center" width="20%">
-<a href="#documentation">
 
-📖
+
+<img src="./assets/icons/book-light.svg#gh-dark-mode-only" width="32">
+<img src="./assets/icons/book-dark.svg#gh-light-mode-only" width="32">
 
 <br><b>Documentation</b>
-
 <br>
-Guide complet
-</a>
+<a href="#documentation">
 </td>
 
 <td align="center" width="20%">
