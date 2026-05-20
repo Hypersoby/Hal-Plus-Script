@@ -32,6 +32,7 @@ Si vous utilisez Safari, des alternatives à Stylus comme Cascadea peuvent être
 
 <a href="https://addons.mozilla.org/fr/firefox/addon/styl-us/">
   <img src="./assets/buttons/firefox.png" width="160">
+  Chrome ✅ 
 </a>
 
 <a href="https://addons.opera.com/en/extensions/privacy_policy/27c0f4146c879f67a91b70f93f4eee4a01846fdd/">
