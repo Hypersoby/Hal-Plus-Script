@@ -36,7 +36,7 @@
 </a>
 
 <a href="#comment-faire">
-  <img src="./assets/buttons/documentation.png" alt="Documentation" width="170">
+  <img src="https://i.imgur.com/gp6nNQ4.png" alt="Documentation" width="170">
 </a>
 
 <a href="./CHANGELOG.md">
