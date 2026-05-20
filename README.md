@@ -29,68 +29,47 @@
 # ⚡Liens rapides
 
 
-<table width="100%">
-  
-<tr>
-<td width="20%" align="center">
-  
-<img src="./assets/icons/download-light.svg#gh-dark-mode-only" width="32">
-<img src="./assets/icons/download-dark.svg#gh-light-mode-only" width="32">
+<p align="center">
 
-<b>Téléchargement</b>
-<br>
-![Installer HAL+](https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css)
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css">
+<img src="./assets/icons/download-light.svg#gh-dark-mode-only" width="16">
+<img src="./assets/icons/download-dark.svg#gh-light-mode-only" width="16">
+ Téléchargement
+</a>
 
-</td>
-<td width="20%" align="center">
-  
-<img src="./assets/icons/book-light.svg#gh-dark-mode-only" width="32">
-<img src="./assets/icons/book-dark.svg#gh-light-mode-only" width="32">
+•
 
-<b>Documentation</b> 
-<br> 
-<a href="#Installation">
-<b>Comment faire ?</b></a>
+<a href="#comment-faire">
+<img src="./assets/icons/book-light.svg#gh-dark-mode-only" width="16">
+<img src="./assets/icons/book-dark.svg#gh-light-mode-only" width="16">
+ Documentation
+</a>
 
-</td>
-<td width="20%" align="center">
-  
-<img src="./assets/icons/update-light.svg#gh-dark-mode-only" width="32">
-<img src="./assets/icons/update-dark.svg#gh-light-mode-only" width="32">
+•
 
-<b>Mises à jour</b> <br> <a href="./CHANGELOG.md">
-<b>Historique</b></a>
+<a href="./CHANGELOG.md">
+<img src="./assets/icons/update-light.svg#gh-dark-mode-only" width="16">
+<img src="./assets/icons/update-dark.svg#gh-light-mode-only" width="16">
+ Historique
+</a>
 
-</td>
+•
 
-<td width="20%" align="center">
-  
-<img src="./assets/icons/bug-light.svg#gh-dark-mode-only" width="32">
-<img src="./assets/icons/bug-dark.svg#gh-light-mode-only" width="32">
-  
-<b>Ça Bug ?</b>
-<br>
-<a href="../../issues">
-<b>Le signaler</b></a>
+<a href="../../issues/new">
+<img src="./assets/icons/bug-light.svg#gh-dark-mode-only" width="16">
+<img src="./assets/icons/bug-dark.svg#gh-light-mode-only" width="16">
+ Signaler un bug
+</a>
 
-</td>
+•
 
-<td width="20%" align="center">
-  
-<img src="./assets/icons/mail-light.svg#gh-dark-mode-only" width="32"> 
-<img src="./assets/icons/mail-dark.svg#gh-light-mode-only" width="32">
-  
-<b>Contact</b>
-<br> 
-<a href="mailto:hyperlightsupersoby@gmail.com"> 
-<b>Mon Mail</b> 
-</a> 
+<a href="mailto:hyperlightsupersoby@gmail.com?subject=HAL%2B">
+<img src="./assets/icons/mail-light.svg#gh-dark-mode-only" width="16">
+<img src="./assets/icons/mail-dark.svg#gh-light-mode-only" width="16">
+ Contact
+</a>
 
-</td> 
-
-</tr> 
-
-</table>
+</p>
 
 
 
