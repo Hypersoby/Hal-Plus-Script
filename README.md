@@ -81,7 +81,7 @@
 <b>Ça Bug ?</b>
 <br>
 <a href="../../issues">
-<b>Un problème ?</b></a>
+<b>Signaler</b></a>
 
 </td>
 
