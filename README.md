@@ -44,7 +44,7 @@
 </a>
 
 <a href="../../issues/new">
-  <img src="https://i.imgur.com/ABawY9N.png" alt="Bug" width="170">
+  <img src="https://i.imgur.com/j644u0e.png" alt="Bug" width="170">
 </a>
 
 <a href="mailto:hyperlightsupersoby@gmail.com?subject=HAL%2B">
