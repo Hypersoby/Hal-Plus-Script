@@ -62,13 +62,15 @@
 </td>
 
 <td align="center" width="20%">
+<a href="./CHANGELOG.md">
+
 <img src="./assets/icons/update-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/update-dark.svg#gh-light-mode-only" width="32">
 
-
-<b>Mise à jours/b>
+<br><b>Changelog</b>
 <br>
-<a href="./CHANGELOG.md">
+Historique des mises à jour
+
 </a>
 </td>
 
