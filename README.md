@@ -93,7 +93,7 @@
 <b>Contact</b>
 <br> 
 <a href="mailto:hyperlightsupersoby@gmail.com"> 
-<b>Me contatcer</b> 
+<b>Mon Mail</b> 
 </a> 
 
 </td> 
