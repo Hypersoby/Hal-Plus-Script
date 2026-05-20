@@ -30,8 +30,10 @@
 
 
 <p align="center">
+  
+<a href="[https://example.com](https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css)">
+  <img src="https://i.imgur.com/IEByu9R.png" alt="Téléchargement">
 
-<a href="">📥 Téléchargement</a>
 •
 <a href="">📖 Documentation</a>
 •
