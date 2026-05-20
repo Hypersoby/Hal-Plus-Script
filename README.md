@@ -32,7 +32,7 @@
 <table width="100%">
   
 <tr>
-<td align="center">
+<td width="20%" align="center">
   
 <img src="./assets/icons/download-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/download-dark.svg#gh-light-mode-only" width="32">
@@ -42,7 +42,7 @@
 ![Installer HAL+](https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css)
 
 </td>
-<td align="center">
+<td width="20%" align="center">
   
 <img src="./assets/icons/book-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/book-dark.svg#gh-light-mode-only" width="32">
@@ -53,7 +53,7 @@
 <b>Comment faire ?</b></a>
 
 </td>
-<td align="center">
+<td width="20%" align="center">
   
 <img src="./assets/icons/update-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/update-dark.svg#gh-light-mode-only" width="32">
@@ -63,7 +63,7 @@
 
 </td>
 
-<td align="center">
+<td width="20%" align="center">
   
 <img src="./assets/icons/bug-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/bug-dark.svg#gh-light-mode-only" width="32">
@@ -75,7 +75,7 @@
 
 </td>
 
-<td align="center">
+<td width="20%" align="center">
   
 <img src="./assets/icons/mail-light.svg#gh-dark-mode-only" width="32"> 
 <img src="./assets/icons/mail-dark.svg#gh-light-mode-only" width="32">
