@@ -115,7 +115,7 @@ Chrome ✅ • Firefox ✅ • Opera ✅ • Edge ⚠️ • Safari ⚠️
 3. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation.
 <p align="center">
   <img src="./assets/screenshots/screen firefox.png" width="250">
-  <img src="./assets/screenshots/screen google.png" width="250">
+  <img src="./assets/screenshots/scr google.png" width="250">
  </p>
  
 Une fois l'installation complète, rendez-vous sur le site `Hal` ou `les autres instances prise en charge` puis cliquez sur l'icône `S` de l'extension Stylus.
