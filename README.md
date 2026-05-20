@@ -110,49 +110,41 @@ Chrome ✅ • Firefox ✅ • Opera ✅ • Edge ⚠️ • Safari ⚠️
 
 ## Installation 
 
-1. Cliquez sur le lien qui correspond à votre navigateur ci dessus. Puis une fenêtre s'ouvre et cliquez sur installer le script via le bouton`ajouter/installer`.
-
-2. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation. 
+1. Télécharger l'extension gestionnaire de styles utilisateur via l'icône qui correspond à votre navigateur ci dessus.
+2. Ensuite cliquez sur Téléchargement ci dessus. Une fenêtre s'ouvre et cliquez sur installer le script via le bouton`ajouter/installer`.
+3. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation.
+<p align="center">
   <img src="./assets/screenshots/screen firefox.png" width="250">
   <img src="./assets/screenshots/screen google.png" width="250">
+ </p>
  
+Une fois l'installation complète, rendez-vous sur le site `Hal` ou `les autres instances prise en charge` puis cliquez sur l'icône `S` de l'extension Stylus.
+Par defaut le style après installation sera actif. Pour le desactiver ou le réactiver, cliquez sur la `case ☐` correspondant au(x) script(s). 
 
-4. Pour télécharger et installer le Script, il vous suffit de cliquer sur le liens `Script Umbrhal` ci-dessous puis de cliquer sur installer sur le panneau de gauche. /!\ Vous pourrez ensuite fermer l'onglet /!\
+## 🎨 Thèmes disponibles
 
-## Lien de téléchargement 
+HAL+ intègre plusieurs modèles de couleurs disponibles en versions claires et sombres afin d’adapter l’interface à vos préférences.
 
-Le Thème Sombre `Umbrhal` : ![Script Hal+](https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css)
-  
-  
+La sélection et la configuration des thèmes s’effectuent directement depuis le menu de Stylus via `l'icône ⚙`.
 
- 
-Une fois l'installation complète, rendez-vous sur le site `Hal Inria` puis cliquez sur l'icône `S` de l'extension Stylus.
-![Hal](https://i.imgur.com/i9Bg4xo.jpg)
-<br>
-Cliquez sur la `case ☐` correspondant au(x) script(s) que vous souhaitez activer pour l'appliquer sur le site. 
+| Thème | Description |
+|---|---|
+| 🟦 **Hal** | Inspiré de l’identité visuelle HAL avec des tons bleu profond et orange. Le thème par défaut. |
+| 🍵 **Matcha** | Palette douce aux nuances vertes naturelles. Une interface apaisante pensée pour les longues sessions. |
+| 🌸 **Sakura** | Ambiance légère aux teintes rosées. Un thème chaleureux et élégant. |
+| ❄️ **Tundra** | Tons froids gris-bleu sobre, propre et minimaliste. |
+| 🏜️ **Dune** | Nuances sable pour une atmosphère douce et naturelle. |
+| 🌙 **Nocturne** | Palette sombre bleu-violet conçue pour un confort visuel optimal en environnement peu éclairé. |
+| 🌌 **Aurora** | Inspiré des aurores boréales avec des nuances froides bleu-vert. Ambiance moderne et immersive. |
+| 🌊 **Deep Ocean** | Tons bleu profond inspirés des fonds marins. Une expérience sombre sobre et reposante. |
+| 🪨 **Obsidian** | Thème sombre aux accents minéraux violet-gris. Minimaliste et élégant. |
+| 🐱 **Catppuccin** | Inspiré de la célèbre palette Catppuccin. Une interface douce avec des contrastes harmonieux. |
+| 🌲 **Ever Forest** | Tons verts naturels et boisés inspirés des forêts profondes. Ambiance calme et organique. |
+| 🔥 **Ember** | Palette chaude aux teintes braise et cuivre. Une ambiance plus chaleureuse et contrastée. |
+| 🏙️ **Tokyo Night** | Inspiré du thème Tokyo Night avec un mélange de bleu néon et d’accents rouges. |
+| 🏭 **Sarif Industries** | Inspirée de la colorimétrie du jeu Deus Ex Human Revolution. Ambiance élégant de nuance de gris sur une touche doré. |
+| 🎨 **Perso** | Créez votre propre palette de couleurs et personnalisez intégralement l'apparence de HAL+. |
 
-# Contenu
-
-1. `Harmonisation` du site pour une navigation plus facile.
-```
-- Thème Sombre. Sobre et reposant, basculez du côté obscur en un clic.
-- La palette de couleurs a été vérifier à l'aide de divers outils pour favoriser l'accessibilité.
-```
-
-2. `Style de couleur` pour varier les nuances.
-```
-- Ce script propose aussi un panneau complet pour personnaliser et créer votre propre thème
-```
-
-# Personnalisation  
-  
-Pour personnaliser les couleurs de votre thème, rendez-vous sur le site `Hal Inria` puis cliquez sur l'icône `S` de l'extension Stylus.
-<br>
-Cliquez sur `l'icône ⚙` pour ouvrir le panneau de personnalisation.  
-![Config](https://i.imgur.com/dDzOOxD.jpg)  
-Un panneau s'offre à vous avec plusieurs options de personnalisation. Vous pourrez ainsi cliquer sur la couleur que vous souhaitez modifier.
-Pour une meilleure personnalisation je vous propose cet Outil <a href="https://webaim.org/resources/contrastchecker/">Contrast Checker</a> pour vérifier la lisibilité vos couleurs
-<br>  
 ![Panneau](https://i.imgur.com/LtyaVDn.png)
   
 ## Note de patch
