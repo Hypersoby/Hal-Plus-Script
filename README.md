@@ -22,23 +22,23 @@ Si vous utilisez Safari, des alternatives à Stylus comme Cascadea peuvent être
 # 🌐 Prise en charge du navigateur
 
 <p align="center">
-<a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=fr" target="_blank" rel="noopener noreferrer">
+<a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=fr" target="_blank">
   <img src="./assets/buttons/chrome.png" width="160">
 </a>
 
-<a href="https://addons.mozilla.org/fr/firefox/addon/styl-us/" target="_blank" rel="noopener noreferrer">
+<a href="https://addons.mozilla.org/fr/firefox/addon/styl-us/" target="_blank">
   <img src="./assets/buttons/firefox.png" width="160">
 </a>
 
-<a href="https://addons.opera.com/en/extensions/privacy_policy/27c0f4146c879f67a91b70f93f4eee4a01846fdd/" target="_blank" rel="noopener noreferrer">
+<a href="https://addons.opera.com/en/extensions/privacy_policy/27c0f4146c879f67a91b70f93f4eee4a01846fdd/" target="_blank">
   <img src="./assets/buttons/opera.png" width="160">
 </a>
 
-<a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=fr" target="_blank" rel="noopener noreferrer">
+<a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=fr" target="_blank">
   <img src="./assets/buttons/edge.png" width="160">
 </a>
 
-<a href="https://cascadea.app/" target="_blank" rel="noopener noreferrer">
+<a href="https://cascadea.app/" target="_blank">
   <img src="./assets/buttons/safari.png" width="160">
 </a>
 
