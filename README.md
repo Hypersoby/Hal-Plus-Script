@@ -61,7 +61,7 @@
 
 <br><b>Documentation</b>
 <br>
-<a href="#documentation">
+[Comment faire](#Comment-faire-?)
 </td>
 
 <td align="center" width="20%">
