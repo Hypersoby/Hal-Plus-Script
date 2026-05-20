@@ -76,6 +76,16 @@ Chrome ✅ • Firefox ✅ • Opera ✅ • Edge ⚠️ • Safari ⚠️
 
 </p>
 
+## 🌐 Portails compatibles
+
+✅ HAL  
+✅ HAL Inria  
+✅ HAL INRAE  
+✅ HAL SHS  
+✅ HAL CNRS  
+✅ HAL Thèses  
+✅ Université Paris-Saclay  
+✅ Sorbonne Université  
 
 ## Installation 
 Installer [Stylus pour Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/).
