@@ -48,7 +48,7 @@ Si vous utilisez Safari, des alternatives à Stylus comme Cascadea peuvent être
 
 </p>
 <p align="center">
-Firefox ✅ • Chrome ✅ • Opera ✅ • Edge ⚠️ • Safari ⚠️
+Chrome ✅ • Firefox ✅ • Opera ✅ • Edge ⚠️ • Safari ⚠️
 </p>
 
 # ⚡Liens rapides
