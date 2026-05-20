@@ -1,0 +1,343 @@
+/* ==UserStyle==
+@name        Hal+
+@namespace   HyperSoby
+@version     1.0
+@author      Lallemant Christopher
+@homepageURL 	https://github.com/Hypersoby/Hal-Plus-Script
+@updateURL   	https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css
+
+@preprocessor stylus
+
+@var select stylus-hal-style "Preset themes" [
+	"Hal",
+	"Matcha",
+	"Sakura",
+	"Tundra",
+	"Dune",
+	"Nocturne",
+	"Aurora",
+	"Deep-Ocean",
+	"Obsidian",
+	"Catppuccin",
+	"Ever-forest",
+	"Ember",
+	"Tokyo-Night",
+	"Sarif-industries",
+	"Perso"
+]
+@var color arr-p "Arriere-plan" "#ecebe8"
+@var color pre-p "Premier-plan" "#faf9f6"
+@var color clr-1 "Couleur-1" "#337ab7"
+@var color clr-2 "Couleur-2" "#f7934a"
+@var color clr-3 "Couleur-3" "#64687a"
+@var color url "Url" "#295d9a"
+@var color txt-b "Texte-couleur-blanc" "#fff"
+@var color txt-clr "Texte-couleur" "#000"
+@var color form-ctrl "Box de Texte" "#fff"
+
+==/UserStyle== */
+
+@-moz-document url-prefix("https://hal.science/"), url-prefix("https://cnrs.hal.science/"), url-prefix("https://inria.hal.science/"), url-prefix("https://shs.hal.science/"), url-prefix("https://theses.hal.science/"), url-prefix("https://hal.sorbonne-universite.fr/"), url-prefix("https://universite-paris-saclay.hal.science/"), url-prefix("https://hal.inrae.fr/")	{
+	:root
+	{
+	--couleur-mix-blanc: #ffffff;
+    --couleur-mix-noir: #000; 
+	--menu-nav-background: unquote("color-mix(in srgb, var(--couleur-premier-plan) 40%, var(--couleur-mix-noir))");
+	--couleur-1-20: unquote("color-mix(in srgb, var(--couleur-1) 20%, transparent)")
+    --couleur-1-survol : unquote("color-mix(in srgb, var(--couleur-1) 70%, var(--couleur-mix-blanc))");
+    --couleur-1-active : unquote("color-mix(in srgb, var(--couleur-1) 70%, var(--couleur-mix-noir))");
+	--couleur-2-20: unquote("color-mix(in srgb, var(--couleur-2) 20%, transparent)")
+	--couleur-2-survol : unquote("color-mix(in srgb, var(--couleur-2) 70%, var(--couleur-mix-blanc))");
+	--couleur-3-survol : unquote("color-mix(in srgb, var(--couleur-3) 70%, var(--couleur-mix-blanc))"); 
+	--menu-background: unquote("color-mix(in srgb, var(--couleur-premier-plan) 40%, var(--couleur-mix-noir))");
+	--header: var(--couleur-arriere-plan);
+    --widget-background: var(--couleur-premier-plan); 
+    --widget-border: 1px solid var(--widget-border-color); 
+	--footer: rgba(13, 13, 15, 0.46);
+    --widget-padding: 5px 20px; 
+    --texte-couleur-action: var(--couleur-1);
+    --texte-couleur-action-hov: var(--couleur-1-survol);
+    --bouton-background: var(--couleur-1);  
+    --bouton-hov-background: var(--couleur-1-survol); 
+    --bouton-1-background: var(--couleur-2); 
+    --bouton-1-hov-background: var(--couleur-2-survol);
+    --bouton-2-background: var(--couleur-3); 
+    --bouton-2-hov-background: var(--couleur-3-survol);
+    --transition: .3s cubic-bezier(.25,.8,.5,1); 
+    --box-shadow: 0 3px 4px #00000029; 
+	--border-radius: 3px;
+	--box-shadow: 0 3px 4px #00000029;
+	--transition: .3s cubic-bezier(.25,.8,.5,1);
+	
+/* ===================================== HAL + ===================================== */	
+	
+if stylus-hal-style == "Hal" {
+    --couleur-arriere-plan:#ecebe8;
+    --couleur-premier-plan:#faf9f6;
+    --menu-background:#ffffff;
+    --menu-nav-background:#1e245f;
+    --couleur-1:#24377a;
+    --couleur-2:#b85a2f;
+    --couleur-3:#64687a;
+    --header: #00005c;
+	--footer: #00005c;
+    --url:#295d9a;
+    --url-survol: unquote("color-mix(in srgb,var(--url) 65%,var(--couleur-mix-noir))");
+    --texte-couleur-blanc:#ffffff;
+    --texte-couleur:#2f3135;
+    --form-control: unquote("color-mix(in srgb,var(--couleur-premier-plan) 88%,white)");
+    --widget-border-color: unquote("color-mix(in srgb,#8088a0 35%,var(--couleur-mix-noir))");
+	--hero-gradient: linear-gradient(204deg, #f9400b 0%, #a63132 33%, #7e2d46 66%, #181c4a 100%);
+}
+
+/* ===================================== MATCHA ===================================== */
+
+if stylus-hal-style == "Matcha" {
+    --couleur-arriere-plan:#edf1e7;
+    --couleur-premier-plan:#fafbf6;
+    --header:#a3ae82;
+    --footer:#2e3427;
+    --couleur-1:#6f7743; 
+    --couleur-2:#547468;
+    --couleur-3:#60655b;
+    --url:#4f5430;
+    --url-survol: unquote("color-mix(in srgb,var(--url) 75%,white)");
+    --texte-couleur-blanc:#ffffff;
+    --texte-couleur:#33352f;
+    --form-control:#f4f7ef;
+    --widget-border-color:#d4dacd;
+	--hero-gradient: linear-gradient(204deg, #a3ae82 0%, #848f63 33%, #616a45 66%, #454c32 100%);
+}
+
+/* ===================================== SAKURA ===================================== */
+
+if stylus-hal-style == "Sakura" {
+    --couleur-arriere-plan:#f7f1f2;
+    --couleur-premier-plan:#fff9fa;
+    --header:#c79aa4;
+    --footer:#31272b;
+    --couleur-1:#8a5d67;
+    --couleur-2:#6d748f;
+    --couleur-3:#5c575a;
+    --url:#b1566a;
+    --url-survol: unquote("color-mix(in srgb,var(--url) 75%,white)");
+    --texte-couleur-blanc:#fff;
+    --texte-couleur:#393234;
+    --form-control:#fdf7f8;
+    --widget-border-color:#e4d9db;
+	--hero-gradient: linear-gradient(204deg,#c79aa4 0%,	#af7e8b 33%,#8a5d67 66%,#5f4148 100%);
+}
+
+/* ===================================== TUNDRA ===================================== */
+
+if stylus-hal-style == "Tundra" {
+    --couleur-arriere-plan:#f2f1ec;
+    --couleur-premier-plan:#fbfaf6;
+    --header:#8d9ba5;
+    --footer:#2d3237;
+    --couleur-1:#60718d;
+    --couleur-2:#6f8474;
+    --couleur-3:#626567;
+    --url:#2a5293;
+    --url-survol: unquote("color-mix(in srgb,var(--url) 75%,white)");
+    --texte-couleur-blanc:#fff;
+    --texte-couleur:#353739;
+    --form-control:#f7f6f1;
+    --widget-border-color:#d9d8d3;
+	--hero-gradient: linear-gradient(204deg,#8d9ba5 0%,	#768693 33%,#60718d 66%,#434d58 100%);
+}
+
+/* ===================================== DUNE ===================================== */
+
+if stylus-hal-style == "Dune" {
+    --couleur-arriere-plan:#f1ece3;
+    --couleur-premier-plan:#fcf8f2;
+    --header:#b9a88f;
+    --footer:#2c3137;
+    --couleur-1:#876a46;
+    --couleur-2:#547489;
+    --couleur-3:#66615a;
+    --url:#503c24;
+    --url-survol: unquote("color-mix(in srgb,var(--url) 75%,white)");
+    --texte-couleur-blanc:#fff;
+    --texte-couleur:#36322d;
+    --form-control:#f7f3ec;
+    --widget-border-color:#ddd4c9;
+	--hero-gradient: linear-gradient(204deg,#b9a88f 0%,	#9e886c 33%,#876a46 66%,#5d4a36 100%);
+}
+
+/* ===================================== NOCTURNE ===================================== */
+
+if stylus-hal-style == "Nocturne" {
+    --couleur-arriere-plan:#1a1b26;
+    --couleur-premier-plan:#24283b;
+    --couleur-1:#425e87;
+    --couleur-2:#6a5f96;
+    --couleur-3:#3c4970;
+    --url:#89ddff;
+    --url-survol: unquote("color-mix(in srgb,var(--url) 70%,white)");
+    --texte-couleur-blanc:#ffffff;
+    --texte-couleur:#c0caf5;
+    --form-control: unquote("color-mix(in srgb,var(--couleur-premier-plan) 65%,var(--couleur-mix-noir))");
+    --widget-border-color: unquote("color-mix(in srgb,var(--couleur-premier-plan) 78%,var(--couleur-mix-noir))");
+	--hero-gradient: linear-gradient(204deg, #343d64 0%, #445e84 33%, #4e4e7b 66%, #2b3350 100%);
+}
+
+
+/* ===================================== AURORA ===================================== */
+
+if stylus-hal-style == "Aurora" {
+    --couleur-arriere-plan: #2e3440;
+    --couleur-premier-plan: #3b4252;
+    --couleur-1: #486872;
+    --couleur-2: #5d7488;
+    --couleur-3: #1c292d;
+	    --url: #85e1df;
+    --url-survol: unquote("color-mix(in srgb, var(--url) 70%, white)");
+    --texte-couleur-blanc: #eceff4;
+    --texte-couleur: #d8dee9;
+    --form-control: unquote("color-mix(in srgb, var(--couleur-premier-plan) 60%, var(--couleur-mix-noir))");
+    --widget-border-color: unquote("color-mix(in srgb, var(--couleur-premier-plan) 75%, var(--couleur-mix-noir))");
+	--hero-gradient: linear-gradient(204deg, #4d5d67 0%, #486872 33%, #3a4e5f 66%, #24353a 100%);
+    }
+	
+/* ===================================== DEEP-OCEAN ===================================== */
+	
+if stylus-hal-style == "Deep-Ocean" {
+    --couleur-arriere-plan:#0f1720;
+    --couleur-premier-plan:#1b2532;
+    --couleur-1:#2c5674; 
+    --couleur-2:#5b6f93; 
+    --couleur-3:#26303d;
+    --url:#79d0f2;
+    --url-survol:unquote("color-mix(in srgb,var(--url) 75%,white)");
+    --texte-couleur-blanc:#fff;
+    --texte-couleur:#d7e2ee;
+    --form-control: unquote("color-mix(in srgb,var(--couleur-premier-plan) 65%,var(--couleur-mix-noir))");
+    --widget-border-color: unquote("color-mix(in srgb,var(--couleur-premier-plan) 75%,var(--couleur-mix-noir))");
+	--hero-gradient: linear-gradient(204deg, #203040 0%, #2c5674 33%, #33435f 66%, #1b2532 100%);
+}	
+
+/* ===================================== OBSIDIAN ===================================== */
+	
+if stylus-hal-style == "Obsidian" {
+    --couleur-arriere-plan:#161616;
+    --couleur-premier-plan:#222222;
+    --couleur-1:#71627a;
+    --couleur-2:#606d7e;
+    --couleur-3:#2b2b2b;
+    --url:#84b7ff;
+    --url-survol:unquote("color-mix(in srgb,var(--url) 70%,white)");
+    --texte-couleur-blanc:#fff;
+    --texte-couleur:#d8d8d8;
+    --form-control:#303030;
+    --widget-border-color:#404040;
+	--hero-gradient: linear-gradient(204deg, #372b43 0%, #5c3f6e 33%, #324a68 66%, #2a3c4e 100%);
+}	
+
+/* ===================================== CATPPUCCIN ===================================== */
+	
+if stylus-hal-style == "Catppuccin" {
+    --couleur-arriere-plan: #1e1e2e;
+    --couleur-premier-plan: #313244;
+    --couleur-1:#454b84;
+    --couleur-2:#5d6ea3;
+    --couleur-3:#1b1e34;
+	    --url: #74c7ec;
+    --url-survol: unquote("color-mix(in srgb, var(--url) 70%, white)");
+    --texte-couleur-blanc: #f5e0dc;
+    --texte-couleur: #cdd6f4;
+    --form-control: unquote("color-mix(in srgb, var(--couleur-premier-plan) 90%, black)");
+    --widget-border-color: unquote("color-mix(in srgb, var(--couleur-premier-plan) 78%, black)");
+	--hero-gradient: linear-gradient(204deg, #2f376c 0%, #454b84 33%, #362d64 66%, #1c1f50 100%);
+    }
+	
+/* ===================================== EVER-FOREST ===================================== */	
+
+if stylus-hal-style == "Ever-forest" {
+    --couleur-arriere-plan:#232a2e;
+    --couleur-premier-plan:#2d353b;
+    --couleur-1:#4b6b4f; 
+    --couleur-2:#6b4f4b; 
+    --couleur-3:#162017; 
+    --url:#83c092;
+    --url-survol:unquote("color-mix(in srgb,var(--url) 70%,white)");
+    --texte-couleur-blanc:#f3ead3;
+    --texte-couleur:#d3c6aa;
+    --form-control: unquote("color-mix(in srgb,var(--couleur-premier-plan) 65%,var(--couleur-mix-noir))");
+    --widget-border-color: unquote("color-mix(in srgb,var(--couleur-premier-plan) 75%,var(--couleur-mix-noir))");
+	--hero-gradient: linear-gradient(204deg, #425446 0%, #3a5d3e 33%, #504b3b 66%, #28322a 100%);
+}
+
+/* ===================================== EMBER ===================================== */
+
+if stylus-hal-style == "Ember" {
+    --couleur-arriere-plan:#1b1715;
+    --couleur-premier-plan:#28211d;
+    --couleur-1:#9b4c32;
+    --couleur-2:#8c6341;
+    --couleur-3:#302721;
+    --url:#ff9b68;
+    --url-survol:unquote("color-mix(in srgb,var(--url) 70%,white)");
+    --texte-couleur-blanc:#fff;
+    --texte-couleur:#ead8cb;
+    --form-control:#332b26;
+    --widget-border-color:#4a3d35;
+	--hero-gradient: linear-gradient(204deg, #954d37 0%, #7b4534 33%, #5d3d22 66%, #2f241f 100%);
+}
+
+/* ===================================== TOKYO-NIGHT ===================================== */
+
+if stylus-hal-style == "Tokyo-Night" {
+    --couleur-arriere-plan: #1a1b26;
+    --couleur-premier-plan: #24283b;
+    --couleur-1: #c72845;
+    --couleur-2: #4e759e;
+    --couleur-3: #2e465e;
+    --url: #7dcfff;
+    --url-survol: unquote("color-mix(in srgb, var(--url) 68%, white)");
+    --texte-couleur-blanc: #ffffff;
+    --texte-couleur: #c0caf5;
+    --form-control: unquote("color-mix(in srgb, var(--couleur-premier-plan) 70%, var(--couleur-mix-noir))");
+    --widget-border-color: unquote("color-mix(in srgb, var(--couleur-premier-plan) 80%, var(--couleur-mix-noir))");
+	--hero-gradient: linear-gradient(204deg, #cd1e54 0%, #a74460 28%, #4a6786 66%, #2a4059 100%);
+    }
+	
+/* ===================================== SARIF-INDUSTRIES ===================================== */	
+	
+if stylus-hal-style == "Sarif-industries" {
+    --couleur-arriere-plan:#101114;
+    --couleur-premier-plan:#1a1f26;
+    --couleur-1:#8f6421; 
+    --couleur-2:#3f607f; 
+    --couleur-3:#39434e; 
+    --url:#ffc14f;
+    --url-survol: unquote("color-mix(in srgb,var(--url) 72%,white)");
+    --texte-couleur-blanc:#fff;
+    --texte-couleur:#d7dce3;
+    --form-control: unquote("color-mix(in srgb,var(--couleur-premier-plan) 68%,var(--couleur-mix-noir))");
+    --widget-border-color: unquote("color-mix(in srgb,#465363 60%,var(--couleur-mix-noir))");
+	--hero-gradient: linear-gradient(204deg, #212114 0%, #3d3f32 33%, #473d30 66%, #2b281e 100%);
+}
+
+/* ===================================== PERSO ===================================== */	
+
+			
+if stylus-hal-style == "Perso" {
+    --couleur-arriere-plan: arr-p;
+    --couleur-premier-plan: pre-p;
+    --couleur-1: clr-1;
+    --couleur-2: clr-2;
+    --couleur-3: clr-3;
+    --url: url;
+	--header: unquote("color-mix(in srgb,var(--couleur-arriere-plan) 70%,var(--couleur-mix-noir))");
+	--url-survol: unquote("color-mix(in srgb,var(--url) 50%,var(--couleur-mix-blanc))");
+    --texte-couleur-blanc: txt-b;
+    --texte-couleur: txt-clr;
+	--url-survol: unquote("color-mix(in srgb,var(--url) 65%,var(--couleur-mix-noir))");
+    --form-control: form-ctrl;
+    --widget-border-color: unquote("color-mix(in srgb,#8088a0 35%,var(--couleur-mix-noir))");
+	--hero-gradient:  linear-gradient(204deg, var(--couleur-1-active) 0%, var(--couleur-1) 33%, var(--couleur-2), var(--couleur-2-survol) 100%);
+}
+}
+}
