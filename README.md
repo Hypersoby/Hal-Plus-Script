@@ -4,15 +4,13 @@
   <br>
   
 <p align="center">
-  HAL+ est un script CSS conçu pour améliorer l'apparence et l'expérience utilisateur sur le portail HAL ainsi que plusieurs portails partenaires.
-  Il apporte un design plus moderne, plus lisible entièrement personnalisable selon vos préférences.
-   <br>
-   Attention /!\ Le script n'est pas "vraiment" compatibles avec les collection des portail, vous devrez alors les désactiver lors de la navigation.
-   <br>
-  <a href="https://github.com/Hypersoby/Hal-Inria-Scripts/wiki/Notes-de-patch">Patch Note</a>
-  ·
-  <a href="mailto:christopher.lallemant@inrie.fr?subject=Mail from our Website">Contactez moi</a>
-  
+HAL+ est un script CSS conçu pour améliorer l'apparence et l'expérience utilisateur du portail HAL ainsi que de plusieurs portails partenaires.
+Il propose une interface plus moderne, plus lisible et entièrement personnalisable selon vos préférences.
+<br>
+⚠️ Important : les pages de collections ne sont actuellement pas entièrement compatibles avec HAL+. Pour une expérience optimale, il est recommandé de désactiver temporairement le script lors de leur consultation.
+<br>
+Si vous utilisez Safari, des alternatives à Stylus comme Cascadea peuvent être utilisées. Cependant, certaines fonctionnalités ou certains formats de styles peuvent ne pas être entièrement compatibles.
+Si vous utilisez Edge, pensez à consulter la <a href="https://support.microsoft.com/fr-fr/microsoft-edge/ajouter-d%C3%A9sactiver-ou-supprimer-des-extensions-dans-microsoft-edge-9c0ec68c-2fbc-2f2c-9ff0-bdc76f46b026">documentation Microsoft</a> afin d’autoriser les extensions compatibles Chrome.
   
 ![Static Badge](https://img.shields.io/badge/Stylus-red?style=for-the-badge&color=%23043139) ![Static Badge](https://img.shields.io/badge/CSS-red?style=for-the-badge&color=%231b2d42) ![Static Badge](https://img.shields.io/badge/OPEN%20SOURCE-Green?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/Version-v1.0.0-purple?style=for-the-badge&color=%23371f72)
 
@@ -21,10 +19,31 @@
 
   <img alt="info portail" src="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/ressources/info.png">
   
-## Prise en charge du navigateur
+# 🌐 Prise en charge du navigateur
 
-  <img alt="Comp" src="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/ressources/comp.png">
-  
+<p align="center">
+<a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=fr">
+  <img src="./assets/buttons/chrome.png" width="160">
+</a>
+
+<a href="https://addons.mozilla.org/fr/firefox/addon/styl-us/">
+  <img src="./assets/buttons/firefox.png" width="160">
+</a>
+
+<a href="https://addons.opera.com/en/extensions/privacy_policy/27c0f4146c879f67a91b70f93f4eee4a01846fdd/">
+  <img src="./assets/buttons/opera.png" width="160">
+</a>
+
+<a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=fr">
+  <img src="./assets/buttons/edge.png" width="160">
+</a>
+
+<a href="https://cascadea.app/">
+  <img src="./assets/buttons/safari.png" width="160">
+</a>
+
+</p>
+
 
 # ⚡Liens rapides
 
