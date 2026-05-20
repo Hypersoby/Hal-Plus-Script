@@ -148,7 +148,7 @@ La sélection et la configuration des thèmes s’effectuent directement depuis 
 | 🌲 **Ever Forest** | Tons verts naturels et boisés inspirés des forêts profondes. Ambiance calme et organique. |
 | 🔥 **Ember** | Palette chaude aux teintes braise et cuivre. Une ambiance plus chaleureuse et contrastée. |
 | 🏙️ **Tokyo Night** | Inspiré du thème Tokyo Night avec un mélange de bleu néon et d’accents rouges. |
-| 🏭 **Sarif Industries** | Inspirée de la colorimétrie du jeu Deus Ex Human Revolution. Ambiance élégante avec des nuances de gris sur une touche de modernité doré. |
+| 🏭 **Sarif Industries** | Inspiré de Deus Ex: Human Revolution. Associe des teintes sombres et métalliques à des accents dorés pour une interface moderne et sophistiquée. |
 | 🎨 **Perso** | Créez votre propre palette de couleurs et personnalisez intégralement l'apparence de HAL+. |
 
 ![Panneau](https://i.imgur.com/LtyaVDn.png)
