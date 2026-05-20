@@ -60,7 +60,8 @@
 
 <b>Documentation</b> 
 <br> 
-[Comment faire](#Comment-faire-?)
+<a href="#comment-faire">
+<b>Comment faire ?</b></a>
 
 </td>
 <td align="center">
