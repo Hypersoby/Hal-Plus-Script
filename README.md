@@ -173,6 +173,26 @@ Repérez ensuite le script **HAL+** puis cliquez sur **Rechercher une mise à jo
 
 # Aperçu 
 
+<h2>🎨 Aperçu des thèmes</h2>
+
+<p align="center">
+<a href="./assets/screenshots/themes/hal.jpg">
+<img src="./assets/screenshots/themes/hal.jpg" width="250">
+</a>
+
+<a href="./assets/screenshots/themes/nocturne.jpg">
+<img src="./assets/screenshots/themes/nocturne.jpg" width="250">
+</a>
+
+<a href="./assets/screenshots/themes/tokyo-night.jpg">
+<img src="./assets/screenshots/themes/tokyo-night.jpg" width="250">
+</a>
+</p>
+
+<p align="center">
+<i>🔍 Cliquez sur une image pour agrandir</i>
+</p>
+
 
 
 # Contribution et Développement
