@@ -40,58 +40,92 @@
 
 <h2>⚡ Liens rapides</h2>
 
-<table>
+<table width="100%">
 <tr>
 
-<td align="center" width="20%">
+<td align="center" valign="top" width="20%">
+
 <img src="./assets/icons/download-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/download-dark.svg#gh-light-mode-only" width="32">
-  
+
+<br><br>
+
 <b>Téléchargement</b>
+
 <br>
-![Installer HAL+](https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css)
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css">
+Installer HAL+
+</a>
+
 </td>
 
-<td align="center" width="20%">
+<td align="center" valign="top" width="20%">
+
 <img src="./assets/icons/book-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/book-dark.svg#gh-light-mode-only" width="32">
-  
+
+<br><br>
+
 <b>Documentation</b>
+
 <br>
-[Comment faire](#Comment-faire-?)
+
+<a href="#comment-faire">
+Comment faire ?
+</a>
+
 </td>
 
-<td align="center" width="20%">
+<td align="center" valign="top" width="20%">
+
 <img src="./assets/icons/update-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/update-dark.svg#gh-light-mode-only" width="32">
-  
+
+<br><br>
+
 <b>Mises à jour</b>
+
 <br>
+
 <a href="./CHANGELOG.md">
-<b>Historique</b>
+Historique
 </a>
+
 </td>
 
-<td align="center" width="20%">
+<td align="center" valign="top" width="20%">
+
 <img src="./assets/icons/bug-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/bug-dark.svg#gh-light-mode-only" width="32">
 
+<br><br>
+
 <b>Signaler un bug</b>
+
 <br>
-<a href="../../issues">
-<b>Un problème ?</b>
+
+<a href="../../issues/new">
+Un problème ?
 </a>
+
 </td>
 
-<td align="center" width="20%">
+<td align="center" valign="top" width="20%">
+
 <img src="./assets/icons/mail-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/mail-dark.svg#gh-light-mode-only" width="32">
 
-<br><b>Contact</b>
+<br><br>
+
+<b>Contact</b>
+
 <br>
-<a href="mailto:hyperlightsupersoby@gmail.com">
-<b>Mon Mail</b>
+
+<a href="mailto:hyperlightsupersoby@gmail.com?subject=HAL%2B">
+Mon Mail
 </a>
+
 </td>
 
 </tr>
