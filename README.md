@@ -249,8 +249,8 @@ Repérez ensuite le script **HAL+** puis cliquez sur **Rechercher une mise à jo
 <img src="./assets/screenshots/themes/tokyo-night.jpg" width="260" alt="Tokyo Night">
 </a>
 
-<a href="./assets/screenshots/themes/sarif-industries.jpg">
-<img src="./assets/screenshots/themes/sarif-industries.jpg" width="260" alt="Sarif Industries">
+<a href="./assets/screenshots/themes/sarif.jpg">
+<img src="./assets/screenshots/themes/sarif.jpg" width="260" alt="Sarif Industries">
 </a>
 
 <a href="./assets/screenshots/themes/perso.jpg">
