@@ -74,6 +74,7 @@
 </td>
 
 <td align="center" width="20%">
+  
 <img src="./assets/icons/bug-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/bug-dark.svg#gh-light-mode-only" width="32">
   
@@ -85,6 +86,7 @@
 </td>
 
 <td align="center" width="20%">
+  
 <img src="./assets/icons/mail-light.svg#gh-dark-mode-only" width="32"> 
 <img src="./assets/icons/mail-dark.svg#gh-light-mode-only" width="32">
   
