@@ -40,7 +40,7 @@
 </a>
 
 <a href="./CHANGELOG.md">
-  <img src="https://i.imgur.com/ABawY9N.png" alt="Historique" width="170">
+  <img src="https://i.imgur.com/nJMV0o3.png" alt="Historique" width="170">
 </a>
 
 <a href="../../issues/new">
