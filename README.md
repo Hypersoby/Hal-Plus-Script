@@ -76,7 +76,7 @@ Chrome ✅ • Firefox ✅ • Opera ✅ • Edge ⚠️ • Safari ⚠️
 
 </p>
 
-## 🌐 Portails compatibles
+## 🌐 Liste des Portails
 
 ✅ HAL  
 ✅ HAL Inria  
