@@ -1,43 +1,4 @@
-/* ==UserStyle==
-@name        Hal+
-@namespace   HyperSoby
-@version     1.0
-@author      Lallemant Christopher
-@homepageURL 	https://github.com/Hypersoby/Hal-Plus-Script
-@updateURL   	https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css
 
-@preprocessor stylus
-
-@var select stylus-hal-style "Preset themes" [
-	"Hal",
-	"Matcha",
-	"Sakura",
-	"Tundra",
-	"Dune",
-	"Nocturne",
-	"Aurora",
-	"Deep-Ocean",
-	"Obsidian",
-	"Catppuccin",
-	"Ever-forest",
-	"Ember",
-	"Tokyo-Night",
-	"Sarif-industries",
-	"Perso"
-]
-@var color arr-p "Arriere-plan" "#ecebe8"
-@var color pre-p "Premier-plan" "#faf9f6"
-@var color clr-1 "Couleur-1" "#337ab7"
-@var color clr-2 "Couleur-2" "#f7934a"
-@var color clr-3 "Couleur-3" "#64687a"
-@var color url "Url" "#295d9a"
-@var color txt-b "Texte-couleur-blanc" "#fff"
-@var color txt-clr "Texte-couleur" "#000"
-@var color form-ctrl "Box de Texte" "#fff"
-
-==/UserStyle== */
-
-@-moz-document url-prefix("https://hal.science/"), url-prefix("https://cnrs.hal.science/"), url-prefix("https://inria.hal.science/"), url-prefix("https://shs.hal.science/"), url-prefix("https://theses.hal.science/"), url-prefix("https://hal.sorbonne-universite.fr/"), url-prefix("https://universite-paris-saclay.hal.science/"), url-prefix("https://hal.inrae.fr/")	{
 	:root
 	{
 	--couleur-mix-blanc: #ffffff;
@@ -338,6 +299,5 @@ if stylus-hal-style == "Perso" {
     --form-control: form-ctrl;
     --widget-border-color: unquote("color-mix(in srgb,#8088a0 35%,var(--couleur-mix-noir))");
 	--hero-gradient:  linear-gradient(204deg, var(--couleur-1-active) 0%, var(--couleur-1) 33%, var(--couleur-2), var(--couleur-2-survol) 100%);
-}
 }
 }
