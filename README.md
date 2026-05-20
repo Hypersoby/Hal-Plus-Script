@@ -88,8 +88,6 @@
 <img src="./assets/icons/mail-light.svg#gh-dark-mode-only" width="32"> 
 <img src="./assets/icons/mail-dark.svg#gh-light-mode-only" width="32">
   
-<br>
-
 <b>Contact</b>
 <br> 
 <a href="mailto:hyperlightsupersoby@gmail.com"> 
