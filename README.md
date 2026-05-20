@@ -56,7 +56,7 @@
 <img src="./assets/icons/book-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/book-dark.svg#gh-light-mode-only" width="32">
   
-<br><b>Documentation</b>
+<b>Documentation</b>
 <br>
 [Comment faire](#Comment-faire-?)
 </td>
@@ -64,12 +64,11 @@
 <td align="center" width="20%">
 <img src="./assets/icons/update-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/update-dark.svg#gh-light-mode-only" width="32">
-<a href="./CHANGELOG.md">
 
-<br><b>Changelog</b>
 
+<b>Mise à jours/b>
 <br>
-Historique des mises à jour
+<a href="./CHANGELOG.md">
 </a>
 </td>
 
