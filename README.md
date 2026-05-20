@@ -30,7 +30,7 @@
 
 
 <p align="center">
-  
+•
 <a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css">
   <img src="https://i.imgur.com/ABawY9N.png" alt="Téléchargement">
 
@@ -38,11 +38,14 @@
 <a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css">
   <img src="https://i.imgur.com/ABawY9N.png" alt="Téléchargement">
 •
-<a href="">📝 Historique</a>
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css">
+  <img src="https://i.imgur.com/ABawY9N.png" alt="Téléchargement">
 •
-<a href="">🐞 Bug</a>
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css">
+  <img src="https://i.imgur.com/ABawY9N.png" alt="Téléchargement">
 •
-<a href="">✉ Contact</a>
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css">
+  <img src="https://i.imgur.com/ABawY9N.png" alt="Téléchargement">
 
 </p>
 
