@@ -81,7 +81,7 @@
 <b>Ça Bug ?</b>
 <br>
 <a href="../../issues">
-<b>Signaler</b></a>
+<b>Le signaler</b></a>
 
 </td>
 
@@ -93,7 +93,7 @@
 <b>Contact</b>
 <br> 
 <a href="mailto:hyperlightsupersoby@gmail.com"> 
-<b>Mon Mail</b> 
+<b>Me contatcer</b> 
 </a> 
 
 </td> 
