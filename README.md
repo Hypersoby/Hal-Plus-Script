@@ -38,7 +38,7 @@ Si vous utilisez Safari, des alternatives à Stylus comme Cascadea peuvent être
   <img src="./assets/buttons/Portail SHS.png" width="160">
 </a>
 
-<a href="#Liste des Portails">
+<a href="#liste-des-portails">
   <img src="./assets/buttons/Portail Autres.png" width="160">
 </a>
   
