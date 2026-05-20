@@ -95,6 +95,7 @@ Chrome ✅ • Firefox ✅ • Opera ✅ • Edge ⚠️ • Safari ⚠️
 
 </p>
 
+<a id="liste-portails"></a>
 ## 🌐 Liste des Portails
 
 ✅ HAL  
