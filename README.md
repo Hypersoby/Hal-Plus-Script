@@ -62,13 +62,8 @@
 </td>
 
 <td align="center" width="20%">
-
-
 <img src="./assets/icons/update-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/update-dark.svg#gh-light-mode-only" width="32">
-
-
-
 <b>Mises à jour</b>
 <br>
 <a href="./CHANGELOG.md">
@@ -77,15 +72,13 @@
 </td>
 
 <td align="center" width="20%">
-
-
 <img src="./assets/icons/bug-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/bug-dark.svg#gh-light-mode-only" width="32">
 
 <b>Signaler un bug</b>
 <br>
 <a href="../../issues">
-<b>Remonter un problème</b>
+<b>Un problème ?</b>
 </a>
 </td>
 
