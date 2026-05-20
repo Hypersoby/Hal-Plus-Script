@@ -42,7 +42,7 @@
 </a>
 
 <a href="../../issues/new">
-  <img src="../assets/icons/bug.png" alt="Bug" width="160">
+  <img src="./assets/buttons/bug.png" alt="Bug" width="160">
 </a>
 
 <a href="mailto:hyperlightsupersoby@gmail.com?subject=HAL%2B">
