@@ -110,13 +110,12 @@ Chrome ✅ • Firefox ✅ • Opera ✅ • Edge ⚠️ • Safari ⚠️
 
 ## Installation 
 
-1. Cliquez sur le lien qui correspond à votre navigateur ci dessus puis installer le script en cliquant sur le bouton`ajouter/installer`.
+1. Cliquez sur le lien qui correspond à votre navigateur ci dessus. Puis une fenêtre s'ouvre et cliquez sur installer le script via le bouton`ajouter/installer`.
 
 2. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation. 
   <img src="./assets/screenshots/screen firefox.png" width="250">
-
-3. *Si vous utilisez `Chrome` cliquez sur l'icône en forme de `puzzle` et épinglez ensuite `Stylus` dans votre barre de navigation.*
   <img src="./assets/screenshots/screen google.png" width="250">
+ 
 
 4. Pour télécharger et installer le Script, il vous suffit de cliquer sur le liens `Script Umbrhal` ci-dessous puis de cliquer sur installer sur le panneau de gauche. /!\ Vous pourrez ensuite fermer l'onglet /!\
 
