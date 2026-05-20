@@ -176,7 +176,7 @@ Repérez ensuite le script **HAL+** puis cliquez sur **Rechercher une mise à jo
 <h2>🎨 Aperçu des thèmes</h2>
 
 <p align="center">
-<i>🔍 Cliquez sur une image pour l'afficher en taille réelle</i>
+<p>🔍</p><i> Cliquez sur une image pour l'afficher en taille réelle</i>
 </p>
 
 <p align="center">
