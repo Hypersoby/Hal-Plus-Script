@@ -40,7 +40,67 @@
 
 <h2>⚡ Liens rapides</h2>
 
-<table width="100%"> <tr> <td align="center" width="20%"> <img src="./assets/icons/download-light.svg#gh-dark-mode-only" width="32"> <img src="./assets/icons/download-dark.svg#gh-light-mode-only" width="32"> <b>Téléchargement</b> <br> ![Installer HAL+](https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css) </td> <td align="center" width="20%"> <img src="./assets/icons/book-light.svg#gh-dark-mode-only" width="32"> <img src="./assets/icons/book-dark.svg#gh-light-mode-only" width="32"> <b>Documentation</b> <br> [Comment faire](#Comment-faire-?) </td> <td align="center" width="20%"> <img src="./assets/icons/update-light.svg#gh-dark-mode-only" width="32"> <img src="./assets/icons/update-dark.svg#gh-light-mode-only" width="32"> <b>Mises à jour</b> <br> <a href="./CHANGELOG.md"> <b>Historique</b> </a> </td> <td align="center" width="20%"> <img src="./assets/icons/bug-light.svg#gh-dark-mode-only" width="32"> <img src="./assets/icons/bug-dark.svg#gh-light-mode-only" width="32"> <b>Signaler un bug</b> <br> <a href="../../issues"> <b>Un problème ?</b> </a> </td> <td align="center" width="20%"> <img src="./assets/icons/mail-light.svg#gh-dark-mode-only" width="32"> <img src="./assets/icons/mail-dark.svg#gh-light-mode-only" width="32"> <br><b>Contact</b> <br> <a href="mailto:hyperlightsupersoby@gmail.com"> <b>Mon Mail</b> </a> </td> </tr> </table>
+<table width="100%">
+  
+<tr>
+<td align="center" width="20%">
+  
+<img src="./assets/icons/download-light.svg#gh-dark-mode-only" width="32">
+<img src="./assets/icons/download-dark.svg#gh-light-mode-only" width="32">
+
+<b>Téléchargement</b>
+<br>
+![Installer HAL+](https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css)
+
+</td>
+<td align="center" width="20%">
+  
+<img src="./assets/icons/book-light.svg#gh-dark-mode-only" width="32">
+<img src="./assets/icons/book-dark.svg#gh-light-mode-only" width="32">
+
+<b>Documentation</b> 
+<br> 
+[Comment faire](#Comment-faire-?)
+
+</td>
+<td align="center" width="20%">
+  
+<img src="./assets/icons/update-light.svg#gh-dark-mode-only" width="32">
+<img src="./assets/icons/update-dark.svg#gh-light-mode-only" width="32">
+
+<b>Mises à jour</b> <br> <a href="./CHANGELOG.md">
+<b>Historique</b></a>
+
+</td>
+
+<td align="center" width="20%">
+<img src="./assets/icons/bug-light.svg#gh-dark-mode-only" width="32">
+<img src="./assets/icons/bug-dark.svg#gh-light-mode-only" width="32">
+  
+<b>Signaler un bug</b>
+<br>
+<a href="../../issues">
+<b>Un problème ?</b></a>
+
+</td>
+
+<td align="center" width="20%">
+<img src="./assets/icons/mail-light.svg#gh-dark-mode-only" width="32"> 
+<img src="./assets/icons/mail-dark.svg#gh-light-mode-only" width="32">
+  
+<br>
+
+<b>Contact</b>
+<br> 
+<a href="mailto:hyperlightsupersoby@gmail.com"> 
+<b>Mon Mail</b> 
+</a> 
+
+</td> 
+
+</tr> 
+
+</table>
 
 ## Installation 
 Installer [Stylus pour Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/).
