@@ -110,13 +110,21 @@ Chrome ✅ • Firefox ✅ • Opera ✅ • Edge ⚠️ • Safari ⚠️
 
 ## Installation 
 
+## 🚀 Installation
+
+1. Téléchargez l’extension de gestion des styles utilisateur en cliquant sur l’icône correspondant à votre navigateur ci-dessus.
+
+2. Cliquez ensuite sur **Téléchargement**. Une nouvelle fenêtre s’ouvrira : il vous suffira de cliquer sur **Ajouter** ou **Installer** pour installer HAL+.
+
+3. Une fois l’installation terminée, une icône **S** apparaîtra dans la barre d’outils de votre navigateur ou dans le menu des extensions.
+
+Une fois HAL+ installé, rendez-vous sur **HAL** ou sur l’une des **instances compatibles** puis cliquez sur l’icône **S** de Stylus.
+
+Le thème est activé automatiquement après l’installation. Vous pouvez à tout moment l’activer ou le désactiver en cochant ou décochant la case correspondant à **HAL+** dans le menu de Stylus.
+
 1. Télécharger l'extension gestionnaire de styles utilisateur via l'icône qui correspond à votre navigateur ci dessus.
 2. Ensuite cliquez sur Téléchargement ci dessus. Une fenêtre s'ouvre et cliquez sur installer le script via le bouton`ajouter/installer`.
-3. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation.
-<p align="center">
-  <img src="./assets/screenshots/screen firefox.png" width="250">
-  <img src="./assets/screenshots/scr google.png" width="250">
- </p>
+3. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation ou dans le volet des extensions.
  
 Une fois l'installation complète, rendez-vous sur le site `Hal` ou `les autres instances prise en charge` puis cliquez sur l'icône `S` de l'extension Stylus.
 Par defaut le style après installation sera actif. Pour le desactiver ou le réactiver, cliquez sur la `case ☐` correspondant au(x) script(s). 
