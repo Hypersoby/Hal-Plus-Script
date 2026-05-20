@@ -29,8 +29,6 @@
 # ⚡Liens rapides
 
 
-<p align="center">
-
 <a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/Hal+.user.css">
   <img src="https://i.imgur.com/ABawY9N.png" alt="Téléchargement" width="165">
 </a>
@@ -50,8 +48,6 @@
 <a href="mailto:hyperlightsupersoby@gmail.com?subject=HAL%2B">
   <img src="https://i.imgur.com/ccwvPoN.png" alt="Contact" width="165">
 </a>
-
-</p>
 
 
 
