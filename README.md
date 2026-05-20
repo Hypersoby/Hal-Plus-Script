@@ -21,7 +21,26 @@ Si vous utilisez Safari, des alternatives à Stylus comme Cascadea peuvent être
   
 ## Portail Compatible
 
-  <img alt="info portail" src="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/ressources/info.png">
+<p align="center">
+<a href="https://hal.science">
+  <img src="./assets/buttons/Portail Hal.png" width="160">
+</a>
+
+<a href="https://inria.hal.science">
+  <img src="./assets/buttons/Portail Inria.png" width="160">
+</a>
+
+<a href="https://hal.inrae.fr">
+  <img src="./assets/buttons/Portail INRAE.png" width="160">
+</a>
+
+<a href="https://shs.hal.science">
+  <img src="./assets/buttons/Portail SHS.png" width="160">
+</a>
+
+<a href="#Liste des Portails">
+  <img src="./assets/buttons/Portail Autres.png" width="160">
+</a>
   
 ## 🌐 Prise en charge du navigateur ( ↗ Cliquez sur l'icône qui correspond à votre navigateur )
 
