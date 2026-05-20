@@ -25,20 +25,10 @@
 
   <img alt="Comp" src="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/ressources/comp.png">
   
-# Sommaire
-  - [Comment faire](#Comment-faire-?)
-  - [Contenu](#Contenu) 
-  - [Personnalisation](#Personnalisation) 
-  - [Aperçu](#Aperçu)
-  - [Dépannage](#Dépannage)
-  - [Note de patch](#Note-de-patch)
-  - [Mise à jour](#Mise-à-jour) 
-  - [Contribution et Développement](#Contribution-et-Développement)
+
+# ⚡Liens rapides
 
 
-# Comment faire ?
-
-<h2>⚡ Liens rapides</h2>
 
 <table width="100%">
   
@@ -60,7 +50,7 @@
 
 <b>Documentation</b> 
 <br> 
-<a href="#comment-faire">
+<a href="#Installation">
 <b>Comment faire ?</b></a>
 
 </td>
