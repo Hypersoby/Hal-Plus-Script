@@ -19,7 +19,7 @@ Si vous utilisez Safari, des alternatives à Stylus comme Cascadea peuvent être
 
   <img alt="info portail" src="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/master/ressources/info.png">
   
-# 🌐 Prise en charge du navigateur
+# 🌐 Prise en charge du navigateur ( ↗ Cliquez sur l'icône qui correspond à votre navigateur )
 
 <p align="center">
 <a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=fr">
