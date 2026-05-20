@@ -10,7 +10,7 @@ Il propose une interface plus moderne, plus lisible et entièrement personnalisa
 ⚠️ Important : les pages de collections ne sont actuellement pas entièrement compatibles avec HAL+. Pour une expérience optimale, il est recommandé de désactiver temporairement le script lors de leur consultation.
 <br>
 Si vous utilisez Safari, des alternatives à Stylus comme Cascadea peuvent être utilisées. Cependant, certaines fonctionnalités ou certains formats de styles peuvent ne pas être entièrement compatibles.
-Si vous utilisez Edge, pensez à consulter la <a href="https://support.microsoft.com/fr-fr/microsoft-edge/ajouter-d%C3%A9sactiver-ou-supprimer-des-extensions-dans-microsoft-edge-9c0ec68c-2fbc-2f2c-9ff0-bdc76f46b026">documentation Microsoft</a> afin d’autoriser les extensions compatibles Chrome.
+⚠️ Si vous utilisez Edge, pensez à autoriser les extensions compatibles Chrome avant l’installation. Consultez la <a href="https://support.microsoft.com/fr-fr/microsoft-edge/ajouter-d%C3%A9sactiver-ou-supprimer-des-extensions-dans-microsoft-edge-9c0ec68c-2fbc-2f2c-9ff0-bdc76f46b026">documentation Microsoft</a> si nécessaire.
   
 ![Static Badge](https://img.shields.io/badge/Stylus-red?style=for-the-badge&color=%23043139) ![Static Badge](https://img.shields.io/badge/CSS-red?style=for-the-badge&color=%231b2d42) ![Static Badge](https://img.shields.io/badge/OPEN%20SOURCE-Green?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/Version-v1.0.0-purple?style=for-the-badge&color=%23371f72)
 
@@ -22,28 +22,30 @@ Si vous utilisez Edge, pensez à consulter la <a href="https://support.microsoft
 # 🌐 Prise en charge du navigateur
 
 <p align="center">
-<a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=fr">
+<a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=fr" target="_blank" rel="noopener noreferrer">
   <img src="./assets/buttons/chrome.png" width="160">
 </a>
 
-<a href="https://addons.mozilla.org/fr/firefox/addon/styl-us/">
+<a href="https://addons.mozilla.org/fr/firefox/addon/styl-us/" target="_blank" rel="noopener noreferrer">
   <img src="./assets/buttons/firefox.png" width="160">
 </a>
 
-<a href="https://addons.opera.com/en/extensions/privacy_policy/27c0f4146c879f67a91b70f93f4eee4a01846fdd/">
+<a href="https://addons.opera.com/en/extensions/privacy_policy/27c0f4146c879f67a91b70f93f4eee4a01846fdd/" target="_blank" rel="noopener noreferrer">
   <img src="./assets/buttons/opera.png" width="160">
 </a>
 
-<a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=fr">
+<a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=fr" target="_blank" rel="noopener noreferrer">
   <img src="./assets/buttons/edge.png" width="160">
 </a>
 
-<a href="https://cascadea.app/">
+<a href="https://cascadea.app/" target="_blank" rel="noopener noreferrer">
   <img src="./assets/buttons/safari.png" width="160">
 </a>
 
 </p>
-
+<p align="center">
+Firefox ✅ • Chrome ✅ • Edge ⚠️ • Opera ✅ • Safari ⚠️
+</p>
 
 # ⚡Liens rapides
 
