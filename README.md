@@ -78,7 +78,7 @@
 <img src="./assets/icons/bug-light.svg#gh-dark-mode-only" width="32">
 <img src="./assets/icons/bug-dark.svg#gh-light-mode-only" width="32">
   
-<b>Signaler un bug</b>
+<b>Ça Bug ?</b>
 <br>
 <a href="../../issues">
 <b>Un problème ?</b></a>
