@@ -1,0 +1,3479 @@
+@-moz-document url-prefix("https://hal.science/"), url-prefix("https://shs.hal.science/"), url-prefix("https://cnrs.hal.science/"), url-prefix("https://theses.hal.science/"), url-prefix("https://hal.sorbonne-universite.fr/"), url-prefix("https://universite-paris-saclay.hal.science/"), url-prefix("https://hal.inrae.fr/")
+{
+
+h1, h2, h3, h4 {
+	color: var(--texte-couleur);
+}
+
+/* ========== Autres "Correctif et harmonisation de la barre de recherche ========= */
+/*  ------------------------------------------------------------------------------------------------------------------------- */
+/*  ------------------------------------------------------------------------------------------------------------------------- */
+
+/* --> uniquement Pour le visualiseur CSS : augmentation de la taille de l'ecran <-- */
+#css { min-height: 900px;    min-width: 100%; } /* -- > Meilleur Vue du code CSS  -- */
+
+
+/* ================================================================== */
+/* == Unification du Style sur les elements de HAL autre que ceux present dans le CSS de de la collection/portail == */
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* -- BODY -- */
+/* ---------- */
+
+body, html {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+	height: auto!important;
+	background-color: var(--couleur-arriere-plan)!important;
+	color: var(--texte-couleur);
+}
+
+
+/* -- HTML -- */
+/* ---------------- */
+
+
+i.icon-top, i.icon-bottom, a.force-line-break, td.middle a {color: var(--url)}
+i.icon-top:hover, i.icon-bottom:hover , a.force-line-break:hover, td.middle a :hover {color: var(--url-survol)}
+
+a {	color: var(--url);}
+a:hover {	color: var(--url-survol);}
+
+p {
+	color: var(--texte-couleur);
+}
+/* -- Hauteur Minimum de la Div Main pour toujours avoir le footer en bas de page -- */
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+main {
+    min-height: 58.1vh;
+	
+}
+
+/* -- Header -- */
+/* ---------------- */
+nav.navbar.header {
+	background: var(--header);
+}
+
+/* -- Texte du bouton -> Collection/Nom du portail HAL -- */
+/* -------------------------------------------------------------------------------------- */
+
+.color-major-color a {
+    padding: 5px 10px 5px;
+    background-color: var(--bouton-background);
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    text-align: center;
+}
+.color-major-color a:hover{
+    background-color: var(--bouton-hov-background);
+}
+
+
+.color-major-color > a:nth-child(1) {
+    color: var(--texte-couleur-blanc) !important;
+}
+
+
+
+/* -- Vue Responsive du Menu deroulant de la page principale (Acceuil - etc... -- */
+/* ============================================================================== */
+
+@media (max-width: 771px) {
+    
+.dropdown-menu.show {
+    display: contents;
+      
+}
+.dropdown-item {
+    background-color: var(--bouton-1-hov-background);
+    text-align: center;
+}
+.website-navigation {
+    border-bottom: unset!important;
+    padding: unset!important;
+}
+.website-navigation .dropdown-menu li.nav-item:hover a {
+    border-radius: unset!important;
+}
+.website-navigation .nav-pills .nav-link {
+    margin: 0px 0px!important;
+}
+.nav-item.dropdown.show > .nav-link.dropdown-toggle {
+    background-color: var(--bouton-hov-background)!important;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link, .nav-pills .nav-link {
+    text-align: center;
+}
+.nav-link.active:hover, .nav-link:hover {
+    transform: unset!important;
+}
+.nav-pills .nav-link {
+    border-radius: unset!important;
+    border: unset!important;
+    box-shadow: unset!important;
+}
+
+}
+
+
+
+/* -- Pas de boxshadow par defaut sur les elements de hal -- */
+/* ----------------------------------------------------------------------------------- */
+.btn:focus, .btn-primary.focus, .btn-secondary:hover {
+    box-shadow: unset!important;
+}
+
+
+/*  -- Couleur du fond de la barre navbar -- */
+/* ----------------------------------------------------- */
+.sub-header {
+	background-color: var(--couleur-premier-plan) !important;
+}
+
+/* ========================= Element Bouton/Men/Fenetre sur plusieur page ====================== */
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+/* -- Bouton General sur plusieur element -- */
+/* ----------------------------------------------------------- */
+
+.btn-primary {
+    background-color: var(--bouton-background);
+    border-color: var(--bouton-background);
+    color: var(--texte-couleur-blanc);
+}
+.btn-primary:hover {
+    background-color: var(--bouton-hov-background);
+    border-color: var(--bouton-hov-background);
+    color: var(--texte-couleur-blanc);
+}
+.btn.btn-primary:focus {
+    background-color: var(--couleur-1-active);
+    border-color: var(--couleur-1-active);
+    color: var(--texte-couleur-blanc);
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    background-color: var(--couleur-1-active);
+    border-color: var(--couleur-1-active);
+    color: var(--texte-couleur-blanc);
+}
+
+.btn-primary-blue {
+    background-color: var(--bouton-background);
+    color: var(--texte-couleur-blanc);
+}
+.btn-primary-blue:hover {
+    background-color: var(--bouton-hov-background);
+    color: var(--texte-couleur-blanc);
+}
+.hal-secondary-button, a.hal-secondary-button {
+    border-radius: 5px;
+}
+.hal-secondary-button, a.hal-secondary-button span {
+    color: var(--texte-couleur-blanc);
+}
+.btn-secondary-grey {
+    background-color: var(--bouton-1-hov-background);
+    color: var(--texte-couleur-blanc);
+    border-radius: 3px;
+}
+.btn-secondary-grey:hover {
+    background-color: var(--bouton-hov-background);
+}
+.btn.hal-visualize-button.cancel {
+    background-color: var(--bouton-1-hov-background);
+	color: var(--texte-couleur-blanc) !important;
+}
+.btn.hal-visualize-button.cancel:hover {
+    background-color: var(--bouton-hov-background);
+}
+
+
+.hal-warning-button {
+    background-color: #b94a48;
+    padding: 12px 40px 10px;
+    margin-bottom: 23px;
+    border-radius: 3px;
+	color: var(--texte-couleur-blanc) !important;
+}
+
+/* -- Disposition des label pour éviter de les coupés sur 2 lignes  -- */
+/* -------------------------------------------------------------------------------------------- */
+
+.label.label-primary, .label.label-success, .label.label-warning, .label.label-danger, .label.label-info, .label.label-arxiv, .label.label-default {
+    display: inline-block;
+}
+
+/* -- Zone de saisie Generale -- */
+/* ----------------------------------------- */
+.form-control , form input.form-control, .form-meta .row textarea, .form-meta .row .selection, .form-controln, .form-meta .row select, #date-id, #writingDate-id, #edate-id, #aut_new #searchAuthor, .load-by-id.input-group button, .load-by-id.input-group input {
+    border: 1px solid var(--bouton-1-background) !important;
+	background-color: var(--form-control)!important;
+    color: var(--texte-couleur);
+}
+select.form-control:focus-visible {
+    color: var(--texte-couleur);
+	text-shadow: 0 0 0 #495057;
+	outline:unset;
+}
+.select2-container--default {
+	border: 0px solid #cacaca;
+}
+/* -- Style des differents elements present dans hal -- */
+/* ---------------------------------------------------- */
+
+.section-shadow {
+    box-shadow: var(--box-shadow)!important;
+    background-color: var(--widget-background)!important;
+    border-radius: var(--border-radius)!important;
+
+}
+
+/* -- Zone du menu (Boutons) -- */
+/* ---------------------------- */
+
+/* -- Marge Externe entre les boutons -- */
+/* ------------------------------------- */
+.website-navigation .nav-pills .nav-link {
+    margin: 2px 2px; /*(haut/bas et droite/gauche)*/
+    border-radius: 3px;
+}
+
+/* -- Marge interne les boutons -- */
+/* ------------------------------- */
+.website-navigation a { 
+    padding: 2px 20px !important; /* --> (haut/bas et droite/gauche) <-- */
+}
+
+/* -- Style des boutons (fond et couleur du texte ) + passage de la souris -- */
+/* -------------------------------------------------------------------------- */
+
+if stylus-hal-style == "Hal"{
+	
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #fff;
+    color:var(--texte-couleur) !important;
+}
+}
+
+if stylus-hal-style in ("Nocturne" "Aurora" "Deep-Ocean" "Obsidian" "Catppuccin" "Ever-forest" "Ember" "Tokyo-Night" "Sarif-industries"){
+
+/* --> element de menu qui est activé (ex: Accueil si on est sur la page d'accueil) <-- */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: var(--bouton-background)!important;
+    color:var(--texte-couleur-blanc) !important;
+}
+}
+
+/* -- Style pour les éléments du menu qui ne sont pas activés -- */
+/* ------------------------------------------------------------- */
+.nav-pills .nav-link {
+    color: var(--texte-couleur-blanc) !important;
+    border-radius: 0px;
+}
+
+/* -- style au passage de souris -- */
+/* -------------------------------- */
+.nav-link.active:hover, .nav-link:hover {
+    background: var(--bouton-hov-background);
+    color: var(--texte-couleur-blanc);
+}
+
+
+/* -- Zone du menu (Menus deroulants) -- */
+/* ------------------------------------- */
+
+.website-navigation {
+	background-color: var(--menu-nav-background);
+}
+
+/* -- Style du menu déroulant (principal) et position du sous menu -- */
+/* ------------------------------------------------------------------ */
+.website-navigation .nav-pills .dropdown-menu {
+    background: var(--menu-background) !important;
+    border: unset !important;
+    padding: unset !important;
+    margin: 0px;
+    border-radius: var(--border-radius)!important;
+    top: 6px !important;
+}
+
+/* -- Possition du sous menu -- */
+/* ---------------------------- */
+.website-navigation .dropdown-menu .dropdown-submenu > .dropdown-menu {
+    margin-left: 0px;
+    margin-top: -6px;
+    border-radius: 0px 12px 12px 12px;
+}
+
+/* -- Elements dans le menu déroulant (principal) +( au passage de la souris) -- */
+/* ============================================================================= */
+
+/* -- éléments du sous-menu -- */
+/* --------------------------- */
+
+.website-navigation .dropdown-menu a {
+	border-radius: var(--border-radius);
+	transition: var(--transition);
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background: var(--bouton-2-background);
+    color: var(--texte-couleur-blanc) !important;
+    border-radius: var(--border-radius);
+}
+.website-navigation .dropdown-menu li.nav-item:hover a {
+	color: var(--texte-couleur-blanc) !important;
+	background-color: var(--bouton-hov-background);
+}
+.website-navigation .dropdown-menu .dropdown-submenu:hover {
+border-radius: 12px;
+}
+
+
+/* ===================== Style de la page par type de ...  ====================== */
+/* ------------------------------------------------------------------------------ */
+
+
+.browse-doctype .section-shadow .counter.total {
+	background-color: var(--bouton-background);
+}
+.browse-doctype .section-shadow .counter.nb {
+	background-color: var(--bouton-1-background);
+}
+.browse-doctype .section-shadow .counter.nb p {
+	color: var(--texte-couleur-blanc);
+}
+.browse-doctype .section-shadow .nb {
+	color: var(--texte-couleur-blanc);
+}
+.counter.total p {
+	color: var(--texte-couleur-blanc);
+}
+
+.dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_paginate, .dataTables_wrapper .dataTables_processing {
+	color: var(--texte-couleur);
+}
+
+/* -- consultation -- */
+/* ------------------ */
+
+table.dataTable tbody tr {
+	background-color: var(--couleur-premier-plan);
+}
+.table-hover tbody tr:hover {
+	color: var(--texte-couleur);
+}
+
+html body.env-production main div.section-corps.p-4{
+	background: var(--couleur-premier-plan);
+}
+.dataTables_wrapper .dataTables_filter input {
+	margin-left: .5em;
+	background: var(--form-control);
+	border: 1px solid var(--bouton-background);
+}
+input:focus-visible {
+	outline: 0px;
+}
+div.dataTables_length select {
+	width: 75px;
+	background: var(--form-control);
+	border-radius: var(--border-radius);
+	border: 1px solid var(--bouton-background);
+	color: var(--texte-couleur-blanc);
+}
+/* -- Pagination -- */
+/* ---------------- */
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover {
+	color: var(--texte-couleur) !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+	color: var(--texte-couleur);
+	transition:var(--transition);
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+	background: var(--bouton-1-background);
+	border: 1px solid var(--bouton-1-background);
+	color: var(--texte-couleur-blanc) !important;
+	border-radius: var(--border-radius);
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+	background: var(--bouton-1-hov-background);
+	border: 1px solid var(--bouton-1-hov-background);
+	color: var(--texte-couleur-blanc) !important;
+	border-radius: var(--border-radius);
+}
+/* ========== Widgets Natif à HAL ========== */
+/* ----------------------------------------- */
+
+/* ======================== Widgets Natif à HAL ======================== */
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+/* -- Entête des widgets Natifs -- */
+/* ------------------------------------------- */
+
+.section-corps .widget .widget-header {
+    background-color: transparent;
+    padding: 15px 0px 15px;
+    color: var(--texte-couleur);
+}
+
+/* -- Widgets natifs -- */
+/* -------------------------- */
+
+ .section-corps .widget {
+   margin: 0px 0px 20px;
+   border: var(--widget-border);
+   box-shadow: var(--box-shadow);
+   border-radius: var(--border-radius);
+   background-color: var(--widget-background);
+}
+
+
+/* ====== ( Widget Txt Intégral ) ====== */
+/* ------------------------------------- */
+
+/* -- Style -- */
+/* ----------- */
+.label.label-default.label-contrast, .custom-page .widget .widget-content .label {
+   color: var(--bouton-background);
+   font-size: 22px;
+   padding: 2px 11px 4px 12px;
+   border: 2px solid var(--bouton-background);
+   background-color: transparent !important;
+   filter: brightness(150%);
+}
+
+/* -- Marge Interne -- */
+/* ------------------- */
+.center-text {
+    margin-bottom: 0;
+}
+
+/* ====== ( Widget dernière publication ) ====== */
+/* --------------------------------------------- */
+.list-deposit .media { 
+    margin-top: 0px;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    border-left: 2px solid transparent;
+    border-bottom: 0px solid;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* -- (au passage de la souris) -- */
+/* ------------------------------- */
+.list-deposit .media:hover {
+    border-color: var(--bouton-background);
+    background-color: #8f8f8f70;
+    transform: translatey(-5px);
+    box-shadow: var(--box-shadow);
+}
+
+
+/* -- Couleur du texte + passage de la souris -- */
+/* --------------------------------------------- */
+.list-deposit .media .media-body a {
+    color: var(--texte-couleur);
+    font-weight: bold;
+}
+.list-deposit .media .media-body a:hover {
+    color: var(--couleur-1);
+    filter: brightness(130%);
+}
+
+/* -- Marge interne des éléments -- */
+/* -------------------------------- */
+.list-deposit { 
+    padding: 10px 10px;
+}
+
+/* -- Marge externe du texte -- */
+/* ---------------------------- */
+.media-body { 
+    margin-left: 10px;
+}
+
+/* ====== ( Widget Mots-clés ) ====== */
+/* ---------------------------------- */
+
+.widget-cloud .keyword {
+    display: inline-flex;
+    background-color: var(--bouton-2-background);
+    color: var(--texte-couleur-blanc);
+    font-size: 16px;
+    border-radius: var(--border-radius);
+    border: 1px solid transparent;
+    padding: 0px 12px;
+    margin-top: 5px;
+    transition: var(--transition);
+}
+
+/*  -- Marge interne -- */
+/* ---------------------------- */
+
+.widget-cloud { 
+    padding: 20px;
+}
+
+@media (max-width: 767px) {
+.widget-cloud { 
+    display: grid;
+}
+}
+
+
+/*  -- (au passage du curseur) -- */
+/* ----------------------------------------- */
+
+.widget-cloud .keyword:hover {
+    background-color: var(--couleur-premier-plan);
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 5px -2px #595959;
+    border-color: var(--bouton-background);
+    color: var(--texte-couleur-action);
+	filter: brightness(130%);
+}
+
+/* ====== ( Widget MAP ) ====== */
+/* ---------------------------- */
+
+
+.ui.message {
+	font-size: 1em;
+	background: var(--form-control);
+	border: 1px solid var(--couleur-2);
+}
+
+
+/*  -- Marge externe -- */
+/* -------------------- */
+.widget-content .ui.grid {
+	margin: 0px;
+}
+
+
+/* -- Fond de la zone Map -- */
+/* ------------------------- */
+
+.ui.segment {
+	border: unset;
+	border-radius: 5px;
+	box-shadow: unset;
+}
+
+if stylus-hal-style in ("Hal"){
+.ui.segment {
+	background: transparent;
+}
+}
+if stylus-hal-style in ("Nocturne" "Aurora" "Deep-Ocean" "Obsidian" "Catppuccin" "Ever-forest" "Ember" "Tokyo-Night" "Sarif-industries"){
+.ui.segment {
+	background: #0000007a;
+}
+}
+/* -- Taille de zone de resultats -- */
+/* --------------------------------- */
+#countryinfo {
+	width: 100%!important;
+}
+
+/* -- Slider et position des texte -- */
+/* ----------------------------------- */
+
+.slider-container.theme-green {
+	width: 100%!important;
+}
+.theme-green .back-bar .selected-bar {
+	background-color: var(--couleur-1);
+	background-image: var(--couleur-1);
+	background-image: var(--couleur-1);
+}
+
+
+.theme-green .back-bar .pointer-label {
+	display: none;
+}
+
+/* -- Bouton Export -- */
+/* ------------------- */
+
+.ui.primary.button, .ui.primary.buttons .button {
+	background-color: var(--bouton-background);
+	color: var(--texte-couleur-blanc);
+	transition: var(--transition);
+}
+.ui.primary.button:hover, .ui.primary.buttons .button:hover {
+	background-color: var(--bouton-hov-background);
+	color: var(--texte-couleur-blanc);
+}
+
+/* -- Titre des news du widget news (native) -- */
+/* -------------------------------------------------------------- */
+
+.title {font-size: 16px;}
+
+/* -- Widget Feed (News Native) -- */
+/* ------------------------------ */
+
+/* -- Couleur du texte span et fleche des boutons -- */
+/* ---------------------------------------------------- */
+
+.widget-feeds .link span {
+    color: var(--texte-couleur-blanc);
+}
+.widget-feeds .link .btn-link span[class^="icon-"] {
+    color: var(--texte-couleur-blanc);
+}
+
+/* -- En hover -- */
+/* ---------------------- */
+.widget-feeds .link a:hover, .widget-feeds .link a:hover path, .widget-feeds .link a:hover span, .widget-feeds .link a:hover span[class^="icon-"] {
+    color: var(--texte-couleur-blanc);
+}
+
+
+/* -- Pas de border radius sur ces elements -- */
+/* ------------------------------------------- */
+.section-shadow.results-table.table-white {
+    border-radius: 0px !important;
+}
+#deposit-table {
+    border-radius: 0px !important;
+}
+
+/* -- Widget Mirabel -- */
+/* -------------------- */
+.section-corps .widget #publisher-policies .policy-src.selected {
+	background: unset;
+}
+#publisher-policies-input-search {
+	width: 0% !important;
+}
+
+
+/* -- Custom Page elements -- */
+/* -------------------------------------------------------------- */
+
+.custom-page h1, .custom-page h2, .custom-page h3, .custom-page h4, .custom-page h5, .custom-page h6 {
+	color: var(--couleur-2);
+}
+
+if stylus-hal-style in ("Nocturne" "Aurora" "Deep-Ocean" "Obsidian" "Catppuccin" "Ever-forest" "Ember" "Tokyo-Night" "Sarif-industries"){
+.custom-page h1, .custom-page h2, .custom-page h3, .custom-page h4, .custom-page h5, .custom-page h6 {
+	color: var(--couleur-1-survol);
+}
+}
+/* ========================= Menu d'action de gauche ====================== */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* -- Background des Menu Acordeon -- */
+/* ----------------------------------------------------- */
+
+.title-facet {
+    background-color: var(--bouton-background);
+    color: var(--texte-couleur-blanc);
+    border-radius: 3px 3px 0px 0px;
+}
+.btn.drop-down.title-facet.collapsed {
+    background-color: var(--bouton-1-background);
+    border-radius: 3px!important;
+}
+.btn.drop-down.title-facet:hover {
+    color: var(--texte-couleur-blanc);
+    background-color: var(--bouton-hov-background);
+}
+.section-facets {
+    margin-top: 47px !important;
+}
+
+/* -- Background des bouton du Menu -- */
+/* ------------------------------------------------------ */
+
+.connected-navigation .list-group .list-group-item{
+    background-color: var(--widget-background)!important;
+    border-left: 5px solid var(--widget-background)!important;
+    color: var(--texte-couleur) !important;
+    transition: var(--transition);
+}
+
+.connected-navigation .list-group .list-group-item:hover {
+    border-left-color: var(--bouton-background) !important;
+    background-color: var(--bouton-background) !important;
+    color: var(--texte-couleur-blanc) !important;
+}
+
+.connected-navigation .list-group .list-group-item.active, .connected-navigation .list-group .list-group-item.active:hover {
+    background-color: var(--bouton-hov-background) !important;
+    border-left-color: var(--bouton-background) !important;
+    color: var(--texte-couleur-blanc) !important;
+}
+
+
+
+/* ==================== Zone de la Barre de Recherche ===================== */
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+
+/*  -- Centrage de la barre de recherche  -- */
+/* --------------------------------------------------------- */
+
+#ssheader-info {
+    width: unset!important;
+}
+
+/*  -- hauteur de la barre de recherche (Ceci affecte le bouton +deposer -- */
+/* ------------------------------------------------------------------------------------------------------ */
+
+#ssheader-submit {
+    padding: 20px 18px 15px;
+}
+
+/*  -- Centrage de la barre de recherche  -- */
+/* --------------------------------------------------------- */
+
+#searchHeaderList {
+    max-height: 48px;
+}
+
+/* ========================= Zone de Recherche ========================== */
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+
+/* -- Positionnement de la loupe + couleur (harmonisation) -- */
+/* ------------------------------------------------------------------------------------ */
+
+.hal-main-search-button {
+    padding: 2px 16px !important;
+    color: var(--couleur-1) !important;
+    top: 12px !important;
+    filter: brightness(140%);
+}
+
+if stylus-hal-style in ("Nocturne" "Aurora" "Deep-Ocean" "Obsidian" "Catppuccin" "Ever-forest" "Ember" "Tokyo-Night" "Sarif-industries"){
+.hal-main-search-button{
+    color: var(--couleur-1-survol) !important;
+}
+}
+#homepage-search button {
+	right: 0;
+	top: -10px !important;
+	z-index: 3;
+}
+/* -- Positionnement de bouton dropdown recherches avancÃ©es + couleur (harmonisation) -- */
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+.hal-main-advsearch-button {
+    color: var(--couleur-1);
+    top: -32px;
+    filter: brightness(140%);
+}
+if stylus-hal-style in ("Nocturne" "Aurora" "Deep-Ocean" "Obsidian" "Catppuccin" "Ever-forest" "Ember" "Tokyo-Night" "Sarif-industries"){
+.hal-main-advsearch-button{
+    color: var(--couleur-1-survol) !important;
+}
+}
+/* -- Style et taille du menu dÃ©roulant  -- */
+/* ------------------------------------------------------------- */
+
+.dropdown-menu.show {
+    background-color: var(--couleur-premier-plan)!important;
+    max-height: fit-content !important;
+    border-radius: 5px!important;
+    box-shadow: var(--box-shadow);
+    padding: 7px 8px !important;
+}
+#nb-doc-checked {
+	color: var(--texte-couleur);
+	cursor: default;
+}
+
+/* -- Menu deroulant dans la barre de recherche avancee -- */
+/* -----------------------------------------------------------------------------------*/
+
+.input-group.show > .dropdown-menu.show {
+    border: var(--widget-border);
+    max-height: 333px !important;
+    padding: 10px !important;
+}
+
+/* - Couleur du texte dans le menu deroulant dans la barre de recherche avancee -- */
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+ul.dropdown-menu a {
+    color: var(--texte-couleur);
+}
+ul.dropdown-menu li:not(.not-white):hover a{
+    color: var(--texte-couleur-blanc)!important;
+
+}
+
+
+/* -- Hauteur des elements dans la sous div de main  -- */
+
+.section-corps.row {
+    margin-top: 25px;
+}
+
+/* ===================== Zone Txt Recherches avancÃ©es ===================== */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+/*  -- Couleur des en-tÃªte Recherche avancee  -- */
+/* ----------------------------------------------------------------- */
+
+div.form-group.row label {
+    color: var(--texte-couleur);
+}
+/*  -- Couleur des champs obligatoire -- */
+/* ------------------------------------- */
+div.form-group.row label.required::after {
+	color: var(--couleur-1)!important;
+}
+/*  -- Couleur du titre Recherche avancee  -- */
+/* ----------------------------------------------------------- */
+
+#searchHeaderList #advSearchHeader h3, #searchHeaderList #solrSearchHeader h3 {
+    color: var(--texte-couleur) !important;
+    filter: brightness(140%);
+}
+
+
+
+/* -- Hauteur des zones textes recherches avancÃ©es -- */
+/* -------------------------------------------------------------------------- */
+
+div.form-group.row input.input-flex, .input-group > .custom-file, .input-group > .custom-select, .input-group > .form-control, .input-group > .form-control-plaintext { 
+    height: 35px;
+}
+
+/* ============== Couleur des Btns Recherches avancÃ©es/experte =============== */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+div.form-group.row span.input-group-btn {
+	background-color: var(--bouton-1-background);
+	margin-left: 10px;
+	border-radius: 3px;
+	transition: var(--transition);
+}
+div.form-group.row span.input-group-btn:hover {
+	background-color: var(--bouton-hov-background);
+}
+
+
+
+
+#searchHeaderList #advSearchHeader .mt-3 button, #searchHeaderList #solrSearchHeader .mt-3 button {
+	padding: 13px 32px 9px;
+	background-color: var(--bouton-background) !important;
+	border-radius: 3px;
+	color: var(--texte-couleur-blanc);
+	transition: var(--transition);
+	bottom: 74px;
+}
+
+#searchHeaderList #advSearchHeader .mt-3 button:hover, #searchHeaderList #solrSearchHeader .mt-3 button:hover {
+    background-color: var(--bouton-hov-background) !important;
+    color: var(--texte-couleur-blanc) !important;
+}
+
+
+/* -- Couleur des bouton tel que lancer la recherche  + (au passage de la souris)  -- */
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+#submit-button {
+	background-color: var(--bouton-background) !important;
+	border-radius: 3px!important;
+	padding: 12px 40px 10px;
+	color: var(--texte-couleur-blanc);
+}
+#submit-button:hover {
+    background-color: var(--bouton-hov-background)!important;
+}
+.hal-visualize-button {
+    background-color: var(--bouton-1-background);
+    border-radius: 3px !important;
+    padding: 12px 40px 10px;
+    margin-bottom: 23px;
+    transition: var(--transition);
+}
+.hal-visualize-button:hover {
+    background-color: var(--bouton-hov-background);
+}
+.section-content.section-shadow.hal-visualize-button.widget-files {
+    background-color: var(--bouton-background)!important;
+}
+.section-content.section-shadow.hal-visualize-button.widget-files:hover {
+    background-color: var(--bouton-hov-background)!important;
+}
+
+/* -- Quand il n'y a pas de ficher -- */
+/* -------------------------------------------- */
+.section-content.widget-files div.file.not {
+    color: var(--texte-couleur-blanc);
+    cursor: pointer;
+}
+/* -- Hauteur bouton la recherche experte -- */
+/* ------------------------------------------------------------ */
+
+#submit-element {
+bottom: unset;
+}
+
+/* -- Suppression du hover obsolete des boutons ajouter + (au passage de la souris)  -- */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+div.form-group.row .btn-group-sm > .btn-primary.btn, div.form-group.row .btn-primary.btn-sm {
+    margin-left: unset;
+}
+
+/* -- Correctif des boutons ajouter + (au passage de la souris)  -- */
+/* ---------------------------------------------------------------------------------------- */
+
+.input-group span.input-group-btn {
+width: unset;
+}
+.input-group span.input-group-btn button:hover {
+    background-color: transparent;
+}
+.btn.btn-sm.btn-primary.form-btn-multi.form-btn-add:focus {
+    box-shadow: unset;
+}
+
+/* ================== Couleur Btns DropDown R-avancÃ©es ==================== */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+/* -- Bouton dropdown (couleur et style) -- */
+/* --------------------------------------------------------- */
+
+div.form-group.row button.btn-primary, div.form-group.row button.dropdown-toggle {
+    color: var(--texte-couleur-blanc);
+    font-family: revert;
+}
+
+.input-group .form-btn-lang {
+    background: var(--bouton-1-background) !important;
+    border: none !important;
+    transition: var(--transition);
+}
+.input-group .form-btn-lang:hover {
+    background: var(--bouton-hov-background) !important;
+}
+.btn.btn-sm.btn-default.dropdown-toggle.form-btn-lang{
+    background: var(--bouton-background) !important;
+    border-color: var(--bouton-background) !important;
+    color: var(--texte-couleur-blanc);
+    border: none !important;
+    border-radius: 3px 0px 0px 3px;
+    transition: var(--transition);
+}
+.btn.btn-sm.btn-default.dropdown-toggle.form-btn-lang:hover{
+    background-color: var(--bouton-hov-background) !important;
+    border-color: var(--bouton-hov-background) !important;
+}
+.btn.btn-sm.btn-default.dropdown-toggle.form-btn-lang:focus {
+    box-shadow: none;
+}
+.dropdown-divider {
+    border-top: 1px solid var(--texte-couleur);
+}
+
+#document:focus, #author:focus, #structure:focus, #qa:focus,
+#document1:focus, #author1:focus, #structure1:focus, #qa1:focus,
+#document2:focus, #author2:focus, #structure2:focus, #qa2:focus,
+#document3:focus, #author3:focus, #structure3:focus, #qa3:focus,
+#document4:focus, #author4:focus, #structure4:focus, #qa4:focus,
+#document5:focus, #author5:focus, #structure5:focus, #qa5:focus,
+#document6:focus, #author6:focus, #structure6:focus, #qa6:focus,
+#document7:focus, #author7:focus, #structure7:focus, #qa7:focus,
+#document8:focus, #author8:focus, #structure8:focus, #qa8:focus,
+#document9:focus, #author9:focus, #structure9:focus, #qa9:focus,
+#document10:focus, #author10:focus, #structure10:focus, #qa10:focus {
+    box-shadow: unset;
+    border-color: var(--couleur-1) !important;
+}
+
+form input.form-control:focus, .form-meta .row textarea:focus, .form-meta .row .selection:focus, .form-control:focus, .form-meta .row select:focus, #date-id:focus, #writingDate-id:focus, #edate-id:focus, #aut_new #searchAuthor:focus, .load-by-id.input-group button:focus, .load-by-id.input-group input:focus {
+    box-shadow: unset !important;
+    border-color: var(--couleur-1) !important;
+}
+/* ===================== Style des elements dans les page du Menu Admin -> Apparence ====================== */
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+
+/* -- Style des elements ajoutable dans la collection / portail ( Menu / Ressource etc...) -- */
+/* --------------------------------------------------------------------------------------------- */
+
+.table-hover tbody tr {
+    transition: var(--transition);
+}
+.table-hover tbody tr:hover {
+	background: #8f8f8f70 !important;
+}
+.edit-navigation .ui-sortable li > div, #list_typdoc li > table {
+    background: #cccccc70!important;
+    transition: var(--transition);
+}
+.edit-navigation .ui-sortable li:hover div:hover, #list_typdoc li > table:hover {
+    background: #cacaca !important;
+}
+.table.table-striped.table-hover a {
+	color: var(--texte-couleur) !important;
+}
+.table.table-striped.table-hover tbody tr:hover {
+	color: var(--texte-couleur);
+	background-color: #8f8f8f70 !important;
+}
+/* ===================== Style des page avec Tableau ====================== */
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* -- Ajustement de la zone de recherche dans le volet de gauche -- */
+/* --------------------------------------------------------------------------------------------- */
+
+.secondary-search {
+    border-bottom: 1px solid var(--couleur-2);
+    margin: 0px!important;
+    display: block;
+    height: 28px;
+    line-height: 19px;
+    padding: 0px 0px 0px 5px;
+}
+.secondary-search input {
+    background: none;
+    border: none;
+    width: 17vw !important;
+    margin-top: 5px;
+}
+.icon-search.icon-large {
+    display: block;
+    position: relative;
+    float: right;
+    right: 5px;
+    top: 5px;
+}
+
+/* -- Bouton Enregistrer la recherche -- */
+/* ---------------------------------------------------- */
+
+.results-header .btn-label {
+    left: -19px;
+    padding: 7px 11px;
+    line-height: 11px;
+}
+
+
+/* -- Style du Texte Resultats + ajout de l'icone de loupe a gauche -- */
+/* --------------------------------------------------------------------------------------------- */
+
+.results-header .number-result {
+    background-color: var(--bouton-1-background);
+    padding: 1px 10px;
+    border-radius: 3px;
+    transition: var(--transition);
+    color: var(--texte-couleur-blanc);
+}
+
+.results-header .number-result::before {
+    content: "\e95c";
+    font-family: icomoon;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+/* -- Marge entre le texte resultat et les mots cles -- */
+/* ---------------------------------------------------------------------- */
+
+.ActiveFiltersList {
+    margin-top: 15px;
+}
+
+
+/* -- Style de bouton pagination -- */
+/* --------------------------------------------- */
+.focus-round.page-item.num-page {
+    border-radius: 3px;
+    width: 30px;
+    justify-content: center;
+    display: inline-flex;
+    border: 1px solid var(--bouton-background);
+    background-color: var(--widget-background);
+}
+/* -- Style des bouton Pagination -- */
+/* ------------------------------------------------ */
+
+ul.pagination li {
+    padding-bottom: 6px;
+    transition: var(--transition);
+}
+
+/* -- Bouton pagination Actif -- */
+/* ---------------------------------------- */
+.pagination li.active {
+	border-radius: 3px;
+	justify-content: center;
+	display: inline-flex;
+	border: 1px solid var(--bouton-background);
+	background-color: var(--bouton-background);
+	color: var(--texte-couleur-blanc);
+}
+
+html body.env-production main div#container section.section-corps div.row div.col-md-10 div.corps div.section-shadow.p-4 div.btn-group div.btn-group ul.pagination.pagination-sm li.active{
+    color: var(--texte-couleur-blanc);
+}
+
+.active.page-item.num-page {
+	width: 30px;
+	line-height: 19px;
+}
+/* -- Bouton pagination Hover -- */
+/* ------------------------------------------- */
+.focus-round.page-item.num-page:hover {
+    background-color: var(--bouton-hov-background);
+    border-color: var(--bouton-hov-background);
+}
+
+/* -- Style de bouton pagination Before & Next -- */
+/* ------------------------------------------------------------------ */
+.focus-round.next-prev.page-item {
+    border-radius: 25px;
+    width: 34px;
+    justify-content: center;
+    display: inline-flex;
+    border: 1px solid var(--bouton-background);
+    background-color: var(--widget-background);
+    padding: 7px 3px 5px 3px;
+}
+.focus-round.next-prev.page-item:hover {
+    background-color: var(--bouton-hov-background);
+    border-color: var(--bouton-hov-background);
+}
+.focus-round.next-prev.page-item:hover .icon-consulter{
+    color: var(--texte-couleur-blanc);
+}
+
+/* -- Couleur du texte dans les boutons pagination cliquable -- */
+/* -------------------------------------------------------------------------------------- */
+.pagination li a {
+    color: var(--texte-couleur);
+}
+ul.pagination li .page {
+    color: var(--texte-couleur);
+}
+
+.focus-round.page-item.num-page:hover a {
+    color: var(--texte-couleur-blanc);
+}
+
+
+
+
+/* -- Style des bouton Tries par + bouton 3 point vertical plus d'option -- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+button[data-toggle-second="tooltip"] {
+    border: 1px solid transparent;
+    border-radius: 180px;
+    color: var(--texte-couleur);
+}
+button[data-toggle-second="tooltip"]:hover, button[data-toggle-second="tooltip"]:focus, .show > button[data-toggle-second="tooltip"].btn-secondary.dropdown-toggle, .focus-round:focus, .focus-round:hover {
+	background-color: unquote("color-mix(in srgb, var(--couleur-premier-plan) 50%, var(--couleur-mix-blanc))");
+    border: var(--widget-border);
+}
+span.subtext {
+    color: var(--texte-couleur);
+}
+.dropdown-sort button {
+    color: var(--texte-couleur-action);
+}
+.focus-round:focus, .focus-round:hover, .show > button[data-toggle-second="tooltip"].btn-secondary.dropdown-toggle, button[data-toggle-second="tooltip"]:focus, button[data-toggle-second="tooltip"]:hover {
+    color: var(--texte-couleur-action);
+}
+
+/* -- DropDown des boutons tri -- */
+/* -------------------------------------------- */
+
+.dropdown-tools li > button, .dropdown-tools li > a {
+    color: var(--texte-couleur);
+    padding: 5px 11px;
+    border-radius: 5px;
+    transition: var(--transition);
+}
+. dropdown dropdown-sort show > #dropmenusort .active {
+    background-color: var(--bouton-background);
+}
+
+.dropdown-tools li > a:hover,  .dropdown-tools li.active:hover{
+    background-color: var(--bouton-background)!important;
+}
+.dropdown-tools li.active, .dropdown-tools li:not(.nb-doc-checked):focus, .dropdown-tools li:not(.nb-doc-checked):hover {
+	background-color: var(--bouton-background)!important;
+}
+.dropdown-tools li.active {
+    background-color: var(--bouton-1-background);
+    transition: var(--transition);
+}
+.not-white.item-action-unshare:hover .btn.red {
+color: var(--texte-couleur-blanc) !important;
+}
+.not-white.item-action-delete:hover .btn.red{
+color: var(--texte-couleur-blanc) !important;
+}
+.dropdown-menu.show > .dropdown-item {
+    border-radius: 3px;
+    color: var(--texte-couleur);
+    transition: var(--transition);
+}
+.dropdown-menu.show > .dropdown-item:hover {
+    background-color: var(--bouton-background)!important;
+    color: var(--texte-couleur-blanc);
+	font-weight: initial;
+}
+.dropdown-menu {
+	color: var(--texte-couleur);
+}
+/* --  Realignement des picto -- */
+/* -------------------------------------------- */
+.dropdown-actions li a i, .dropdown-actions li button i {
+    padding-top: 3px;
+}
+
+
+
+/* -- Tableau dans les page recherche  ...  -- */
+/* ----------------------------------------------------------- */
+
+.table-white tr {
+    transition: var(--transition);
+}
+#mydeposit tbody #ownsub tr:hover, #partage_table tbody tr:hover, .table-white tr:hover, #mydeposit tbody #ownsub tr:focus, #partage_table tbody tr:focus, .table-white tr:focus {
+    background-color: #8f8f8f70;
+}
+#mydeposit tbody #ownsub tr, #partage_table tbody tr, .table-white tr {
+    border-bottom: 1px solid var(--bouton-background);
+}
+
+/* --  Filtrer vos résultats  (couleur) -- */
+/* ------------------------------------------------- */
+
+.content-facet a {
+    color: var(--texte-couleur);
+}
+.text-muted {
+	color: var(--texte-couleur) !important;
+}
+
+/* -- Texte des citation (couleur) -- */
+/* --------------------------------------------- */
+
+.results-table .authors-results a, .table-white .authors-results {
+    color: var(--texte-couleur-action)!important;
+    filter: brightness(130%);
+}
+
+if stylus-hal-style in ("LemonMatcha"){
+.results-table .authors-results a, .table-white .authors-results{
+    filter: brightness(100%);
+}
+}
+.results-table .citation-results, .results-table .citation-results a {
+    color: var(--texte-couleur);
+}
+
+/* -- Bouton/label Filtre resultat -- */
+/* --------------------------------------------- */
+
+.results-header > div:nth-child(2) .hal-bguser {
+    background-color: var(--bouton-background);
+    padding: 4px 10px;
+    border-radius: 6px;
+    transition: var(--transition);
+    border: 1px solid transparent;
+    margin: 0px 40px 3px -40px;
+
+}
+.results-header > div:nth-child(2) .hal-bguser:hover {
+    background-color: var(--couleur-premier-plan);
+    border-color: var(--bouton-hov-background);
+    color: var(--texte-couleur-action);
+}
+.hal-bguser.removeUser:hover .icon-exit {
+    color: #000 !important;
+}
+.hal-bguser.removeUser > .user-name {
+    cursor: default;
+}
+
+
+/* -- Couleur de l'icone Favoris/Bookmark -- */
+/* ----------------------------------------------------------- */
+
+#bookmark-button, #bookmark-fill-button, .bookmark-button, .bookmark-fill-button, .bookmark-modal-button {
+    color: var(--texte-couleur-action);
+    filter: brightness(140%);
+}
+.bookmark-modal-button {
+    color: var(--texte-couleur-action);
+    filter: brightness(140%);
+}
+
+/* -- Bouton/labels Doctype -- */
+/* --------------------------------------- */
+
+.browse-filter, .doc-arxiv, .doc-identifier, .doc-orcid, .typdoc {
+    background-color: var(--bouton-background);
+    border-radius: 3px
+}
+/* -- Bouton Hal-00000v0 -- */
+/* ----------------------------------- */
+
+.results-table .halId-results {
+    font-size: 0.85rem;
+    background-color: var(--bouton-1-background);
+    padding: 5px;
+    border-radius: 3px;
+    transition: var(--transition);
+}
+.results-table .halId-results a {
+    color: var(--texte-couleur-blanc);
+}
+.halId-results:hover {
+    background-color: var(--bouton-hov-background);
+}
+
+/* -- Background des labels annee -- */
+/* ------------------------------------------------ */
+
+.header-section .journal, .header-section .year {
+    background-color: var(--bouton-1-background);
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: var(--texte-couleur-blanc);
+}
+.year.strong {
+    padding: 4px 10px 5px;
+}
+/* -- Icone Picto "icomoon" native de Hal devant l'etiquette du doctype -- */
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+.typdoc[class*="label_"]::before, .label[class*="label-"]::before { /* -- Selecteur de classe qui commence par typdoc et label suivi de label et du pseudo element before -- */ 
+    font-family: icomoon;
+    width: 15px;
+    display: inline-flex;
+    margin-right: 5px;
+}
+
+.typdoc.label_ART::before, .label.label-ART::before {content: "\e927";}
+.typdoc.label_COMM::before, .label.label-COMM::before {content: "\e928";}
+.typdoc.label_SOFTWARE::before, .label.label-SOFTWARE::before {content: "\e90f";}
+.typdoc.label_POSTER::before, .label.label-POSTER::before {content: "\e932";}
+.typdoc.label_PROCEEDINGS::before, .label.label-PROCEEDINGS::before {content: "\e92b";}
+.typdoc.label_ISSUE::before, .label.label-ISSUE::before {content: "\e914";}
+.typdoc.label_OUV::before, .label.label-OUV::before {content: "\e930";}
+.typdoc.label_UNDEFINED::before, .label.label-UNDEFINED::before {content: "\e935";}
+.typdoc.label_THESE::before, .label.label-THESE::before {content: "\e934";}
+.typdoc.label_COUV::before, .label.label-COUV::before {content: "\e929";}
+.typdoc.label_HDR::before, .label.label-HDR::before {content: "\e926";}
+.typdoc.label_TRAD::before, .label.label-TRAD::before {content: "\e998";}
+.typdoc.label_REPORT::before, .label.label-REPORT.label-warning::before {content: "\e933";}
+.typdoc.label_VIDEO::before, .label.label-VIDEO::before {content: "\e90e";}
+.typdoc.label_OTHER::before, .label.label-OTHER::before {content: "\e92f";}
+.typdoc.label_IMG::before, .label.label-IMG::before {content: "\e92c";}
+.typdoc.label_NOTICE::before, .label.label-NOTICE::before {content: "\e94b";}
+.typdoc.label_MEM::before, .label.label-MEM::before {content: "\e911";}
+.typdoc.label_MAP::before, .label.label-MAP::before {content: "\e92e";}
+.typdoc.label_SON::before, .label.label-SON::before {content: "\e912";}
+.typdoc.label_ETABTHESE::before, .label.label-ETABTHESE::before {content: "\e934";}
+.typdoc.label_SYNTHESE::before, .label.label-SYNTHESE::before {content: "\e914";}
+.typdoc.label_NOTE::before, .label.label-NOTE::before {content: "\e914";}
+.typdoc.label_PRESCONF::before, .label.label-PRESCONF::before {content: "\e914";}
+.typdoc.label_PATENT::before, .label.label-PATENT::before {content: "\e931";}
+.typdoc.label_LECTURE::before, .label.label-LECTURE::before {content: "\e92d";}
+.typdoc.label_BLOG::before, .label.label-BLOG::before {content: "\e971";}
+
+
+/* ========== Tableau en page Moderation ========== */ 
+/* ================================================== */
+
+/* -- Disposition ligne et Background Tableau -- */
+/* ---------------------------------------------------------------- */
+
+.table td, .table th {
+    padding: 7px 5px !important;
+    vertical-align: middle!important;
+}
+
+
+
+.table-bordered, .table-bordered td, .table-bordered th, .table tbody + tbody {
+    border: 0px solid!important;
+    border-top: 1px solid var(--bouton-1-hov-background) !important;
+}
+.table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: transparent!important;
+}
+
+
+
+
+
+#moderate > tbody > tr {
+    transition: var(--transition);
+    border-left: 6px solid transparent;
+}
+#moderate > tbody > tr:hover {
+   background-color: #a0a0a078 !important;
+   border-left-color: var(--bouton-1-background);
+   transform: translateX(3px);
+}
+
+/* -- Bouton Voir -- */
+/* ----------------- */
+
+.btn.btn-primary.btn-sm {
+	background: var(--bouton-background);
+	color: var(--texte-couleur-blanc);
+	border-radius: 5px;
+	border-color: var(--bouton-background);
+}
+.btn.btn-primary.btn-sm:hover {
+	background: var(--bouton-hov-background);
+	color: #ffffff;
+	border-radius: 5px;
+	border-color: var(--bouton-hov-background);
+}
+.btn.btn-sm.btn-primary {
+	color: var(--texte-couleur-blanc) !important;
+}
+/* ============================= Page Depot ========================== */
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+/* -- Style du fond des elements du block de gauche -- */
+
+/* -- Version du document -- */
+/* ------------------------------------- */
+
+.bg-beige.versions.pt-1.pb-1 {
+    background-color: transparent;
+    color: var(--texte-couleur);
+    display: block;
+}
+.bg-beige.versions span:first-child, .hal-bgtext.versions span:first-child {
+    margin-left: 0px;
+}
+
+.bg-beige.versions span:first-child, .hal-bgtext.versions span:first-child {
+    color: var(--texte-couleur)!important;
+}
+.bg-beige.versions span:nth-child(2) a, .hal-bgtext.versions span:nth-child(2) a {
+    color: var(--texte-couleur-blanc) !important;
+    background-color: var(--bouton-1-background);
+    padding: 7px 6px;
+    border-radius: 5px;
+    display: inline-flex;
+    transition: var(--transition);
+}
+
+
+.bg-beige.versions span:nth-child(2) a:hover, .hal-bgtext.versions span:nth-child(2) a:hover {
+    background-color: var(--bouton-1-hov-background);
+}
+
+#metrics {
+    border: 0px;
+}
+.metrics-views.col-6 {
+	padding: 0px;
+}
+#metrics .metrics-views:nth-child(2) {
+	border-left: unset;
+}
+/* -- Version du document identifiants et DOI -- */
+/* ------------------------------------------------------ */
+
+.identifier-list ul {
+    color: var(--texte-couleur);
+}
+
+.identifier-list > ul:nth-child(1) > li:nth-child(1) > span:nth-child(2) {
+    background-color: var(--bouton-background);
+    padding: 3px 10px;
+    border-radius: var(--border-radius);
+    color: var(--texte-couleur-blanc);
+    display: inline-flex;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+
+.identifier-list a {
+    background-color: var(--bouton-background);
+    display: inline-flex;
+    padding: 3px 10px;
+    border-radius: var(--border-radius);
+    color: var(--texte-couleur-blanc) !important;
+    transition: var(--transition);
+}
+
+.identifier-list a:hover {
+    background-color: var(--bouton-hov-background);
+}
+
+/* ================== Liste complète des métadonnées =================== */
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+/* -- Style du titre du popup -- */
+/* --------------------------------------- */
+
+#metadatas_Modal .title-table {
+    color: var(--texte-couleur-blanc);
+    background-color: var(--bouton-background);
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+
+/* -- Style des badge -- */
+/* ----------------------------- */ 
+
+#metadatas_Modal .grey-badge {
+    background-color: var(--bouton-background);
+    border-radius: 3px;
+    color: var(--texte-couleur-blanc);
+}
+
+
+/* -- Couleur du texte -- */
+/* ------------------------------ */
+.table {
+    color: var(--texte-couleur)!important;
+}
+
+/* -- Style du Tableau -- */
+/* ----------------------------- */
+.table-bordered th, .table-bordered td {
+    border: var(--widget-border);
+}
+
+/* -- Zone Nom de la revue -- */
+/* ------------------------------------- */
+
+.structure-name.valid, .referential.valid, .structure-name.old, .referential.old, .structure-name.incoming, .referential.incoming{
+    color: var(--texte-couleur-blanc);
+    padding: 1px 4px 1px 8px;
+    border-radius: 3px;
+}
+
+.structure-name.valid, .referential.valid {
+    background-color: #468847;
+    color: var(--texte-couleur-blanc) !important;
+}
+.structure-name.old, .referential.old {
+    background-color: #AA8F52;
+    color: var(--texte-couleur-blanc) !important;
+}
+.structure-name.incoming, .referential.incoming {
+    background-color: #B94A48;
+    color: var(--texte-couleur-blanc) !important;
+}
+
+/* -- Cadre Sherpa-Romeo -- */ 
+/* ------------------------------------- */ 
+
+blockquote .referentiel {
+    border: var(--widget-border);
+}
+.referentiel a{
+    font-weight: bold;
+    filter: brightness(130%);
+}
+.sherpa-unknown {
+    border: 1px solid currentColor;
+    color: var(--texte-couleur);
+}
+.sherpa-unknown.p-1.mt-1.text-small {
+	display: inline-flex;
+}
+/* ========================= Cartouche Auteur ========================= */
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+/* -- Style du cartouche --*/ 
+/* -------------------------------- */
+
+.structures.bg-beige {
+    background-color: var(--couleur-arriere-plan);
+    margin-bottom: 5px;
+}
+.hal-bgtext, .bg-beige {
+    background-color: var(--couleur-arriere-plan);
+    border-radius: var(--border-radius);
+    max-width: initial!important;
+}
+#authors-detailed > .container {
+    max-width: initial;
+}
+.structures {
+    margin-top: 8px;
+    padding: 8px 15px 5px;
+}
+
+div.authors {
+    background: transparent!important;
+	max-height: unset;
+}
+
+/* -- Couleur Cadre CVHAL -- */
+/* ------------------------- */
+
+.col-lg-4 .bg-beige .detailed-resume {
+    border: 1px solid var(--bouton-background);
+    background-color: var(--bouton-background);
+    border-radius: 3px;
+}
+.col-lg-4 .bg-beige .detailed-resume a {
+    color: var(--texte-couleur-blanc);
+}
+
+/* -- Couleur texte auteurs en vue details -- */
+/* ---------------------------------------------------------- */
+
+.col-lg-4 .bg-beige > a {
+    color: var(--texte-couleur-action);
+    font-weight: 700;
+}
+.col-lg-4 .bg-beige a {
+    color: var(--texte-couleur);
+}
+/* --  Couleur texte affiliation + passage de la souris -- */
+/* -------------------------------------------------------------------------- */
+
+section.flex-74 .authors .btn-popover, section.flex-74 .structures .btn-popover, #preview-doc .authors .btn-popover, #preview-doc .structures .btn-popover {
+    color: var(--texte-couleur);
+}
+
+#preview-doc .authors .btn-popover:hover, #preview-doc .structures .btn-popover:hover, section.flex-74 .authors .btn-popover:hover, section.flex-74 .structures .btn-popover:hover {
+    color: var(--texte-couleur-action-hov);
+}
+/* -- Numero avant affiliations -- */
+/* ------------------------------------------- */
+
+.structures div:nth-child(2) span {
+    background-color: var(--bouton-background);
+    padding: 2px 8px;
+    color: var(--texte-couleur-blanc);
+    border-radius: var(--border-radius);
+    display: inline-block;
+    margin: 2px;
+}
+
+/* -- Picto avant affiliations -- */
+/* -------------------------------------- */
+.structures div:first-child {
+    color: var(--texte-couleur);
+    top: 0px;
+}
+
+/* ===================== Resume ==================== */
+/* -------------------------------------------------------------------------------------- */
+
+.abstract .abstract-content.active, .keywords .abstract-content.active {
+    border: 1px solid currentColor;
+    padding: 10px 15px 0px;
+    border-radius: 3px;
+}
+
+/* ===================== Style des differents boutons ==================== */
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+/* -- Bouton format de la citation  -- */
+/* ------------------------------------------------ */
+
+div.deposit-citation-component .form-select {
+    background-color: transparent!important;
+    border: 1px solid var(--bouton-background)!important;
+    border-radius: 3px!important;
+    color: var(--texte-couleur)!important;
+}
+div.deposit-citation-component .form-floating > .form-control-plaintext ~ label, div.deposit-citation-component .form-floating > .form-control:focus ~ label, div.deposit-citation-component .form-floating > .form-control:not(:placeholder-shown) ~ label, div.deposit-citation-component .form-floating > .form-select ~ label {
+    color: var(--texte-couleur-action)!important;
+}
+div.deposit-citation-component .form-floating > .form-control-plaintext ~ label::after, div.deposit-citation-component .form-floating > .form-control:focus ~ label::after, div.deposit-citation-component .form-floating > .form-control:not(:placeholder-shown) ~ label::after, div.deposit-citation-component .form-floating > .form-select ~ label::after {
+    background-color: transparent!important;
+}
+
+
+/* -- Bouton affichier plus de details  -- */
+/* ---------------------------------------------------- */
+
+.authors + button {
+    border: 1px solid var(--bouton-background);
+    color: var(--texte-couleur-action);
+    margin-top: 2px;
+    border-radius: 3px;
+	filter: brightness(125%);
+}
+.authors + button:hover {
+    background-color: var(--bouton-hov-background);
+    border: 1px solid var(--bouton-hov-background);
+    color: var(--texte-couleur-blanc);
+}
+
+#authors-detailed button.btn-hide-show {
+    background-color: var(--bouton-background);
+    border: 1px solid var(--bouton-background);
+    color: var(--texte-couleur-blanc);
+    border-radius: 3px;
+}
+
+
+/* -- Exporter et Collection -- */
+/* ------------------------------------- */
+
+.hal-bgtext, a.hal-bgtext {
+    background-color: var(--bouton-background);
+    line-height: 2rem !important;
+    display: inline-block !important;
+    padding: 0px 12px;
+    margin: 5px 5px 0px 0px;
+    color: var(--texte-couleur-blanc);
+    border-radius: 3px;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.hal-bgtext:hover, a.hal-bgtext:hover {
+    background-color: var(--couleur-premier-plan);
+    border-color: var(--bouton-hov-background);
+    color: var(--texte-couleur-action);
+}
+
+/* -- Bouton Langue des Mots cles + Resume + Titre -- */
+/* -------------------------------------------------------------------------- */
+
+.abstract .btn-group button.btn.active, .keywords .btn-group button.btn.active, .btn-group-lang button.btn.active {
+    background-color: var(--bouton-background);
+    color: var(--texte-couleur-blanc);
+    border-radius: 3px;
+    transition: var(--transition);
+}
+.abstract .btn-group button.btn.active:hover, .keywords .btn-group button.btn.active:hover, .btn-group-lang button.btn.active:hover{
+    background-color: var(--bouton-hov-background);
+}
+
+.abstract .btn-group button.btn, .keywords .btn-group button.btn, .btn-group-lang button.btn {
+    color: var(--texte-action);
+    border: 1px solid var(--bouton-background);
+    border-radius: var(--radius);
+    padding: 4px 10px 5px;
+}
+
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-group:not(:last-child) > .btn {
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+}
+
+/* -- Domaines  -- */
+/* --------------------- */
+
+.domains a.hal-bgtext, .keywords a.hal-bgtext {
+    background-color: var(--bouton-background);
+    border-radius: 3px;
+    transition: var(--transition);
+    border: 1px solid transparent;
+}
+.domains a.hal-bgtext:hover, .keywords a.hal-bgtext:hover {
+    background-color: var(--couleur-premier-plan);
+    border-color: var(--bouton-hov-background);
+    color: var(--texte-couleur-action);
+}
+/* -- Autres Bouton (Recuperer les metadonnees - Ajouter une relation) + (au passage de la souris) -- */
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.hal-option-button {
+    background-color: var(--bouton-1-background);
+    border-radius: 3px;
+    color: var(--texte-couleur-blanc)!important;
+    padding: 9px 20px;
+    transition: var(--transition);
+}
+.hal-option-button:hover {
+    background-color: var(--bouton-hov-background);
+}
+.btn.btn-labeled.hal-option-button.hal-tools-results-button {
+	color: var(--texte-couleur-blanc);
+}
+
+/* ========================== ( Volet de gauche widget citation ) ========================== */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+.card {
+    background-color: var(--widget-background);
+    border: 0px;
+}
+.deposit-citation-component.section-shadow.card{
+    border-radius: var(--border-radius) !important;
+}
+
+.card-header {
+    background-color: var(--widget-background);
+    border-bottom: var(--widget-border);
+}
+.card-body {
+    background-color: var(--widget-background);
+    color: var(--texte-couleur);
+    border-top: 0px;
+}
+.card-header {
+    border-bottom: 0px;
+}
+.card .card-footer, .card .card-header {
+    background-color: var(--widget-background)!important;
+    border-radius: var(--border-radius);
+}
+.card-footer:last-child {
+    border-radius: 0px 0px 12px 12px;
+}
+.btn.drop-down.title-facet {
+	color: var(--texte-couleur-blanc);
+}
+
+
+/* -- Volet de Droit Menu des action en moderation/visu des depots + ( au passage de la souris) -- */
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* -- Correction d'un bug qui corrige chevauchent de ce menu -- */
+/* ----------------------------------------------------------------------------------------- */
+
+#accordion-actions {
+    z-index: 6 !important;
+}
+
+#accordion-actions {
+   right: -7px;
+}
+#accordion-actions ul li div.btn-accordion {
+   transition: width var(--transition);
+}
+#accordion-actions ul li a, #accordion-actions ul li button:not(.btn-tampon) {
+   background-color: var(--bouton-1-background);
+   width: 315px!important;
+   border-left: 5px solid transparent;
+   margin-left: -10px;
+   transition: var(--transition);
+}
+#accordion-actions ul li a:hover, #accordion-actions ul li button:not(.btn-tampon):hover {
+   background-color: var(--bouton-hov-background);
+   transform: translateX(-15px);
+   border-left: 5px solid var(--bouton-background);
+}
+
+/* ======================= Autres elements ======================= */
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* -- Background + En-tête Apercus et Historique -- */
+/* --------------------------------------------------------------------- */
+
+.panel-doc > button:first-child {
+   background-color: var(--bouton-background) !important;
+   color: var(--texte-couleur-blanc) !important;
+   border-radius: 12px 12px 0px 0px !important;
+   border-bottom: 0px;
+}
+.panel-doc > button:first-child:hover {
+   background-color: var(--bouton-hov-background) !important;
+}
+.btn.drop-down.collapsed {
+   border-radius: 12px !important;
+}
+.panel-doc .panel-doc-detailed {
+   background-color: var(--couleur-arriere-plan);
+   border-radius: 0px 0px 12px 12px;
+}
+
+#history-detailed {
+   border: 0px solid #e8e8e8;
+   background-color: var(--couleur-arriere-plan);
+   border-radius: 0px 0px 12px 12px;
+}
+
+/* -- Vignette du pdf -- */
+/* ---------------------------- */
+
+/* -- Couleur du texte et du l'icone --*/
+/* ------------------------------------------------ */
+
+#list-thumbnail-viewer span, #list-thumbnail-viewer .licence-view a, #list-thumbnail-viewer table, .viewer-content span, .viewer-content .licence-view a, .viewer-content table {
+   color: var(--texte-couleur);
+}
+#viewer-detailed > div:nth-child(1) .col-md-2 .thumbnail-viewer .default-thumbnail i {
+   color: var(--texte-couleur);
+}
+
+/* -- Couleur du texte ajouter une annexe --*/
+/* ------------------------------------------------ */
+
+#viewer-detailed > div:first-child .col-md-2 a {
+	color: var(--texte-couleur);
+}
+
+/* -- Couleur et fond de la bordure --*/
+/* ------------------------------------------------ */
+
+#viewer-detailed > div:nth-child(1) .col-md-2 .thumbnail-viewer.active {
+   border: 6px solid var(--bouton-1-background);
+   border-radius: var(--border-radius);
+}
+#viewer-detailed > div:nth-child(1) .col-md-2 .thumbnail-viewer {
+   background-color: transparent;
+}
+
+
+
+ /* -- Couleur du texte du mail dans l'historique  -- */
+/* -------------------------------------------------------------------- */
+.alert small {
+   color: var(--texte-couleur);
+}
+
+ /* -- Style et couleur des badges dans l'historique  -- */
+/* ------------------------------------------------------------------------ */
+
+.alert-history .badge.badge-info {
+   background-color: #1067A3;
+}
+.alert-history .badge.badge-violet {
+   background-color: #747B89;
+   color: var(--texte-couleur-blanc);
+}
+/* -- Texte sous contact du déposant -- */
+/* --------------------------------------------------- */
+
+.submitted-date {
+   background-color: var(--widget-background);
+   border-radius: var(--border-radius);
+   padding: var(--widget-padding);
+   box-shadow: var(--box-shadow);
+   color: var(--texte-couleur);
+   padding-top: 15px;
+}
+
+/* -- Badge Icone Info Metrics -- */
+/* ------------------------------------------ */
+
+.information-component:hover {
+background-color: var(--bouton-hov-background);
+color: #fff;
+}
+
+.badge.information-component {
+   padding: 5px 6px 5px;
+   border-radius: 12px;
+   background-color: var(--bouton-background);
+}
+
+
+/* -- Nom du déposant style bouton -- */
+/* --------------------------------------------------- */
+
+.submitted-date > p:nth-child(1) > a:nth-child(1), .submitted-date > p:nth-child(1) > a:nth-child(2) {
+   background-color: var(--bouton-background);
+   line-height: 2.5rem !important;
+   display: inline-block !important;
+   padding: 0px 12px;
+   margin-top: 5px;
+   color: var(--texte-couleur-blanc);
+   border-radius: 3px;
+   border: 1px solid transparent;
+   transition: var(--transition);
+}
+.submitted-date > p:nth-child(1) > a:nth-child(1):hover, .submitted-date > p:nth-child(1) > a:nth-child(2):hover{
+   background-color: var(--couleur-premier-plan);
+   border-color: var(--bouton-hov-background);
+   color: var(--texte-couleur-action);
+}
+.submitted-date.d-none.d-sm-block p:nth-child(1) {
+    color: transparent;
+    cursor: default;
+}
+
+
+/* =================== Page Notice Synthese et Moderation =================== */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+/* -- Couleur du texte des page   -- */
+/* ---------------------------------------------- */
+
+/* -- Titre de la fonction de la page -- */
+/* ------------------------------------------------- */
+
+.corps > h1:nth-child(1)  {
+    background-color: var(--bouton-hov-background);
+    padding: var(--widget-padding);
+    border-radius: var(--border-radius);
+    color: var(--texte-couleur-blanc);
+}
+
+
+/* -- Disposition ligne et Background Tableau -- */
+/* ---------------------------------------------------------------- */
+
+.table-bordered, .table-bordered td, .table-bordered th, .table tbody + tbody {
+    border: 0px solid!important;
+    border-top: 1px solid var(--bouton-hov-background) !important;
+}
+
+/* ============================= Block Affiliation ========================== */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+.valid-struct, .incoming-struct, .old-struct {
+    display: inline-block;
+    padding: 1px 10px 1px 10px;
+    border-radius: 3px;
+    transition: var(--transition);
+    width: 97%;
+    margin-bottom: 3px;
+}
+
+.valid-struct {
+    background-color: #CAE08E!important;
+    color: #274b1e !important;
+    border: 1px solid #608B37!important;
+}
+
+.incoming-struct {
+    background-color: #F5D1D1!important;
+    color: #4b1e1e !important;
+    border: 1px solid #C9191E!important;
+}
+.old-struct {
+    background-color: #ECDEC3!important;
+    color: #504B26 !important;
+    border: 1px solid #917F5B!important;
+}
+
+
+/* hauteur entre les elements */
+/* -------------------------- */
+.prec {
+	line-height: 25px;
+}
+
+/* -- Label ID Unite et format du depot -- */
+/* ------------------------------------------------------- */
+
+.label.label-default {
+    background: var(--bouton-2-background) !important;
+    border-radius:  5px !important;
+    margin-bottom: 2px;
+    line-height: 22px;
+}
+.structid.label.label-default {
+	background: var(--bouton-1-background) !important;
+	padding: 1px 8px;
+	border-radius: 12px !important;
+	margin-bottom: 5px;
+}
+.label.label-info {
+	background: var(--bouton-1-background);
+	border-radius: 5px !important;
+	margin-bottom: 2px;
+	line-height: 22px;
+}
+
+/* ===================== Page Notice Synthese (bouton) ===================== */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+/* -- Zone du la preview du PDF la grande -- */
+/* ----------------------------------------------------------- */
+
+tr.files > td:nth-child(2) > div:nth-child(1) > iframe:nth-child(1) {
+    height: 900px !important;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* -- Champs Modifiable en version boutton -- */
+/* -------------------------------------------------------------- */
+
+.editable-click, a.editable-click, a.editable-click:hover {
+	background-color: #8f8f8f36;
+	color: var(--texte-couleur);
+	padding: 3px 6px;
+	border-radius: 3px;
+	border: 1px dashed var(--bouton-1-hov-background);
+	text-align: center;
+	line-height: 19px;
+	margin-bottom: 3px;
+	border-bottom: 1px dashed var(--bouton-1-hov-background) !important;
+	
+}
+.label.label-primary.metas.select-filemeta.editable.editable-click {
+    border-color: #337AB7 !important;
+    line-height: 22px;
+	cursor: pointer;
+}
+.metas.text-break {
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+/* -- Champs Modifiable titre -- */
+/* ----------------------------------------- */
+.text-break.multiTextAreaLang.editable.editable-pre-wrapped.editable-click {
+    line-height: 36px;
+    background: unset;
+    border: unset !important;
+    padding: 0px;
+}
+
+
+/* -- Champs Modifiable Resume -- */
+/* ----------------------------------------- */
+.abstract div:first-child, .keywords div:first-child {
+    margin-top: 0px!important;
+}
+
+/* -- Bouton Validation resume apres changement --*/
+/* ----------------------------------------------------------------------- */
+
+.btn.btn-primary.btn-sm.editable-submit{
+   background: var(--bouton-1-background);
+   color: var(--texte-couleur-blanc);
+   border: 0px;
+   border-radius: 3px;
+   padding: 5px 6px 2px;
+}
+.btn.btn-primary.btn-sm.editable-submit:hover {
+   background-color: var(--bouton-hov-background);
+
+}
+
+/* -- Bouton X annulation changement --*/
+/* -------------------------------------*/
+
+.btn.btn-default {
+	color: var(--texte-couleur);
+
+	border-color: var(--couleur-1);
+}
+.btn.btn-default:hover {
+	color: var(--texte-couleur-action-hov);
+}
+/* -- Liens de la PJ style bouton + Icon avant -- */
+/* -------------------------------------------------------------- */
+
+.files a {
+	background-color: var(--bouton-background) !important;
+	border-radius: 5px !important;
+	padding: 8px 8px;
+	color: var(--texte-couleur-blanc) !important;
+	margin-right: 5px;
+}
+
+
+.files a::before {
+    content: "\e901";
+    font-family: 'icomoon';
+    color: var(--texte-couleur-blanc);
+    margin-right: 10px;
+    font-weight: lighter;
+}
+
+/* -- Disposition du menu déroulant dans les boutons Fichier Produit et License -- */
+/* ------------------------------------------------------------------------------- */
+
+.editable-buttons.editable-buttons-bottom {
+    display: inline-block !important;
+    margin-left: 7px !important;
+    margin-top: 1px !important;
+}
+
+.form-inline.editableform.editableform .control-group {
+    margin-bottom: 3px !important;
+}
+
+/* -- Bouton Format Liste deroulante -- */
+/* ---------------------------------------------------- */
+
+.label.label-primary.metas.select-filemeta.editable.editable-click::after {
+	content: "";
+	border-bottom: 0px;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid;
+	color: var(--texte-couleur);
+	display: inline-block;
+}
+
+/* -- Liens Fichiers produits par l'(les) auteur(s)  -- */
+/* ---------------------------------------------------- */
+
+.label.label-default.metas.select-filemeta.mr-1.editable.editable-click {
+	padding: 5px 10px 5px 8px;
+	background-color: transparent !important;
+	color: var(--texte-couleur);
+	border: 1px solid currentColor;
+	border-bottom: 1px solid currentColor !important;
+	cursor: pointer;
+}
+.label.label-default.metas.select-filemeta.mr-1.editable.editable-click::after {
+	content: "";
+	border-bottom: 0px;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid;
+	color: var(--texte-couleur);
+	display: inline-block;
+}
+
+/* -- Liens Licence  -- */
+/* -------------------- */
+
+.label.label-info.mr-1.d-inline {
+	padding: 7px 5px 7px 9px;
+	border-radius: 5px;
+	background-color: transparent !important;
+	border: 1px solid currentColor;
+	color: var(--texte-couleur);
+	display: inline-block !important;
+}
+
+/* ==================== Page Notice Moderation (bouton) ===================== */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* -- En fontion hover -- */
+/* ----------------------------- */
+
+
+.btn.btn-primary.btn-action:hover, .btn.btn-default.btn-action:hover {
+	background-color: transparent !important;
+	color: var(--texte-couleur-action) !important;
+	border-color: var(--bouton-background);
+	filter: brightness(150%);
+}
+
+.btn.btn-danger.btn-action:hover {
+    background-color: transparent !important;
+    color: #dc3545 !important;
+    border-color: #dc3545;
+}
+
+/* -- Responsive  -- */
+/* ----------------------- */
+
+@media (max-width: 1444px) {
+.btn-group, .btn-group-vertical {
+    flex-wrap: wrap;
+}
+.moderation-actions .btn {
+    margin-bottom: 3px;
+}
+}
+
+
+/* ==================== Page Deposer ==================== */
+/* ===================================================== */
+
+/* -- Texte  Je dépose sur HAL" -- */
+
+.color-major-color, .color-major-color a {
+	color: var(--texte-couleur) !important;
+}
+
+/* -- Text Changer Doc Type / vider saisie -- */
+/* ---------------------------------------------------------- */
+
+.color-black {
+    color: var(--texte-couleur) !important;
+}
+
+/* -- Bouton Changer le doctype  -- */
+/* ---------------------------------------------- */
+.hal-secondary-button.show-modal-typdoc {
+    background-color: var(--bouton-1-background);
+    padding: 3px 8px;
+    border-radius: 3px;
+    transition: var(--transition);
+}
+.hal-secondary-button.show-modal-typdoc:hover {
+    background-color: var(--bouton-hov-background)!important;
+}
+
+.hal-secondary-button.show-modal-typdoc span{
+    color: var(--texte-couleur-blanc);
+}
+
+/* -- Bouton Vider et Quitter  -- */
+/* ---------------------------------------- */
+
+.hal-secondary-button.mr-2.mr-lg-4 {
+    background-color: var(--bouton-1-background);
+    padding: 3px 8px;
+    border-radius: 3px;
+    transition: var(--transition);
+}
+.hal-secondary-button.mr-2.mr-lg-4:hover {
+    background-color: var(--bouton-hov-background)!important;
+}
+.hal-secondary-button.border-r-lg.mr-2.mr-lg-4.pr-4.border-dark {
+    padding-right: 8px !important;
+}
+.hal-secondary-button.mr-2.mr-lg-4 span{
+    color: var(--texte-couleur-blanc)!important;
+}
+
+/* --  Marge de la page +déposer -- */
+/* ---------------------------------------------- */
+
+.m-deposit {
+    margin: 15px 30px 10px 30px;
+}
+
+
+/* -- Fenetre Changement de En-Tete -- */
+/* ---------------------------------------------------- */
+#modal-typdoc .modal-dialog .modal-header {
+    background: transparent;
+}
+#modal-typdoc .modal-dialog .modal-header .modal-title {
+    background-color: var(--bouton-1-background);
+    color: var(--texte-couleur-blanc);
+    padding: 4px 16px;
+    border-radius: var(--border-radius);
+}
+.flash-message .col-lg-1 {
+    background-color: var(--couleur-1);
+    margin: -6px 0;
+}
+
+
+
+
+
+
+/* -- Fenetre Changement de DocType (bouton) -- */
+/* -------------------------------------------------------------------- */
+#modal-typdoc .modal-dialog .typdoc-btn-group {
+    background: #8f8f8f70;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+#modal-typdoc .modal-dialog .typdoc-btn-group.selected {
+    background-color: var(--bouton-background);
+}
+#modal-typdoc .modal-dialog .typdoc-btn-group:not(.selected).btn:focus, #modal-typdoc .modal-dialog .typdoc-btn-group:not(.selected):hover {
+    background: var(--bouton-hov-background);
+}
+
+/* -- Couleur du texte des boutons -- */
+/* ---------------------------------- */
+#modal-typdoc .modal-dialog .typdoc-btn-group .btn-typdoc {
+    color: var(--texte-couleur);
+}
+/* -- Couleur du texte des boutons au passage de la souris -- */
+/* ------------------------------------------------------------------------------------ */
+#modal-typdoc .modal-dialog .typdoc-btn-group:not(.selected).btn:focus, #modal-typdoc .modal-dialog .typdoc-btn-group:not(.selected):hover .typdoc-label, #modal-typdoc .modal-dialog .typdoc-btn-group:not(.selected).btn:focus, #modal-typdoc .modal-dialog .typdoc-btn-group:not(.selected):hover .typdoc-icon, #modal-typdoc .modal-dialog .typdoc-btn-group:not(.selected).btn:focus, #modal-typdoc .modal-dialog .typdoc-btn-group:not(.selected):hover > .btn.btn-typdoc-more.dropdown-toggle.dropdown-toggle-split{
+    color: var(--texte-couleur-blanc);
+}
+
+.dropdown-menu show .dropdown-item {
+    background-color: var(--bouton-background);
+}
+.btn {
+	color: var(--texte-couleur);
+}
+
+/* -- Fenetre Changement sous menu -- */
+/* ----------------------------------------------------- */
+
+#modal-typdoc .modal-dialog .typdoc-btn-group .dropdown-menu {
+	background-color: unquote("color-mix(in srgb, var(--couleur-premier-plan) 10%, var(--couleur-mix-blanc))");
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    padding: 7px 8px;
+}
+#modal-typdoc .modal-dialog .typdoc-btn-group .dropdown-menu .dropdown-item:hover {
+    background-color: var(--bouton-hov-background);
+    color: var(--texte-couleur-blanc);
+}
+#modal-typdoc .modal-dialog .typdoc-btn-group .dropdown-menu .dropdown-item:not(:last-child) {
+    border-bottom: unset;
+}
+#modal-typdoc .modal-dialog .typdoc-btn-group .dropdown-menu .dropdown-item {
+    padding: 5px 10px;
+}
+/* == Volet de Gauche + ( au passage de la souris) == */
+/* ========================================= */
+
+/* -- Style de volet de gauche -- */
+/* ----------------------------------------- */
+#list-item-deposit {
+    background-color: var(--widget-background);
+    box-shadow: var(--box-shadow);
+    padding: 20px 0px;
+    border-radius: var(--border-radius);
+}
+
+/* -- Couleur du texte de volet de gauche + passage de la souris -- */
+/* -------------------------------------------------------------------------------------------- */
+#list-item-deposit li a {
+    color: var(--texte-couleur);
+}
+#list-item-deposit li:hover a {
+    color: var(--texte-couleur-blanc);
+}
+#list-item-deposit li.active a {
+    color: var(--texte-couleur-blanc);
+}
+
+/* -- Style et Couleur des elements du menu -- */
+/* --------------------------------------------------------------- */
+
+/* -- En-Tete du menu -- */
+/* ------------------------------ */
+#list-item-deposit li.main-item:not(first-child) {
+    margin: 0px;
+    padding-left: 20px;
+    transition: var(--transition);
+    border-left: 5px solid var(--widget-background);
+}
+
+/* -- Sous categories du menu  -- */
+/* ------------------------------------------- */
+#list-item-deposit li.child-item {
+    background-color: var(--widget-background);
+    border-left: 5px solid var(--widget-background);
+    transition: var(--transition);
+    padding: 8px 20px;
+    margin: 0px;
+}
+
+/* -- Englobe en-tete et sous categorie au passage de la souris -- */
+/* ----------------------------------------------------------------------------------------- */
+#list-item-deposit li.active.child-item, #list-item-deposit li:hover {
+    background-color: var(--bouton-hov-background);
+    border-left-color: var(--bouton-background) !important;
+}
+
+/* -- Icone devant les rubriques du menu -- */
+/* ---------------------------------------------------------- */
+
+/* -- Selecteur d'attribut pour submitNav -- */
+/* ---------------------------------------------------------- */
+
+[id^="submitNav"] > a::before {
+    font-family: icomoon;
+    width: 30px;
+    display: inline-block;
+}
+
+#submitNavfileItem > a::before  { content: "\e906"; }
+#submitNavextractItem > a::before  { content: "\e935"; }
+#submitNavextractItem > .nav-item-extract::before { content: "\e920"; }
+#submitNavauthorItem > a::before { content: "\e997"; }
+#submitNavmainmetaItem > a::before { content: "\e918"; }
+#submitNavrelatedItem > a::before { content: "\e984"; }
+#submitNavfundingItem > a::before { content: "\e958"; }
+#submitNavmetaItem > a::before { content: "\e940"; }
+#submitNavrecapItem > a::before { content: "\e941"; }
+
+/* == Volet de Droite == */
+/* ================= */
+
+
+/* -- Style des Sur En-tête  -- */
+/* ----------------------------------------- */
+#step-file, #panel-extract > h2:nth-child(1), #step-recap {
+    background-color: var(--bouton-1-hov-background);
+    padding: 10px;
+    border-radius: var(--border-radius);
+    color: var(--texte-couleur-blanc);
+}
+
+/* -- Couleur Texte Sur En-tête (sous texte) -- */
+/* ---------------------------------------------------------- */
+.submission-form h2 small {
+    color: var(--texte-color-blanc);
+}
+
+/* -- Style des En-tête  -- */
+/* ----------------------------------------- */
+.submission-form .submit-step .step-title {
+    background: var(--bouton-1-background);
+    color: var(--texte-couleur-blanc);
+    border-radius: 5px 5px 0px 0px;
+    padding: 12px 20px;
+}
+
+
+/* -- Fichier -- */
+/* ========= */
+
+/* --  Zone de Drag and Drop -- */
+/* ----------------------------------------- */
+.upload-area {
+    border: 1px solid transparent;
+    border-bottom: 1px solid var(--bouton-background);
+    transition: var(--transition);
+    border-radius: 0px;
+    border-radius: 5px 5px 0px 0px;
+	margin-top: 15px;
+}
+.upload-area:hover {
+    background-color: var(--bouton-2-background);
+    transition: var(--transition);
+}
+
+/* -- Fond du bouton au passage de la souris dans la zone  -- */
+/* ------------------------------------------------------------------------------------- */
+.upload-area:hover .hal-option-button {
+    background-color: var(--bouton-background);
+}
+
+/* -- Zone supplementaire apres l'upload d'un fichier -- */
+/* --------------------------------------------------------------------------- */
+
+#div-files .section-shadow th:not(:last-child) {
+    box-shadow: unset;
+    background-color: var(--widget-background);
+    border-bottom: 1px solid var(--bouton-background);
+}
+#div-files .section-shadow th:last-child {
+    border-bottom: 1px solid var(--bouton-background);
+}
+#div-files .section-shadow th:last-child {
+    background-color: transparent;
+}
+.row-file.file-main {
+    background: transparent;
+    border-bottom: unset;
+}
+.row-file.file-main .details {
+    background: transparent;
+}
+.row-file td.delete {
+    background: transparent;
+}
+
+.row-file .file-name {
+    color: var(--texte-couleur-action);
+}
+.row-file .file-size {
+    color: var(--texte-couleur);
+}
+
+/* -- Bouton dans la fenetre Televerser lien URL -- */
+/* ------------------------------------------------------------------- */
+
+.btn-primary-darkblue {
+    background-color: var(--bouton-1-background);
+    color: var(--texte-couleur-blanc);
+    border-radius: 3px;
+    transition: var(--transition);
+}
+.btn-primary-darkblue:hover {
+    background-color: var(--bouton-hov-background);
+}
+
+
+/* --  Zone de Drag and Drop Margin Interne -- */
+/* --------------------------------------------------------------- */
+.section-shadow.step.p-4 {
+    padding: 0px 0px 0px 0px !important;
+    margin-top: 22px;
+}
+
+#div-files {
+    background-color: var(--widget-background) !important;
+    padding: 0px 0px 0px !important;
+    border-radius: 0px 0px 12px 12px;
+}
+
+/* -- Icone Cloud -- */
+/* ----------------------- */
+.upload-area .icon-upload {
+    color: var(--couleur-2);
+}
+
+/* Couleur du l'icon cloud au passage de la souris dans la zone -- */
+/* ----------------------------------------------------------------------------------------- */
+.upload-area:hover .icon-upload {
+    color: #fff;
+}
+
+/* -- Disposition des DropDown -- */
+/* ------------------------------ */
+
+.pl-2.pr-2.align-bottom {
+	vertical-align: bottom !important;
+}
+
+/* -- Bouton "Televerser à partir d'un lien" -- */
+/* ----------------------------------------------------------- */
+.btn-link {
+    color: var(--texte-couleur-blanc);
+    background-color: var(--bouton-2-background) !important;
+    padding: 2px 4px;
+    border-radius: 3px;
+    transition: var(--transition);
+}
+.btn-link:hover {
+    color: var(--texte-couleur-blanc);
+    background-color: var(--bouton-hov-background) !important;
+    text-decoration: unset;
+}
+.row-file .file-more {
+    color: var(--texte-couleur-blanc);
+}
+/* -- Bouton Corbeil -- */
+/* ---------------------------- */
+.file-delete {
+    background-color: var(--bouton-1-background);
+    padding: 5px 10px;
+    border-radius: 25px;
+    display: inline-block;
+    transition: var(--transition);
+}
+.file-delete:hover {
+    background-color: var(--bouton-hov-background);
+}
+.file-delete .red.icon-delete {
+    color: var(--texte-couleur-blanc)!important;
+}
+
+.delete .file-delete > .red, .delete .file-delete > .red::before {
+    color: var(--texte-couleur-blanc) !important;
+}
+/* -- Extraction Automatique -- */ 
+/* ====================== */
+
+/* -- Bouton Doi etc... -- */
+/* ----------------------------------------------------- */
+
+#identifiertype {
+    background: var(--bouton-1-background) !important;
+    color: var(--texte-couleur-blanc);
+    border-radius: 3px 0px 0px 3px;
+    border: 1px solid var(--bouton-1-background);
+    transition: var(--transition);
+}
+#identifiertype:hover {
+    background: var(--bouton-hov-background) !important;
+}
+
+/* -- Auteurs et affiliations -- */
+/* ===================== */
+
+/* -- Fond de la zone auteur -- */
+/* --------------------------------------- */
+div.authors .author-affiliations, div.authors .author-icon-drag, div.authors .author-icon-edit, div.authors .author-info, div.authors .author-remove  {
+    background: #8f8f8f70;
+}
+div.authors .author-affiliations, .author-info.col-4 {
+    border-left: 5px solid var(--widget-background);
+}
+
+/* -- Icon deplacement sur la gauche -- */
+/* ----------------------------------------------------------------- */
+div.authors .author-icon-drag {
+    color: var(--texte-couleur);
+    padding-left: 18px !important;
+}
+.handle {
+    padding-left: 3px;
+}
+/* -- Couleur du texte sous le nom de l'auteur -- */
+/* ----------------------------------------------------------------- */
+div.authors .author-info .id-hal-author {
+    color: var(--texte-couleur);
+}
+div.authors .div-author-role {
+    color: var(--texte-couleur);
+}
+
+/* -- DropDown saisie de role zone auteurs -- */
+/* ------------------------------------------------------------- */
+
+div.authors .div-author-role select {
+	background: unquote("color-mix(in srgb, var(--couleur-premier-plan) 10%, var(--couleur-mix-blanc))");
+    color: var(--texte-couleur);
+    font-size: 12px;
+    border: 1px solid var(--bouton-1-background);
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+
+
+/* -- Pas de bullet point avant les cartouche auteur -- */
+/* ------------------------------------------------------------------------ */
+div.authors .author-affiliations > ul {
+    list-style: none;
+}
+
+/* -- Style des afilliations auteurs -- */
+/* ----------------------------------------------- */
+
+.structure-name.valid, .structure-name.old , .structure-name.incoming {
+    display: flex;
+    margin-bottom: 0.5rem !important;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    font-family: Noto Sans,sans-serif;
+    transition: var(--transition);
+}
+.structure-name.valid:hover, .structure-name.old:hover, .structure-name.incoming:hover {
+    filter: brightness(110%);
+}
+
+.structure-name.valid {
+    background-color: #CAE08E;
+    color: #274b1e!important;
+    border: 1px solid #608B37;
+}
+.structure-name.old {
+    background-color: #ECDEC3;
+    color: #504B26!important;
+    border: 1px solid #917F5B;
+    font-weight: 700;
+}
+.structure-name.incoming {
+    background-color: #ecc0c0;
+    color: #4b1e1e!important;
+    border: 1px solid #9b7e7e;
+    font-weight: 700;
+}
+
+/* -- Icone Fleche avant affiliation -- */
+/* ----------------------------------------------- */
+
+div.authors .author-icon-mv-top, div.authors .author-icon-mv-bottom {
+    color: var(--texte-color);
+}
+
+/* -- Icone Drag and Drop avant affiliation -- */
+/* ------------------------------------------------------ */
+
+.authors .structure-name::before {
+    content: "\e919";
+    font-family: 'icomoon';
+    color: #000;
+    margin-right: 10px;
+    font-weight: lighter;
+    cursor: move;
+}
+
+.structure-name.valid, .referential.valid {
+    width: 100%;
+}
+
+/* -- Style du bouton [...] Affilation + au passage de la souris -- */
+/* -------------------------------------------------------------------------------------- */
+
+.icon-more::before {
+    background-color: var(--bouton-1-background);
+    border: 1px solid var(--bouton-1-background);
+    padding: 8px 6px 8px 6px;
+    border-radius: 0px 3px 3px 0px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    color: var(--texte-couleur-blanc);
+    transition: var(--transition);
+}
+.icon-more:hover::before{
+    background-color: var(--bouton-hov-background);
+    border-color: var(--bouton-hov-background);
+    color: var(--texte-couleur-blanc);
+}
+
+
+/* -- Degalage du bouton [...] -- */
+/* ---------------------------------------- */
+
+div.authors .author-affiliations .structure-menu {
+    top: 5px;
+}
+
+/* Marge du symbole avant le logo de l'affiliation */
+/* ------------------------------------------------------------------- */
+
+.icon-institution::before {
+    margin-right: 5px;
+    line-height: 1.4;
+}
+
+/* -- Bouton Corbeil -- */
+/* ---------------------------- */
+div.authors .author-remove .btn {
+    background-color: var(--bouton-1-background);
+    border-radius: 25px;
+    transition: var(--transition);
+}
+
+div.authors .author-remove .btn .red::before {
+    color: var(--texte-couleur-blanc)!important;
+}
+div.authors .author-remove .btn:hover {
+background-color: var(--bouton-hov-background) !important;
+}
+div.authors .author-remove .btn .red.icon-delete {
+    color: var(--texte-couleur-blanc)!important;
+}
+
+
+/* Zone Ajouter une affiliation */
+
+div.authors .author-affiliations .searchStructure {
+	background: unquote("color-mix(in srgb, var(--couleur-premier-plan) 10%, var(--couleur-mix-blanc))");
+    border-radius: 3px !important;
+}
+
+
+/* -- Zone Bouton Action sous Auteurs et affiliations  (+passage de la souris) -- */
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+.step-author-actions {
+    background: var(--widget-background);
+    padding: 0px 0px 10px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.btn.btn-add-authors-list.btn-norender, .btn.btn-add-authors-struct.btn-norender, .btn.btn-add-my-authors.btn-norender, #affiliate_authors, #deaffiliate_authors {
+    background-color: var(--bouton-2-background);
+    color: var(--texte-couleur-blanc);
+    padding: 6px 14px;
+    margin-top: 5px;
+    border-radius: 3px;
+    transition: var(--transition);
+}
+.btn.btn-add-authors-list.btn-norender:hover, .btn.btn-add-authors-struct.btn-norender:hover, .btn.btn-add-my-authors.btn-norender:hover, #affiliate_authors:hover, #deaffiliate_authors:hover {
+    background-color: var(--bouton-hov-background);
+}
+
+@media (max-width: 992px) {
+.col-12.text-right.d-block.d-lg-none{
+    max-width: 96%;
+}
+}
+
+/* -- Info Principale (obligatoire et ne peut être vide) -- */
+/* ========================================== */
+
+.extract-info > div.errors, .author-info > div.errors, .mainmeta-info > div.errors, .related-info > div.errors, .file-info > div.errors {
+	color: var(--texte-couleur-blanc);
+	background-color: #e34436;
+	padding: 20px 10px 10px 10px;
+}
+.close-error-info, .close-error-info:hover { 
+    color: var(--texte-couleur-blanc)!important;
+}
+.extract-info > div.errors > ol, ul, dl {
+    margin-bottom: 0px;
+}
+.mainmeta-info {
+    margin-top: -7px;
+}
+
+/* -- Bouton Fermer -- */
+/* ------------------- */
+
+.close-error-info.hal-secondary-button {
+	background-color: var(--bouton-2-background) !important;
+	padding: 5px 10px;
+	transition: var(--transition);
+	border: 1px solid transparent;
+}
+.close-error-info.hal-secondary-button:hover {
+	background-color: #fff!important;
+	border-color: var(--bouton-1-background);
+	color: var(--couleur-1-active) !important;
+}
+
+/* -- Bouton [+Ajouter], recherche avancée et page dépot + (au passage de la souris) -- */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+div.form-group.row span.input-group-btn, .btn.btn-sm.btn-primary.form-btn-multi.form-btn-add {
+    background-color: var(--bouton-background);
+    border-radius: 3px;
+    color: var(--texte-couleur-blanc)!important;
+    transition: var(--transition);
+}
+
+div.form-group.row span.input-group-btn:hover, .btn.btn-sm.btn-primary.form-btn-multi.form-btn-add:hover{
+    background-color: var(--bouton-hov-background);
+}
+
+.form-meta .row .input-group span.input-group-btn button {
+    background-color: var(--bouton-1-background);
+    border-radius: 3px;
+    color: var(--texte-couleur-blanc);
+    transition: var(--transition);
+}
+.form-meta .row .input-group span.input-group-btn button:hover {
+    background-color: var(--bouton-hov-background);
+}
+
+/* -- Bouton [-Supprimer], recherche avancée et page dépot + (au passage de la souris) -- */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.form-meta .row .textarea-group .pull-right button.form-btn-del {
+    background-color: var(--bouton-1-background);
+    color: var(--texte-couleur-blanc) !important;
+    transition: var(--transition);
+}
+.btn.btn-sm.btn-primary.form-btn-multi.form-btn-del:hover {
+    background-color: var(--bouton-hov-background);
+}
+
+.form-meta .row .textarea-group .pull-right button.form-btn-del .red.icon-delete{
+    color: var(--texte-couleur-blanc) !important;
+}
+
+/* -- Responsive entre les 3 [Left Mid Right] Blocks sur Page +Deposer -- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 992px) {
+.col-lg-2 {
+    flex: 0;
+    max-width: unset;
+    min-width: 250px;
+}
+
+.col-lg-8 {
+    flex: 1;
+}
+.col-lg-10 {
+    flex: 1;
+}
+}
+
+@media (min-width: 1280px) {
+.col-lg-8 {
+    max-width: 100%;
+}
+}
+
+/* -- Fenetre "Voir les details" -- */
+/* ----------------------------------------- */
+
+/* -- Titre de la box -- */
+/* -------------------------- */
+
+#modal-author .modal-dialog .modal-content, #modal-ref .modal-dialog .modal-content {
+    color: var(--texte-couleur-action);
+}
+
+/* -- Hauteur de l'en-tete de la zone par rapport au bouton "close" -- */ 
+/* ----------------------------------------------------------------------------------------------- */
+#modal-author .modal-dialog .modal-header, #modal-ref .modal-dialog .modal-header {
+    padding-top: 36px;
+}
+
+/* -- Label du type de l'affiliation et l'id -- */
+/* ------------------------------------------------------ */
+
+/* -- Fond et Style des differents blocks  -- */
+/* -------------------------------------------------------- */
+.structure-element-researchteam, .structure-element-laboratory, .structure-element-regroupinstitution, .structure-element-institution, .structure-element-regrouplaboratory {
+    background-color: #e0e9f775;
+    border: var(--widget-border) !important;
+    padding: 2px 10px;
+    color: var(--texte-couleur);
+    border-radius: 3px;
+    transition: var(--transition);
+}
+.structure-element-regrouplaboratory:hover {
+    background-color: #f4daba;
+}
+.structure-element-regroupinstitution:hover {
+    background-color: #8f8f8f70;
+}
+
+/* -- Style des etiquettes -- */
+/* ---------------------------------- */
+#modal-author .modal-dialog .modal-content .label, #modal-ref .modal-dialog .modal-content .label {
+    color: var(--texte-couleur-blanc);
+    border-radius: 3px;
+    padding: 4px 7px;
+    display: inline-block;
+}
+
+.label.label-primary, .label.label-warning, .label.label-danger, .label.label-success  {
+    padding: 5px 8px!important;
+    border-radius: 5px!important;
+	border: 1px solid;
+}
+
+.label.label-primary {
+	background-color: rgba(51,122,183,0.80) !important;
+	border-color: #23537d;
+}
+.label.label-warning {
+	background-color: rgba(254,129,88,0.80) !important;
+	border-color: #9c5038;
+}
+.label.label-danger {
+	background-color: rgba(185,74,72,0.80) !important;
+	border-color: #7a3230;
+}
+.label.label-success{
+	background-color: rgba(70,136,71,0.80) !important;
+	border-color: #294e29;
+}
+
+
+#modal-author .modal-dialog .modal-content h6 .label-rgpinst, #modal-ref .modal-dialog .modal-content h6 .label-rgpinst{
+    background-color: var(--bouton-1-background);
+    padding: 4px 7px;
+}
+
+#modal-author .modal-dialog .modal-content h6 .badge, #modal-ref .modal-dialog .modal-content h6 .badge {
+    background-color: var(--bouton-background);
+    color: var(--texte-couleur-blanc);
+    border-radius: 3px;
+    padding: 5px 7px;
+}
+
+
+/* -- Autres Informations  -- */
+/* ==================== */
+
+/* -- Pas de fond sur les zones de saisie classification et mots cle (JEL) -- */
+/* --------------------------------------------------------------------------------------------------- */
+.select2-container--default .select2-selection--multiple, .select2-container--default .select2-selection--single,.form-meta .row #select2-mainDomain-container:empty {
+    background-color: transparent!important;
+}
+
+/* -- Dans la Box Calendrier  -- */
+/* --------------------------------------- */
+
+.datepicker {
+    background: revert !important;
+}
+
+/* -- Couleur et style de la date selectionner -- */
+/* -------------------------------------------------------------- */
+.ui-datepicker {
+    background: var(--widget-background);
+    border: var(--widget-border);
+    border-radius: 3px;
+    box-shadow: var(--box-shadow);
+}
+
+.ui-datepicker .ui-state-default {
+    color: var(--texte-couleur-action);
+    border-radius: 3px;
+    transition: var(--transition);
+}
+.ui-state-default:hover, .ui-datepicker .ui-state-active {
+    background: var(--bouton-background);
+    color: var(--texte-couleur-blanc) !important;
+}
+
+
+.ui-datepicker-next .ui-icon-circle-triangle-e::before, .ui-datepicker-prev .ui-icon-circle-triangle-w::before {
+    color: var(--texte-couleur-action);
+}
+
+
+/* -- Icone Calendrier  -- */
+/* ------------------------------ */
+
+.calendar-trigger {
+    background-color: var(--bouton-1-background);
+    border-radius: 0px 5px 5px 0px;
+    line-height: 5px;
+    top: 0px;
+    left: 0px;
+    transition: var(--transition);
+}
+.calendar-trigger:hover {
+    background-color: var(--bouton-hov-background);
+}
+
+.calendar-trigger .icon-calendar::before {
+    color: var(--texte-couleur-blanc);
+}
+
+/* -- Validation -- */
+/* =========== */
+
+/* -- Bouton Quitter -- */
+/* ---------------------------- */
+
+.btn-primary-red.mt-4 {
+background: var(--bouton-1-background);
+    border: 1px solid var(--bouton-1-background);
+    border-radius: 3px;
+    padding: 10px 18px;
+    transition: var(--transition);
+}
+.btn-primary-red.mt-4:hover{
+    background: var(--bouton-hov-background);
+    border: 1px solid var(--bouton-hov-background);
+}
+/* -- Btn verifier avant  deposer + (au passage de la souris) --*/
+/* ---------------------------------------------------------------------------------- */
+
+#verif-deposit {
+    background-color: var(--bouton-background);
+    color: var(--texte-couleur-blanc);
+    font-size: 14px;
+    border: unset;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+#verif-deposit:hover {
+    background-color: var(--bouton-hov-background);
+}
+
+/* ==================== PAGE MES DEPOTS ==================== */
+/* ========================================================= */
+
+/* -- Alignement de la loupe sur la barre de recherche -- */
+/* ------------------------------------------------------------------- */
+#search-field-spin {
+    display: inline-flex !important;
+}
+
+/* -- Style des boutons filtres -- */
+/* ------------------------------- */
+.sort {
+    background-color: transparent;
+    border: var(--widget-border);
+    color: var(--texte-couleur);
+    border-radius: 25px;
+    padding: 5px 17px;
+    transition: var(--transition);
+}
+
+.sort:hover {
+    background-color: var(--bouton-1-hov-background);
+    color: var(--texte-couleur-blanc);
+    border-color: var(--bouton-1-hov-background);
+}
+
+/* -- Style du menu dans les boutons filtres -- */
+/* -------------------------------------------- */
+.dropdown-menu.section-shadow.show li {
+    padding: 4px 10px 2px 3px;
+    transition: var(--transition);
+    border-radius:3px
+}
+
+.dropdown-menu.section-shadow.show li:hover {
+    background-color: var(--bouton-background)!important;
+}
+
+.dropdown-menu, .website-navigation .dropdown-menu a, .website-navigation .dropdown-menu button {
+    color: var(--texte-couleur);
+}
+/* -- Couleur du texte des titres des docs -- */
+/* -------------------------------------------- */
+.strong.view-deposit {
+	color: var(--texte-couleur) !important;
+}
+
+
+/* ============================ Tableau de bord =========================== */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* -- Couleur des chiffres -- */
+/* ----------------------------------- */
+
+.stat-counter .counter-large {
+    color: var(--texte-couleur-action),
+}
+
+/* -- Couleur des boutons -- */
+/* ------------------------------------ */
+
+.stat-graph .select-range-depot .btn.active, .stat-graph .select-range .btn.active, .stat-spinner .select-range-depot .btn.active, .stat-spinner .select-range .btn.active {
+    background: var(--bouton-background);
+    color: var(--texte-couleur-blanc);
+}
+.stat-graph .select-range-depot, .stat-graph .select-range, .stat-spinner .select-range-depot, .stat-spinner .select-range {
+    border: 2px solid var(--bouton-background);
+}
+
+/* -- Btn Telechargement -- */
+/* ----------------------------------- */
+
+.hal-option-button.btn-dark {
+    background-color: var(--bouton-1-background);
+    color: var(--texte-couleur-blanc);
+}
+
+.hal-option-button.btn-dark:hover, .hal-option-button.btn-light:hover {
+    background-color: var(--bouton-hov-background);
+}
+
+.hal-option-button.btn-light {
+    background-color: var(--bouton-1-background);
+    color: var(--texte-couleur-blanc);
+}
+
+/* -- Statistique ESGBU -- */
+/* -------------------------------- */
+
+.bg-primary-color {
+    background-color: var(--bouton-background) !important;
+    border-radius: 12px 12px 0px 0px !important;
+}
+
+/* ============================== Page Apparence ============================== */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* -- Zone Modification CSS -- */
+/* ---------------------------- */
+div.form-group.row label {
+	color: var(--texte-couleur);
+}
+
+/* ============================== Mon Profil ============================== */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* -- Mes Affiliation -- */
+/* --------------------------- */
+
+.section-shadow.pg-20 .displayed .select2-selection__choice, .ticket {
+    background-color: var(--bouton-1-background);
+    padding: 3px 15px;
+    border-radius: 3px;
+    color: var(--texte-couleur-blanc);
+    margin-bottom: 10px;
+}
+
+/* -- Bouton crayon Edition -- */
+/* --------------------------- */
+
+.account .btn-edit, .preferences .btn-edit, .user-idhal .btn-edit {
+    border-radius: 0px 12px 0px 12px;
+}
+
+/* -- Bouton Switch -- */
+/* --------------------------- */
+
+.switch .slider::before {
+    background-color: var(--bouton-1-background);
+}
+.switch input:checked + .slider {
+    background-color: var(--bouton-1-hov-background);
+}
+
+/* -- Disciplines par défaut -- */
+/* ------------------------------------- */
+
+.select2-container--hal .select2-selection__choice {
+    background-color: var(--bouton-1-hov-background) !important;
+    border-color: unset !important;
+    border-radius: 3px !important;
+    color: var(--texte-couleur-blanc);
+}
+
+
+/* -- Couleur Texte Changement de Mot de passe -- */
+/* ---------------------------------------------- */
+
+.btn-secondary-blue {
+    color: var(--texte-couleur-action);
+}
+.btn-secondary-blue:hover {
+    color: var(--texte-couleur-action-hov);
+}
+/* ============================== Mon IDHAL ============================== */
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+/* -- Block des onglets ( partager avec d'autre page comme CVHAL -- */
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+.user-section-menu {
+    background-color: var(--widget-background);
+    margin-bottom: 34px;
+    padding: 15px !important;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    border: var(--widget-border);
+}
+
+/* -- Style des Ongler dans le block -- */
+/* -------------------------------------------------- */
+.section-content .nav-pills .nav-item .nav-link {
+    color: var(--texte-couleur);
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    box-shadow: unset;
+}
+.section-content .nav-pills .nav-item .nav-link:hover {
+    background-color: var(--bouton-hov-background);
+    color: var(--texte-couleur-blanc)!important;
+    transform: unset;
+}
+.section-content .nav-pills .nav-item .nav-link.active {
+    color: var(--texte-couleur-action);
+}
+
+.section-content .nav-pills .nav-item .nav-link.active::before, .section-content .nav-pills .nav-item .nav-link::before  {
+    border-bottom: unset;
+}
+
+
+/* -- Couleur Texte Champ Requis -- */
+/* -------------------------------------------------- */
+.ccsd_form_required {
+    color: var(--texte-couleur-action);
+}
+
+/* -- Couleur du texte du bouton Email -- */
+/* ------------------------------------------------------ */
+
+.btn.btn-sm.btn-default.form-btn-lang {
+    color: var(--texte-couleur-blanc);
+}
+
+
+/* -- Style des menu deroulant "ArXiv etc..." -- */
+/* ------------------------------------------------------------- */
+
+.input-group-btn.btn-group.show ul.show a {
+    color: var(--texte-couleur)!important;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: var(--transition);
+}
+
+.input-group-btn.btn-group.show ul.show a:hover {
+    color: var(--texte-couleur-blanc)!important;
+    background-color: var(--bouton-background);
+}
+
+/* ============================== Mon CVHAL ============================== */
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+.no-activity, .no-cv, .no-deposit, .no-favorite, .no-library, .no-stat, .no-suggest {
+	background-color: var(--widget-background);
+	border-radius:var(--border-radius);
+}
+
+/* -- Bouton des Langues -- */
+/* ----------------------------------- */
+
+/* -- Bouton Actif -- */
+/* ------------------------ */
+ul.nav-pills.light-border a.active {
+    background-color: var(--bouton-background);
+    color: var(--texte-couleur-blanc);
+    border: 1px solid var(--bouton-background);
+    border-radius: 5px;
+    box-shadow: unset;
+}
+ul.nav-pills.light-border a.active:hover {
+    background-color: var(--bouton-hov-background);
+    transform: unset;
+}
+
+/* -- Bouton Non Actif -- */
+/* ------------------------------- */
+
+ul.nav-pills.light-border a:not(.active) {
+    background-color: transparent;
+    color: var(--texte-couleur-action) !important;
+    border: 1px solid var(--bouton-background);
+    border-radius: 5px;
+    box-shadow: unset;
+}
+ul.nav-pills.light-border a:not(.active):hover {
+    background-color: var(--bouton-hov-background);
+    border: 1px solid var(--bouton-hov-background);
+    color: var(--texte-couleur-blanc) !important;
+    transform: unset;
+}
+
+
+/* -- Crayon de modification de champs -- */
+/* --------------------------------------------------------- */
+.wrapper-switch h3 button span {
+    color: var(--texte-couleur);
+}
+
+/* -- Bouton Consulter et partager -- */ 
+/* ---------------------------------- */ 
+
+.resume-head a {
+    background-color: var(--bouton-1-background);
+    color: var(--texte-couleur-blanc);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: var(--transition);
+}
+.resume-head a:hover {
+    background-color: var(--bouton-hov-background);
+    color: var(--texte-couleur-blanc);
+}
+.a2a_dd.tools-color.text-small {
+    padding: 7px 12px;
+    transition: var(--transition);
+}
+
+/* -- Cartouche des champs cases a cocher --*/
+/* ---------------------------------------- */ 
+
+#user-facettes #dragon-publi li, #user-facettes #dragon-widget li, #user-publications #dragon-publi li, #user-publications #dragon-widget li {
+    background-color: #8f8f8f70;
+}
+
+/* ======================= Transfert de HAL vers ORCID =======================  */
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+/* -- Separateur Titre Texte -- */
+/* -------------------------------------- */
+.gray-separator {
+    background-color: var(--texte-couleur);
+}
+
+/* -- Bouton ORCID -- */
+/* --------------------------- */
+.btn-orcid {
+    border: 1px solid #a6ce39;
+    background-color: #f5f9e8;
+    color: #297507;
+    transition: var(--transition);
+}
+.btn-orcid:hover {
+    background-color: #6e8a22;
+    color: #fff;
+}
+
+/* ======================== Mes partages de propriétés ======================  */
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* =================== Mes partages de fichiers sous embargo ==================  */
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+/* -- Cartouche d'indication "Listes des dépôts etc... " "Acceptez/refusez" -- */
+/* ------------------------------------------------------------------------------------------------------- */
+blockquote {
+    background-color: #8f8f8f2e !important;
+    border-radius: 0px 12px 12px 0px;
+    border-left: 4px solid var(--bouton-background)!important;
+	color: var(--texte-couleur);
+}
+
+/* -- Cartouche d'indication "Aucune demande envoyee !" "Aucun Depot" -- */
+/* -------------------------------------------------------------------------------------------------------- */
+.alert-warning {
+    background-color: #ECDEC3 !important;
+    color: #504B26;
+}
+
+}
