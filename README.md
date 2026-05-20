@@ -69,10 +69,10 @@
 
 
 
-<b>Historique des mises à jour</b>
+<b>Mises à jour</b>
 <br>
 <a href="./CHANGELOG.md">
-<b>Historique des mises à jour</b>
+<b>Historique</b>
 
 
 
