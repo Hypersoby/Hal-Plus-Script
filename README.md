@@ -112,7 +112,7 @@ HAL+ est compatible avec plusieurs portails et instances HAL. Le script adapte a
 | ✅ [Université Paris-Saclay](https://universite-paris-saclay.hal.science/) | Portail institutionnel des publications de l’Université Paris-Saclay. |
 | ✅ [Sorbonne Université](https://hal.sorbonne-universite.fr/) | Portail des publications et travaux de Sorbonne Université. |
 
-## Comment faire ? 
+## Documentation
 
 <h2 id="installation">🚀 Installation</h2>
 
