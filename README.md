@@ -259,6 +259,90 @@ Repérez ensuite le script **HAL+** puis cliquez sur **Rechercher une mise à jo
 
 </p>
 
+<h2>🎨 Aperçu des thèmes</h2>
 
+<p align="center">
+🔍<i> Cliquez sur une image pour l'afficher en taille réelle</i>
+</p>
+
+<p align="center">
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/hal.jpg">
+<img src="./assets/screenshots/themes/hal.jpg" width="260" alt="Hal">
+</a>
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/matcha.jpg">
+<img src="./assets/screenshots/themes/matcha.jpg" width="260" alt="Matcha">
+</a>
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/sakura.jpg">
+<img src="./assets/screenshots/themes/sakura.jpg" width="260" alt="Sakura">
+</a>
+
+</p>
+
+<p align="center">
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/tundra.jpg">
+<img src="./assets/screenshots/themes/tundra.jpg" width="260" alt="Tundra">
+</a>
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/dune.jpg">
+<img src="./assets/screenshots/themes/dune.jpg" width="260" alt="Dune">
+</a>
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/nocturne.jpg">
+<img src="./assets/screenshots/themes/nocturne.jpg" width="260" alt="Nocturne">
+</a>
+
+</p>
+
+<p align="center">
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/aurora.jpg">
+<img src="./assets/screenshots/themes/aurora.jpg" width="260" alt="Aurora">
+</a>
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/deep-ocean.jpg">
+<img src="./assets/screenshots/themes/deep-ocean.jpg" width="260" alt="Deep Ocean">
+</a>
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/obsidian.jpg">
+<img src="./assets/screenshots/themes/obsidian.jpg" width="260" alt="Obsidian">
+</a>
+
+</p>
+
+<p align="center">
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/catppuccin.jpg">
+<img src="./assets/screenshots/themes/catppuccin.jpg" width="260" alt="Catppuccin">
+</a>
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/ever-forest.jpg">
+<img src="./assets/screenshots/themes/ever-forest.jpg" width="260" alt="Ever Forest">
+</a>
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/ember.jpg">
+<img src="./assets/screenshots/themes/ember.jpg" width="260" alt="Ember">
+</a>
+
+</p>
+
+<p align="center">
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/tokyo-night.jpg">
+<img src="./assets/screenshots/themes/tokyo-night.jpg" width="260" alt="Tokyo Night">
+</a>
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/sarif.jpg">
+<img src="./assets/screenshots/themes/sarif.jpg" width="260" alt="Sarif Industries">
+</a>
+
+<a href="https://raw.githubusercontent.com/Hypersoby/Hal-Plus-Script/main/assets/screenshots/themes/perso.jpg">
+<img src="./assets/screenshots/themes/perso.jpg" width="260" alt="Perso">
+</a>
+
+</p>
 
 # Contribution et Développement
