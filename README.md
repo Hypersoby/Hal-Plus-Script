@@ -78,7 +78,7 @@ Chrome ✅ • Firefox ✅ • Opera ✅ • Edge ⚠️ • Safari ⚠️
   <img src="./assets/buttons/download.png" width="160">
 </a>
 
-<a href="#comment-faire">
+<a href="#installation">
   <img src="./assets/buttons/documentation.png" width="160">
 </a>
 
@@ -114,7 +114,7 @@ HAL+ est compatible avec plusieurs portails et instances HAL. Le script adapte a
 
 ## Installation 
 
-## 🚀 Installation
+<h2 id="installation">🚀 Installation</h2>
 
 1. Téléchargez l’extension de gestion des styles utilisateur en cliquant sur l’icône correspondant à votre navigateur ci-dessus.
 
