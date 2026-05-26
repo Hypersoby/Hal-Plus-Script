@@ -4,7 +4,7 @@
   <br>
 </p>  
 <p align="left">
-(Ceci est un rojet personnel non affilié, non développé ni validé par le CCSD)
+(Ceci est un projet personnel non affilié, non développé ni validé par le CCSD)
 HAL+ est un script CSS conçu pour améliorer l'apparence et l'expérience utilisateur du portail HAL ainsi que de plusieurs portails partenaires. 
 Il propose une interface plus moderne, plus lisible et entièrement personnalisable selon vos préférences.
 <br>
